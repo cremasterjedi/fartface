@@ -50,5 +50,5 @@ wsj.com##.wsj-modern-ad-container
 winaero.com##.gadadsense
 wired.com###app-root > div.page.page-theme-standard.page--article > div.sc-bdnxRM.jvCTkj.should-hold-space.linpfi.nfhnjjnb:nth-child(9)
 faroutmagazine.co.uk##.GRVMpuWrapper, .mobile
-kotaku.com##.bxm4mm*
+##div.bxm4mm*
 
