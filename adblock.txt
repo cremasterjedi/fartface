@@ -1,0 +1,46 @@
+[Adblock Plus 2.0]
+! Name: Me Adblock
+! 1 hour
+faroutmagazine.co.uk##.amp-next-page-separator
+discogs.com###page_aside > div.section:nth-child(4) > div.section_content.tall
+discogs.com###artist > tbody > tr:nth-child(34) > td.gray
+aeon.co##div:nth-child(2) > div.sc-bbmXgH.flpDFl
+c-span.org##.cspan-ad-still-wrapper, .cspan-ad-still-wrapper-top
+c-span.org##.cspan-ad-still-li-wrapper
+jezebel.com##.bxm4mm-16, .bgCrdI
+androidauthority.com###scrolled_view_bar
+androidauthority.com##header.aa-new-sticky-header.aa-sticky-has-deal:nth-child(6) > div.aa-bottom-header-section:nth-child(3)
+androidauthority.com##div.container-fluid.no-padding:nth-child(5)
+reason.com###connatix-moveable > div
+reason.com##div.wrap:nth-child(5) > div.content > main.main > div.page-container.container > div.article-row:first-child > div.article-body.col-sm-10.offset-sm-1.col-md-8.offset-md-2.offset-lg-0:first-child > article.rcom-standard-article.post-8082907.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.tag-taxes.tag-payroll-tax.tag-donald-trump.tag-stimulus > div.anyclip-block:nth-child(3) > p.small-grey-text:last-child
+reason.com##div.wrap:nth-child(5) > div.content > main.main > div.page-container.container > div.article-row:first-child > div.article-body.col-sm-10.offset-sm-1.col-md-8.offset-md-2.offset-lg-0:first-child > article.rcom-standard-article.post-8082802.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.tag-coronavirus.tag-epidemic.tag-epidemiology.tag-public-health.tag-quarantine.tag-donald-trump > div.anyclip-block:nth-child(3) > p.small-grey-text:last-child
+reason.com##div.wrap:nth-child(5) > div.content > main.main > div.page-container.container > div.article-row:first-child > div.article-body.col-sm-10.offset-sm-1.col-md-8.offset-md-2.offset-lg-0:first-child > article.rcom-standard-article.post-8082618.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.tag-reason-roundup.tag-breonna-taylor.tag-police-brutality.tag-police.tag-donald-trump.tag-joe-biden > div.anyclip-block:nth-child(3) > p.small-grey-text:last-child
+yahoo.com##div.pencilad.W\(100\%\).H\(100px\).Bgc\(\$c-fuji-grey-b\).Bdc\(\$c-fuji-grey-c\).Bds\(s\).BdY.Bdtw\(0px\).Bdbw\(1px\):nth-child(3)
+jalopnik.com##.pycp4o-0, .kDBWIt
+inverse.com##.Uzp, .AHS
+reason.com##div.container.ad-container:nth-child(3)
+lifehacker.com##.bxm4mm-14, .iDaCdY, .js_movable_ad_slot
+discogs.com###artist > tbody > tr:nth-child(14) > td.gray
+reason.com##div.container.ad-container:first-child
+billboard.com##article.article.article--bb:nth-child(8) > div.article-body:last-child > amp-fx-flying-carpet.i-amphtml-element.i-amphtml-layout-fixed-height.i-amphtml-layout-size-defined.i-amphtml-built.i-amphtml-layout:nth-child(2)
+nytimes.com###story-ad-8-wrapper
+nytimes.com###story-ad-9-wrapper
+smithsonianmag.com###desktopInArticle-0
+smithsonianmag.com##.ad-slot, .article-slot-centered, .hidden-phone
+wsj.com##.wsj-modern-ad-container
+winaero.com##.gadadsense
+faroutmagazine.co.uk##.GRVMpuWrapper, .mobile
+faroutmagazine.co.uk##.flying-carpet
+si.com###lyra-wrapper > div.m-page-wrapper.is-below-header-ad > div.m-page.m-detail.mm-detail.mm-feature:nth-child(6) > section.m-component-detail:nth-child(3) > article.m-story.mm-feature > div > div.m-detail--contents.l-content-well:nth-child(2) > section.l-grid.lm-grid--detail.lm-grid--with-right-rail > div.l-grid--content-body:first-child > div.m-detail--body:nth-child(4) > div.m-detail--body-item.m-detail--body-twitter-embed:nth-child(59)
+texasmonthly.com##div.site-wrapper:nth-child(7) > main:nth-child(5) > article.main-article-wrapper:last-child > div.article-content:first-child > div.bcjs-paywall-locker:first-child > div.article-text > div.promo-in-body:nth-child(7)
+texasmonthly.com##.promo-in-body
+reason.com##div.advertisement
+eonline.com##.amp__segment-ad, .amp__segment-ad--fixed
+apnews.com##.Leaderboard, .leaderboard-0-2-10
+apnews.com##.bellow-article
+metro.co.uk##.metro-amp-minute-media
+metro.co.uk##.metro-amp-ad
+arstechnica.com##.i-amphtml-element, .i-amphtml-notbuilt, .amp-notbuilt, .i-amphtml-layout-responsive, .i-amphtml-layout-size-defined, .amp-unresolved, .i-amphtml-unresolved
+independent.co.uk##.sc-qYTrh, .cnaHyU
+independent.co.uk###main > div.sc-qYFre.hnJKGH:nth-child(4)
+chromeunboxed.com##.amp-custom-banner-top-post
