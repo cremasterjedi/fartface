@@ -58,3 +58,4 @@ fastcompany.com##div.homepage-page__video-ad-container
 fastcompany.com##div.homepage-page__all-ad-container
 fastcompany.com##div.homepage-page__tag-ad-container
 fastcompany.com##div.all-feed__mobile-ad-container
+##.div.*.bxm4mm-*
