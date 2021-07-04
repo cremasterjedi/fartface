@@ -1,7 +1,23 @@
 [Adblock Plus 2.0]
 ! Name: Me Adblock
 ! 1 hour
+##.gHhSUG.pycp4o-1
+kotaku.com##.cICFzA.bxm4mm-5
+independent.co.uk##.iesdCe.sc-pBjRv
+independent.co.uk##.kGOiaE.sc-qZusK
+independent.co.uk##.hsfcA-d.sc-pBwqG
+chromeunboxed.com##.amp-custom-banner-top-post
+independent.co.uk###main > div.sc-qYFre.hnJKGH:nth-child(4)
+independent.co.uk##.sc-qYTrh, .cnaHyU
+arstechnica.com##.i-amphtml-element, .i-amphtml-notbuilt, .amp-notbuilt, .i-amphtml-layout-responsive, .i-amphtml-layout-size-defined, .amp-unresolved, .i-amphtml-unresolved
+metro.co.uk##.metro-amp-ad
+metro.co.uk##.metro-amp-minute-media
+apnews.com##.bellow-article
+apnews.com##.Leaderboard, .leaderboard-0-2-10
+eonline.com##.amp__segment-ad, .amp__segment-ad--fixed
+reason.com##div.advertisement
 faroutmagazine.co.uk##.amp-next-page-separator
+faroutmagazine.co.uk##.flying-carpet
 discogs.com###page_aside > div.section:nth-child(4) > div.section_content.tall
 discogs.com###artist > tbody > tr:nth-child(34) > td.gray
 aeon.co##div:nth-child(2) > div.sc-bbmXgH.flpDFl
@@ -21,26 +37,18 @@ inverse.com##.Uzp, .AHS
 reason.com##div.container.ad-container:nth-child(3)
 lifehacker.com##.bxm4mm-14, .iDaCdY, .js_movable_ad_slot
 discogs.com###artist > tbody > tr:nth-child(14) > td.gray
+wired.com##.in-content
 reason.com##div.container.ad-container:first-child
 billboard.com##article.article.article--bb:nth-child(8) > div.article-body:last-child > amp-fx-flying-carpet.i-amphtml-element.i-amphtml-layout-fixed-height.i-amphtml-layout-size-defined.i-amphtml-built.i-amphtml-layout:nth-child(2)
 nytimes.com###story-ad-8-wrapper
 nytimes.com###story-ad-9-wrapper
 smithsonianmag.com###desktopInArticle-0
 smithsonianmag.com##.ad-slot, .article-slot-centered, .hidden-phone
+fastcompany.com##.ad-wrapper, .ad-wrapper--flexiblepushdown, .ad-wrapper--articletop
+fastcompany.com###post__wrapper-90608471 > div.post__article-top-ad-wrapper:first-child
 wsj.com##.wsj-modern-ad-container
 winaero.com##.gadadsense
+wired.com###app-root > div.page.page-theme-standard.page--article > div.sc-bdnxRM.jvCTkj.should-hold-space.linpfi.nfhnjjnb:nth-child(9)
 faroutmagazine.co.uk##.GRVMpuWrapper, .mobile
-faroutmagazine.co.uk##.flying-carpet
-si.com###lyra-wrapper > div.m-page-wrapper.is-below-header-ad > div.m-page.m-detail.mm-detail.mm-feature:nth-child(6) > section.m-component-detail:nth-child(3) > article.m-story.mm-feature > div > div.m-detail--contents.l-content-well:nth-child(2) > section.l-grid.lm-grid--detail.lm-grid--with-right-rail > div.l-grid--content-body:first-child > div.m-detail--body:nth-child(4) > div.m-detail--body-item.m-detail--body-twitter-embed:nth-child(59)
-texasmonthly.com##div.site-wrapper:nth-child(7) > main:nth-child(5) > article.main-article-wrapper:last-child > div.article-content:first-child > div.bcjs-paywall-locker:first-child > div.article-text > div.promo-in-body:nth-child(7)
-texasmonthly.com##.promo-in-body
-reason.com##div.advertisement
-eonline.com##.amp__segment-ad, .amp__segment-ad--fixed
-apnews.com##.Leaderboard, .leaderboard-0-2-10
-apnews.com##.bellow-article
-metro.co.uk##.metro-amp-minute-media
-metro.co.uk##.metro-amp-ad
-arstechnica.com##.i-amphtml-element, .i-amphtml-notbuilt, .amp-notbuilt, .i-amphtml-layout-responsive, .i-amphtml-layout-size-defined, .amp-unresolved, .i-amphtml-unresolved
-independent.co.uk##.sc-qYTrh, .cnaHyU
-independent.co.uk###main > div.sc-qYFre.hnJKGH:nth-child(4)
-chromeunboxed.com##.amp-custom-banner-top-post
+
+
