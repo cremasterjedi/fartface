@@ -52,3 +52,4 @@ wired.com###app-root > div.page.page-theme-standard.page--article > div.sc-bdnxR
 faroutmagazine.co.uk##.GRVMpuWrapper, .mobile
 ##div.imncgb.bxm4mm-19
 ##.cULvCC.bxm4mm-0
+##.egrACp.sc-6zn1bq-0.bxm4mm-19
