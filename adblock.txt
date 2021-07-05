@@ -59,4 +59,4 @@ fastcompany.com##div.homepage-page__all-ad-container
 fastcompany.com##div.homepage-page__tag-ad-container
 fastcompany.com##div.all-feed__mobile-ad-container
 slate.com##div.slate-ad.ad--mobileOnly
-cnet.com##div.nav-ad-plus-leader
+cnet.com###nav-ad-plus-leader
