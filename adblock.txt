@@ -61,4 +61,4 @@ fastcompany.com##div.all-feed__mobile-ad-container
 slate.com##div.slate-ad.ad--mobileOnly
 cnet.com###nav-ad-plus
 cnet.com###nav-ad-plus-leader
-spin.com###div-promo-1620508797468-0
+spin.com##div#div-promo-1620508797468-0
