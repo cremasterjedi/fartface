@@ -62,4 +62,3 @@ slate.com##div.slate-ad.ad--mobileOnly
 cnet.com###nav-ad-plus
 cnet.com###nav-ad-plus-leader
 spin.com##div#div-promo
-kotaku.com###splashy-ad-container-top
