@@ -63,3 +63,4 @@ cnet.com###nav-ad-plus
 cnet.com###nav-ad-plus-leader
 spin.com##div#div-promo
 hbr.org##.amp-leaderboard__container
+www.cnet.com##.g-border-thin-light-bottom.g-border-thin-light-top.u-flexbox-alignCenter.u-flexbox-justifyCenter.u-flexbox.c-adDisplay_container.c-videoPlayer_adWrap
