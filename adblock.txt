@@ -59,9 +59,10 @@ fastcompany.com##div.homepage-page__all-ad-container
 fastcompany.com##div.homepage-page__tag-ad-container
 fastcompany.com##div.all-feed__mobile-ad-container
 slate.com##div.slate-ad.ad--mobileOnly
-cnet.com###nav-ad-plus
-cnet.com###nav-ad-plus-leader
 spin.com##div#div-promo
 hbr.org##.amp-leaderboard__container
-cnet.com##.g-border-thin-light-bottom.g-border-thin-light-top.u-flexbox-alignCenter.u-flexbox-justifyCenter.u-flexbox.c-adDisplay_container.c-videoPlayer_adWrap
-cnet.com##body > div.ad-nav-ad-plus-leader.ad-slot
+www.ghacks.net##.mb--10.banner-leaderboard.banner-feed.box-banner
+www.ghacks.net##div.box-banner:nth-of-type(1)
+www.ghacks.net##div.banner-feed.box-banner:nth-of-type(2)
+www.ghacks.net##div.banner-feed.box-banner:nth-of-type(3)
+www.ghacks.net##div.banner-feed.box-banner:nth-of-type(5)
