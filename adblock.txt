@@ -69,4 +69,4 @@ www.ghacks.net##div.banner-feed.box-banner:nth-of-type(5)
 www.c-span.org###cspan-ad-still-wiv-four-1
 www.c-span.org###cspan-ad-still-wiv-four-2
 www.wsj.com###cx-what-to-read-next
-chromeunboxed.com##.ezoic-ad
+##.ezoic-ad
