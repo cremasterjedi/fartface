@@ -69,6 +69,5 @@ www.ghacks.net##div.banner-feed.box-banner:nth-of-type(5)
 www.c-span.org###cspan-ad-still-wiv-four-1
 www.c-span.org###cspan-ad-still-wiv-four-2
 www.wsj.com###cx-what-to-read-next
-chromeunboxed.com##.ezoic-ad.medrectangle-4.medrectangle-4127.adtester-container.adtester-container-127
-chromeunboxed.com##.ezoic-ad.box-4.box-4126.adtester-container.adtester-container-126
-chromeunboxed.com##.ezoic-ad.box-2.box-2669.adtester-container.adtester-container-669
+chromeunboxed.com##.ezoic-ad.medrectangle
+chromeunboxed.com##.ezoic-ad.box
