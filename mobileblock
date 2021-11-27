@@ -1249,3 +1249,10 @@ indianexpress.com##.top-ads-amp
 
 ! 2021-11-27 https://www.rogerebert.com
 www.rogerebert.com##.branding
+
+! 2021-11-28 https://www.usmagazine.com
+www.usmagazine.com##.mobile-only.ad_outer_med
+www.usmagazine.com##.adh--background.mb-wrapper
+www.usmagazine.com##div.ad_outer_med
+www.usmagazine.com##.center-rail > div:nth-of-type(2)
+www.usmagazine.com##div#zergnet-widget-49505.zergnet-widget-49505.zergnet-widget
