@@ -1262,3 +1262,9 @@ washingtonpost.com##div.grey-bg
 ! 2021-11-28 https://wegotthiscovered.com
 wegotthiscovered.com###sticky-top
 wegotthiscovered.com###sticky-bottom
+
+xhamster.*##div[class*="spot-container
+xhamster.*##div[class*="cams-thumb-widget"]
+xhamster.*##[href*="/faphouse/out
+xhamster.*##.thumb-list-mobile-item--widget
+xhamster.*##.promo-message
