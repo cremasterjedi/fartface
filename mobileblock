@@ -1263,8 +1263,5 @@ washingtonpost.com##div.grey-bg
 wegotthiscovered.com###sticky-top
 wegotthiscovered.com###sticky-bottom
 
-xhamster.*##div[class*="spot-container
-xhamster.*##div[class*="cams-thumb-widget"]
-xhamster.*##[href*="/faphouse/out
-xhamster.*##.thumb-list-mobile-item--widget
-xhamster.*##.promo-message
+xhamster.com##body:style(overflow: visible!important; position: static!important;)
+xhamster.com##.thumb-list-mobile > .thumb-list-mobile-item--widget
