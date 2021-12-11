@@ -1269,3 +1269,17 @@ xhamster.com##.thumb-list-mobile > .thumb-list-mobile-item--widget
 ! 2021-12-06 https://dangerousminds.net
 dangerousminds.net###ad728
 dangerousminds.net###addspace
+
+! 2021-12-12 https://www.gamereactor.eu
+www.gamereactor.eu##.topScroller
+www.gamereactor.eu###ad_iphone
+www.gamereactor.eu##.colwide_mrgn.colwide > div
+www.gamereactor.eu##.margin-bottom
+www.gamereactor.eu##.credits > div
+www.gamereactor.eu##.ad_interscroller.scroll320
+www.gamereactor.eu##.bg-wrapper
+www.gamereactor.eu###page0 > .wrapper
+www.gamereactor.eu##.wrapper
+www.gamereactor.eu##.rwd.colthin
+
+
