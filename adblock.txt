@@ -72,3 +72,14 @@ www.wsj.com###cx-what-to-read-next
 chromeunboxed.com##.ezoic-ad.medrectangle-4.medrectangle-4127.adtester-container.adtester-container-127
 chromeunboxed.com##.ezoic-ad.box-4.box-4126.adtester-container.adtester-container-126
 chromeunboxed.com##.ezoic-ad.box-2.box-2669.adtester-container.adtester-container-669
+chromeunboxed.com##.ezoic-ad.box-2.box-2669.adtester-container.adtester-container-669
+www.bloomberg.com###leaderboard-Q8pLyxq
+www.bloomberg.com###leaderboard-ImcPdcq
+www.washingtonian.com###b091039b64b3456ca7c5014a0a2ee00a
+www.washingtonian.com###acd2fda3023d44e6b25d08c2d5701b7e
+www.theverge.com##.remixd-wrapper
+www.reddit.com##._4ELfhcLRELWhYrOp6R4se.GoogleAd.HomeAds.InArticleAd.LeftAd.SidebarAd.ad-300-250.ad-banner.adbar.adbox1.ads-area.adsense-ad.box_ad.googad
+kotaku.com##.ynugv2-0.kXvAvi.js_sidebar-edit-video
+barrons.com##.barrons-body-ad-placement
+##.sc-1ez0oyg-0.fwCBOs
+###commerce-inset-wrapper
