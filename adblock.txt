@@ -83,3 +83,4 @@ kotaku.com##.ynugv2-0.kXvAvi.js_sidebar-edit-video
 barrons.com##.barrons-body-ad-placement
 ##.sc-1ez0oyg-0.fwCBOs
 ###commerce-inset-wrapper
+www.howtogeek.com##.entry-content.e-content > div
