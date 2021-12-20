@@ -84,3 +84,7 @@ barrons.com##.barrons-body-ad-placement
 ##.sc-1ez0oyg-0.fwCBOs
 ###commerce-inset-wrapper
 www.howtogeek.com##.entry-content.e-content > div
+www.independent.co.uk##.sc-edgecu.YLzSB.sc-jlAnOM.hZIzdy
+www.independent.co.uk###newsletter-component
+www.independent.co.uk##.sc-iXuA-DT.iriPxc.sc-jYuJnc.erAWdS
+www.independent.co.uk###taboola-below-article-1
