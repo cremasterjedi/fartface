@@ -88,3 +88,11 @@ www.independent.co.uk##.sc-edgecu.YLzSB.sc-jlAnOM.hZIzdy
 www.independent.co.uk###newsletter-component
 www.independent.co.uk##.sc-iXuA-DT.iriPxc.sc-jYuJnc.erAWdS
 www.independent.co.uk###taboola-below-article-1
+www.mentalfloss.com##.article-body-section.top-leaderboard-limit > .article-body-content-container > .article-body-content > .article-body > p:nth-of-type(14)
+www.mentalfloss.com##.article-body-section.top-leaderboard-limit > .article-body-content-container > .article-body-content > .article-body > p:nth-of-type(9)
+www.mentalfloss.com##.article-body-section.top-leaderboard-limit > .article-body-content-container > .article-body-content > .article-body > p:nth-of-type(4)
+www.wellandgood.com##.post__main.contentmax\:ml-\[335px\] > div.container__ad.container__ad--inline
+www.wellandgood.com##.container.container__ad.container__ad--horizontal.show-mobile
+arstechnica.com##.ad.ad_crown
+arstechnica.com##aside.ad.ad_fullwidth.fullwidth
+www.grid.news##.ArticleBody-sc-1eiq3o0-2.diYIzH.article-body-wrapper > div.default__AdsWrapper-xaonxe-0.dWcoya.free-start-ads-block
