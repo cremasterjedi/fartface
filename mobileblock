@@ -1313,3 +1313,6 @@ moviecultists.com##body > div:nth-of-type(1)
 
 ! 2022-02-13 https://www.pocketgamer.com
 www.pocketgamer.com##.sidebar
+
+! 2022-02-13 https://www.bigissue.com
+www.bigissue.com##.polaris__simple-grid--full
