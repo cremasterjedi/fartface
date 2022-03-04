@@ -96,3 +96,6 @@ www.wellandgood.com##.container.container__ad.container__ad--horizontal.show-mob
 arstechnica.com##.ad.ad_crown
 arstechnica.com##aside.ad.ad_fullwidth.fullwidth
 www.grid.news##.ArticleBody-sc-1eiq3o0-2.diYIzH.article-body-wrapper > div.default__AdsWrapper-xaonxe-0.dWcoya.free-start-ads-block
+www.everydayhealth.com##.video-anyclip.video-anyclip--playlist
+www.androidauthority.com##.xb.-_.yb
+dotesports.com##div.proper-ad-unit
