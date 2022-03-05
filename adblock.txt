@@ -99,3 +99,6 @@ www.grid.news##.ArticleBody-sc-1eiq3o0-2.diYIzH.article-body-wrapper > div.defau
 www.everydayhealth.com##.video-anyclip.video-anyclip--playlist
 www.androidauthority.com##.xb.-_.yb
 dotesports.com##div.proper-ad-unit
+www.businessinsider.com##div.in-post-sticky.only-desktop
+www.insider.com##div.in-post-sticky.only-desktop
+markets.businessinsider.com##div.in-post-sticky.only-desktop
