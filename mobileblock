@@ -1365,4 +1365,4 @@ dotesports.com###main-content > div.proper-ad-unit
 ! 2022-06-04 https://faroutmagazine.co.uk
 faroutmagazine.co.uk##.i-amphtml-video-interface.i-amphtml-media-component.i-amphtml-layout.i-amphtml-built.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-responsive
 
-##div[id="sidebar_wrapper"] > :not([id="trending_wrapper"]):not(:has-text(Popular)):has([class^="ad-container"])
+##.inline-ad-container
