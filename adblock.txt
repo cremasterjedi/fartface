@@ -102,3 +102,13 @@ dotesports.com##div.proper-ad-unit
 www.businessinsider.com##div.in-post-sticky.only-desktop
 www.insider.com##div.in-post-sticky.only-desktop
 markets.businessinsider.com##div.in-post-sticky.only-desktop
+www.grid.news##div.default__AdsWrapper-xaonxe-0.kXmxNw.free-start-ads-block
+www.wsj.com##div.Box-sc-m4230u-0.immersiveStyles__BodyAdWrapper-sc-1v752pj-5.iooXwK.KeBJu
+www.wsj.com##div.Box-sc-m4230u-0.immersiveStyles__BodyAdWrapper-sc-1v752pj-6.iooXwK.jyMYXp
+www.politico.com##.styles_rightPane__3riQk
+www.politico.com##.styles_layout__1DSas
+www.politico.com##.styles_PibAd-disclaimer__joo8c
+arstechnica.com##.ad.ad_crown
+www.mentalfloss.com###mm-player-placeholder-large-screen
+www.mentalfloss.com##.style_7z5va1-o_O-style_48hmcm-o_O-style_1ts1q2h
+www.mentalfloss.com##.ad_1wlbbof
