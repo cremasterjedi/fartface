@@ -113,3 +113,4 @@ www.mentalfloss.com###mm-player-placeholder-large-screen
 www.mentalfloss.com##.style_7z5va1-o_O-style_48hmcm-o_O-style_1ts1q2h
 www.mentalfloss.com##.ad_1wlbbof
 www.bloomberg.com##div.relative.my-6.mx-auto.block.lg\:my-10.min-h-ad.css--ad
+upornia.com##div.sxssghvxqgwfxqhhggs
