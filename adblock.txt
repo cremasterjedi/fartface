@@ -121,4 +121,4 @@ pornhub.com##.clear.hd
 wsj.com##div.evq75q11.css-xgokil-Box
 redgifs.com###jerky-im
 wsj.com##.wsj-body-ad
-xhamster.com##.wio-dsp-b.wio-dsp-a
+xhamster.com###wio-dsp-b.wio-dsp-a
