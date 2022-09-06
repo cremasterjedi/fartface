@@ -123,3 +123,4 @@ redgifs.com###jerky-im
 wsj.com##.wsj-body-ad
 xhamster.com##.wio-dsp-b
 xhamster.com##.wio-dplayer
+xhamster.com##.wio-dcams-widget
