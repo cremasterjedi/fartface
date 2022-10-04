@@ -125,3 +125,4 @@ xhamster.com##.wio-dsp-b
 xhamster.com##.wio-dplayer
 xhamster.com##.wio-dcams-widget
 time.com##.article-small-sidebar
+www.theatlantic.com##.GptAd_root__2eqVh
