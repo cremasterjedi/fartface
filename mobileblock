@@ -1442,3 +1442,5 @@ www.wionews.com##.ad-height
 
 ! 2023-01-05 https://www.usatoday.com
 www.usatoday.com##div.gnt_xmst__mb.gnt_xmst
+
+msn.com###ViewsPageId-AA16C3cE > div:last-child > div > div.articlePage_articleContentContainer-DS-EntryPoint1-1.dwellTimeStartAllowed-AA16C3cE:nth-child(4) > div.articlePage_contentWrapper-DS-EntryPoint1-1.articlePage_contentWrapper_fullArticle-DS-EntryPoint1-1.articlePage_contentWrapper_reducedMargin-DS-EntryPoint1-1 > div.articlePage_absoluteContentWrapper-DS-EntryPoint1-1 > div > div > div:first-child > section.articlePage_section-DS-EntryPoint1-1.articlePageBodySection.articlePage_section_continueReading-DS-EntryPoint1-1:first-child > article:nth-child(2) > div.views-article-body.articlePage_body-DS-EntryPoint1-1:first-child > div.intra-article-module.articlePageIntraArticleFullWidth.intra-article-ad-full:nth-child(4)
