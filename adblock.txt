@@ -126,3 +126,4 @@ xhamster.com##.wio-dplayer
 xhamster.com##.wio-dcams-widget
 time.com##.article-small-sidebar
 www.theatlantic.com##.GptAd_root__2eqVh
+pitchfork.com#@#iframe[width="100%"][height="120"]
