@@ -128,5 +128,5 @@ time.com##.article-small-sidebar
 www.theatlantic.com##.GptAd_root__2eqVh
 pitchfork.com#@#iframe[width="100%"][height="120"]
 wsj.com##.ad-portal
-heatmap.news###middle_leaderboard
-heatmap.news###bottom_leaderboard
+heatmap.news##middle_leaderboard
+heatmap.news##bottom_leaderboard
