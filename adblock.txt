@@ -131,3 +131,4 @@ wsj.com##.ad-portal
 heatmap.news##middle_leaderboard
 heatmap.news##bottom_leaderboard
 theatlantic.com##.ArticleInjector_clsAvoider__pXehw
+androidauthority.com##.-__Gb
