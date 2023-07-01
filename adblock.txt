@@ -132,3 +132,4 @@ heatmap.news##middle_leaderboard
 heatmap.news##bottom_leaderboard
 theatlantic.com##.ArticleInjector_clsAvoider__pXehw
 www.androidauthority.com##.-__Gb
+www.androidauthority.com##.-___Ib
