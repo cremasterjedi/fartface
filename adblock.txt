@@ -136,4 +136,4 @@ www.androidauthority.com##.-___Ib
 www.androidauthority.com##.-___Gb
 www.androidauthority.com##.-___Cb
 pitchfork.com##.AdWrapper-dQtivb.fZrssQ.ad.ad--mid-content.should-hold-space
-www.wsj.com##.css-nt7b75.e1of74uw9
+www.wsj.com##div.css-nt7b75.e1of74uw9
