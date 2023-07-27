@@ -134,4 +134,4 @@ theatlantic.com##.ArticleInjector_clsAvoider__pXehw
 www.androidauthority.com##.-__Gb
 www.androidauthority.com##.-___Ib
 www.androidauthority.com##.-___Gb
-wsj.com##.__web-inspector-hide-shortcut__
+wsj.com##.css-1043x6s.e1of74uw15
