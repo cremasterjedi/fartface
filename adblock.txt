@@ -134,4 +134,5 @@ theatlantic.com##.ArticleInjector_clsAvoider__pXehw
 www.androidauthority.com##.-__Gb
 www.androidauthority.com##.-___Ib
 www.androidauthority.com##.-___Gb
-ws.com##.css-1043x6s.e1of74uw15
+www.androidauthority.com##.-___Cb
+pitchfork.com##.AdWrapper-dQtivb.fZrssQ.ad.ad--mid-content.should-hold-space
