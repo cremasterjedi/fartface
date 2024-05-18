@@ -139,3 +139,4 @@ pitchfork.com##.AdWrapper-dQtivb.fZrssQ.ad.ad--mid-content.should-hold-space
 www.wsj.com##div.css-nt7b75.e1of74uw9
 wsj.com##div.css-1t2oem8-Box.e1vnmyci0
 www.wsj.com##div.css-16i7ch2-Box.e1vnmyci0
+androidauthority.com##div._--_-___c
