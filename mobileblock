@@ -1462,6 +1462,11 @@ wsj.com##.uds-ad-container
 
 wsj.com##.ad-portal
 
+www.avclub.com###top_leaderboard
+www.avclub.com##div.dfp
+www.avclub.com###top_rectangle
+www.avclub.com###middle_rectangle
+www.avclub.com###bottom_rectangle
 fandomwire.com##.entry-header-01.entry-header > div
 theatlantic.com##.ArticleInjector_clsAvoider__pXehw
 wsj.com##.css-xgokil-Box
