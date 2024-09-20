@@ -1489,3 +1489,4 @@ uproxx.com##.upx-ad-unit,.footer
 gizmodo.com##.od-background.od-wrapper-both.od-wrapper
 americansongwriter.com###sv-video-container
 www.androidauthority.com##main > div:last-child > div:has(> div:only-child:empty)
+*##div.ad-mobile-dynamic
