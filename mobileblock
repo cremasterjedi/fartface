@@ -1479,6 +1479,7 @@ collider.com##.featured-video.w-adsninja-video-player
 kotaku.com###splashy-ad-container-top
 *##.ad-300x250
 www.nytimes.com##.css-j39py4
+www.yahoo.com##.sticky[class*="top-"]:has(style)
 *##.ad-wrapper
 cracked.com##.ck-anyclips
 cracked.com##.ck-anyclips-mobile
