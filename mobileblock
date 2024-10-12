@@ -1480,6 +1480,7 @@ kotaku.com###splashy-ad-container-top
 *##.ad-300x250
 www.nytimes.com##.css-j39py4
 www.yahoo.com##.sticky[class*="top-"]:has(style)
+www.yahoo.com##.justify-center.items-center.max-w-full.mt-5.mb-6.mx-auto
 *##.ad-wrapper
 cracked.com##.ck-anyclips
 cracked.com##.ck-anyclips-mobile
