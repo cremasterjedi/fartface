@@ -1504,3 +1504,4 @@ www.androidauthority.com##main > div:last-child > div:has(> div:only-child:empty
 *##div.ad-mobile-dynamic
 www.thegamer.com###adsninja-below-main-pic
 www.thegamer.com##.no-badge.large.video.display-card
+www.bellesandgals.com##div[id*=("hit-inc")]
