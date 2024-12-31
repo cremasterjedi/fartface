@@ -1508,4 +1508,4 @@ www.thegamer.com##.no-badge.large.video.display-card
 www.bellesandgals.com##div[id*="hit-inc"]
 fortune.com###__next > div.sc-3f90509f-0.kbcHqM:first-child
 www.rawstory.com##div[id*="lightbox-inline-form"]
-www.collider.com##div[class*="adsninja"]
+collider.com##div[id*="adsninja"]
