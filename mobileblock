@@ -40,12 +40,7 @@ www.forbes.com##div.amp-ad-container
 www.forbes.com##.grid__ad-container--amp
 
 ! 2021-07-24 https://gamerant.com
-gamerant.com###ad-zone-container-GR-Reg-AMP-AMP-MOB
-gamerant.com###ad-zone-container-div-gpt-ad-amp-wcr1
-gamerant.com###ad-zone-container-div-gpt-ad-amp-wcr2
-gamerant.com###ad-zone-container-div-gpt-ad-amp-wcr3
-gamerant.com###ad-zone-container-div-gpt-ad-amp-wcr4
-gamerant.com###ad-zone-container-div-gpt-ad-amp-wcr5
+gamerant.com##div[id*="ad-zone-container"]
 
 ! 2021-07-24 https://www.inverse.com
 www.inverse.com##.hVL.Uzp.zVG.adWrapper
