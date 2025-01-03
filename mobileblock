@@ -8,9 +8,6 @@ reason.com##.ad-height-mobile-100.ad-height-desktop-0.freestar-ad-sidebar-contai
 reason.com###connatix-moveable
 reason.com###Reason_320x100_320x50_300x250_incontent_FirstParagraph_SA
 
-! 2021-07-23 https://kotaku.com
-kotaku.com##.egrACp.sc-6zn1bq-0.bxm4mm-19
-
 ! 2021-07-23 https://www.buzzfeed.com
 www.buzzfeed.com##.sticky--first-time.js-ad-42.js-ad.ad-awareness--full-width.ad-awareness--home.ad-awareness--legacy-wf.ad-fadedown.ad-animated.ad-flexible.ad-awareness
 www.buzzfeed.com##.ad-flexible.js-ad-1-1.js-ad.js-feed-item--default.js-feed-item--filtered.js-feed-item.ad-animated.ad-feed-story.card--article-ad.story-card.ad-card.xs-relative
@@ -264,16 +261,7 @@ www.inc.com##.mobile_insert_13.d-md-none
 ultimateclassicrock.com##div.gallery-ad-lazyload-placeholder.lazyload-placeholder
 
 ! 2021-07-26 https://gamerant.com
-gamerant.com###ad-zone-container-div-gpt-ad-1576009708225-ccr1
-gamerant.com###ad-zone-container-div-gpt-ad-1576009708225-ccr2
-gamerant.com###ad-zone-container-div-gpt-ad-1576009708225-ccr3
-gamerant.com###ad-zone-container-div-gpt-ad-1576009708225-ccr4
-gamerant.com###ad-zone-container-div-gpt-ad-1576009708225-ccr5
-gamerant.com##.ad-zone-container-content-character-count-repeatable.ad-zone-container
-gamerant.com###ad-zone-container-div-gpt-ad-1576009708225-bta
-gamerant.com###ad-zone-container-GR-Reg-PostA-MOB
-gamerant.com###ad-zone-container-div-gpt-ad-amp-sf
-gamerant.com##.ad-zone-container-sidebar-second.ad-zone-container
+gamerant.com##div[id*="ad-zone-container"]
 
 ! 2021-07-26 https://www.flickeringmyth.com
 www.flickeringmyth.com##.ai-viewport-3.code-block-1.code-block
@@ -358,31 +346,9 @@ www.buzzfeednews.com##.ad-wireframe-wrapper--labeled.ad-wireframe-wrapper
 amp.tmz.com##.ad-size-300x250.ad-container.article__incontent-ad
 
 ! 2021-07-31 https://www.tmz.com
-www.tmz.com##.ad-size-medium-rectangle.ad-container.ad-blogroll5
 www.tmz.com###ad-adhesion
 www.tmz.com###bt-ad-header
-www.tmz.com###bt-ad-blogroll4
-www.tmz.com###bt-ad-blogroll9
-www.tmz.com###bt-ad-blogroll14
-www.tmz.com###bt-ad-blogroll19
-www.tmz.com###bt-ad-blogroll24
-www.tmz.com###bt-ad-blogroll29
-www.tmz.com###bt-ad-blogroll34
-www.tmz.com###bt-ad-blogroll39
-www.tmz.com###bt-ad-blogroll44
-www.tmz.com###bt-ad-blogroll49
-www.tmz.com###bt-ad-blogroll54
-www.tmz.com###bt-ad-blogroll59
-www.tmz.com###bt-ad-blogroll64
-www.tmz.com###bt-ad-blogroll69
-www.tmz.com###bt-ad-blogroll74
-www.tmz.com###bt-ad-blogroll79
-www.tmz.com###bt-ad-blogroll84
-www.tmz.com###bt-ad-blogroll89
-www.tmz.com###bt-ad-blogroll94
-www.tmz.com###bt-ad-blogroll99
-www.tmz.com###bt-ad-blogroll104
-www.tmz.com###ad-blogroll1
+www.tmz.com##div[id*="ad-blogroll"]
 
 ! 2021-07-31 https://www.pcgamer.com
 www.pcgamer.com##.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-responsive.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element > i-amphtml-sizer
@@ -410,13 +376,7 @@ www.engadget.com##.M\(MarginCenter\).Jc\(c\).Z\(1\).Pos\(r\).Ai\(st\).D\(f\).W\(
 twinfinite.net###mvp-main-wrap > .mvp-main-boxed-wrap > .relative.mvp-main-out > .mvp-main-in > .relative.left
 
 ! 2021-08-01 https://www.thegamer.com
-www.thegamer.com###ad-zone-container-div-gpt-ad-1574785615953-ccr1
-www.thegamer.com###ad-zone-container-div-gpt-ad-1574785615953-ccr2
-www.thegamer.com###ad-zone-container-div-gpt-ad-1574785615953-ccr3
-www.thegamer.com##.ad-zone-container-content-character-count-repeatable-4.ad-zone-container
-www.thegamer.com##.ad-zone-container-content-below-the-author.ad-zone-container
-www.thegamer.com###ad-zone-container-div-gpt-ad-1535470227069-3
-www.thegamer.com###ad-zone-container-TG-Reg-Org-MOB
+www.thegamer.com##div[id*="ad-zone-container"]
 
 ! 2021-08-01 https://www.ign.com
 www.ign.com##.adunit-wrapper.jsx-2483022842
