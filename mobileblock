@@ -1459,3 +1459,6 @@ fortune.com###__next > div.sc-3f90509f-0.kbcHqM:first-child
 www.rawstory.com##div[id*="lightbox-inline-form"]
 collider.com##div[id*="adsninja"]
 kotaku.com##div[class*="bxm4mm"]
+cbr.com##div[id*="adsninja"]
+gamerant.com##div[id*="adsninja"]
+screenrant.com##div[id*="adsninja"]
