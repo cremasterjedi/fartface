@@ -1464,4 +1464,4 @@ screenrant.com##div[id*="adsninja"]
 www.androidauthority.com##.e_Tn.e_5b
 www.independent.co.uk##div[class*="toncsa"]
 www.independent.co.uk##div[id^="ad-"]
-www.independent.co.uk##div[class^="mobile-only"]
+www.independent.co.uk##.mobile-only
