@@ -1465,4 +1465,4 @@ www.independent.co.uk##.mobile-only
 www.yahoo.com##div[class*="faux-bleed"]
 fortune.com###__next > div.__variable_40b425.__variable_75b0c8.__variable_cdc833 > div.sc-598c3945-0.fiWNxs:first-child
 fortune.com##.ddsPZo
-www.the-sun.com#@#.sticky-social.is-helios-rendered.header--mobile.header
+www.the-sun.com@@.sticky-social.is-helios-rendered.header--mobile.header
