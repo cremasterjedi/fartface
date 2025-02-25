@@ -141,3 +141,11 @@ wsj.com##div.css-1t2oem8-Box.e1vnmyci0
 www.wsj.com##div.css-16i7ch2-Box.e1vnmyci0
 androidauthority.com##._--_-___Zb
 www.androidauthority.com##._--_-___gb._--_-___ib
+@@||steadyhq.com
+@@||steadycdn.com
+wsj.com##.css-qnqzgc-BannerContainer, .e1u55cw57
+wired.com##.AdWrapper-dQtivb, .fZrsta, .ad, .ad--sponsor-product
+vice.com##div[id*="htlad-post-article"]
+vice.com##.lngtd-dynamic-rr
+vice.com##.vice_M_leaderboard
+thequietus.com##.ad-container--billboard, .ad-container--header
