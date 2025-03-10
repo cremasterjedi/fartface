@@ -1481,3 +1481,10 @@ www.forbes.com##.for-you__component
 pitchfork.com##div[class*="StickyHeroAdWrapper"]
 pitchfork.com##div[class*="ad-height-hold"]
 pitchfork.com##div[class*="AdWrapper"]
+apnews.com###mobile-entitlements
+www.wired.com##div[class*="ad-height-hold"]
+www.forbes.com##.fbs-ad--nativeinbody-m-wrapper.fbs-ad--progressive
+www.dreadcentral.com##.brid-stickytop-player-holder.brid-stickytop-with-desc
+www.mensjournal.com##.m-embed.mm-embed--twitter.l-inline
+www.mensjournal.com##div[id*="phxoutbrain"]
+www.mensjournal.com##.m-detail--meta
