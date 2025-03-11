@@ -1485,4 +1485,4 @@ apnews.com###mobile-entitlements
 www.wired.com##div[class*="ad-height-hold"]
 www.forbes.com##.fbs-ad--nativeinbody-m-wrapper.fbs-ad--progressive
 www.dreadcentral.com##.brid-stickytop-player-holder.brid-stickytop-with-desc
-www.mensjournal.com##div[id*="phxoutbrain"]
+www.mensjournal.com##section[id*="phxoutbrain"]
