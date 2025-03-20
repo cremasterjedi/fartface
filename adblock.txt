@@ -152,3 +152,4 @@ thequietus.com##.ad-container--billboard, .ad-container--header
 www.mensjournal.com##section[id*="phxoutbrain"]
 pagesix.com##div[class*="ad--container"]
 pagesix.com##div[class*="recirc--outbrain"]
+pagesix.com##.nyp-video-player
