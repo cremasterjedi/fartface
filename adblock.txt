@@ -151,6 +151,5 @@ vice.com##.vice_M_leaderboard
 thequietus.com##.ad-container--billboard, .ad-container--header
 www.mensjournal.com##section[id*="phxoutbrain"]
 pagesix.com##div[class*="ad--container"]
-time.com##div[id*="jwplayer"]
 time.com##div[class*="webflix"]
 time.com##div[class*="overflow"]
