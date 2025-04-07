@@ -1495,3 +1495,4 @@ www.slashfilm.com##.before-ad
 www.discogs.com##.sticky_footer
 time.com##div[id*="jwplayer"]
 time.com##div[class*="webflix"]
+time.com##div[class*="overflow"]
