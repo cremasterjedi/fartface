@@ -154,3 +154,4 @@ pagesix.com##div[class*="ad--container"]
 time.com##div[class*="webflix"]
 time.com##div[class*="overflow"]
 kotaku.com##div[class*="ad-mobile"]
+mirror.co.uk#$#div[data-testid*="commercial"] {display: none !important}
