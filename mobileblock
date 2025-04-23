@@ -1496,3 +1496,4 @@ www.discogs.com##.sticky_footer
 time.com##div[class*="webflix"]
 time.com##div[class*="overflow"]
 mirror.co.uk#$#div[data-testid*="commercial"] {display: none !important}
+reason.com##div[class*="primis"]
