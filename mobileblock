@@ -1499,4 +1499,4 @@ mirror.co.uk#$#div[data-testid*="commercial"] {display: none !important}
 reason.com##div[class*="primis"]
 www.surfer.com##div[class*="adSlot"]
 fortune.com##div[class*="leaderboard-ad-wrapper-parent"]
-fastcompany.com##div[class="partner-ad-module-wrapper"]
+fastcompany.com##div[class*="partner-ad-module-wrapper"]
