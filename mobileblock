@@ -1497,3 +1497,5 @@ time.com##div[class*="webflix"]
 time.com##div[class*="overflow"]
 mirror.co.uk#$#div[data-testid*="commercial"] {display: none !important}
 reason.com##div[class*="primis"]
+www.surfer.com##div[class*="adSlot"]
+fortune.com##div[class*="leaderboard-ad-wrapper-parent"]
