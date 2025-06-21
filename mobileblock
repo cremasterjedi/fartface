@@ -1501,3 +1501,4 @@ www.surfer.com##div[class*="adSlot"]
 fortune.com##div[class*="leaderboard-ad-wrapper-parent"]
 latimes.com##div[class="partner-ad-module-wrapper"]
 nybooks.com##div[id*="top-ad"]
+www.businessinsider.com##.newsletter-dynamic
