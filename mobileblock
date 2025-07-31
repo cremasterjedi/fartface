@@ -1420,7 +1420,6 @@ www.mojo4music.com##div[class*="adContainer"]
 sammobile.com###topatf
 www.si.com##.style_7z5va1-o_O-style_uhlm2
 *##.ad-unit:not(.text-ad):not(.textads)
-collider.com##.featured-video.w-adsninja-video-player
 kotaku.com###splashy-ad-container-top
 *##.ad-300x250
 www.nytimes.com##.css-j39py4
@@ -1439,7 +1438,6 @@ www.inc.com##.mb-8.second-scroll-border
 cracked.com##.ck-anyclips
 cracked.com##.ck-anyclips-mobile
 fortune.com##div[class*=grvWtf]
-collider.com##.w-adsninja-video-player
 thequietus.com##.ad-container--header.ad-container--billboard
 uproxx.com##.upx-ad-unit,.footer
 ##.bordeaux-filled-slot.bordeaux-slot
@@ -1448,16 +1446,10 @@ gizmodo.com##.od-background.od-wrapper-both.od-wrapper
 americansongwriter.com###sv-video-container
 www.androidauthority.com##main > div:last-child > div:has(> div:only-child:empty)
 *##div.ad-mobile-dynamic
-www.thegamer.com###adsninja-below-main-pic
-www.thegamer.com##.no-badge.large.video.display-card
 www.bellesandgals.com##div[id*="hit-inc"]
 fortune.com###__next > div.sc-3f90509f-0.kbcHqM:first-child
 www.rawstory.com##div[id*="lightbox-inline-form"]
-collider.com##div[id*="adsninja"]
 kotaku.com##div[class*="bxm4mm"]
-cbr.com##div[id*="adsninja"]
-gamerant.com##div[id*="adsninja"]
-screenrant.com##div[id*="adsninja"]
 www.androidauthority.com##.e_Tn.e_5b
 www.independent.co.uk##div[class*="toncsa"]
 www.independent.co.uk##div[id^="ad-"]
