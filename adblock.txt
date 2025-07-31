@@ -155,3 +155,6 @@ time.com##div[class*="webflix"]
 time.com##div[class*="overflow"]
 kotaku.com##div[class*="ad-mobile"]
 mirror.co.uk#$#div[data-testid*="commercial"] {display: none !important}
+androidpolice.com#@#.w-adsninja-video-player
+economist.com##._advert_1aj6h_1, ._incontent_1aj6h_11
+glamour.com,pitchfork.com#@#div[class^="ContentFooterNewsletterContentWrapper-"]
