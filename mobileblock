@@ -71,7 +71,7 @@ amp.usatoday.com##.ad-3.artful-delights
 www.c-span.org##.cspan-ad-still-house.cspan-ad-still
 
 ! 2021-07-24 https://www.thedailybeast.com
-! www.thedailybeast.com##.PageTopAd
+www.thedailybeast.com##.PageTopAd
 www.thedailybeast.com##.ConnatixAd--show-preloader.ConnatixAd
 www.thedailybeast.com##.FooterAd
 
@@ -1509,3 +1509,4 @@ www.androidauthority.com##div[class*="ad-scroll"]
 nypost.com##.data-openweb-ad
 politico.com##.adlib-sticky-footer
 economist.com##._advert_1aj6h_1, ._incontent_1aj6h_11
+androidpolice.com#@#.w-adsninja-video-player
