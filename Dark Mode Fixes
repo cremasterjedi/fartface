@@ -1,0 +1,219 @@
+// ==UserScript==
+// @name         Dark Mode Fixes
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Custom CSS changes for multiple websites
+// @author       cremasterjedi
+// @match        https://www.wsj.com/*
+// @match        https://www.cnn.com/*
+// @match        https://www.discogs.com/*
+// @match        https://*.nypost.com/*
+// @match        https://*.apnews.com/*
+// @match        https://www.metal-archives.com/*
+// @match        https://*.ytmnd.com/*
+// @match        https://bandcamp.com/*
+// @match        https://*.bandcamp.com/*
+// @match        https://discord.com/*
+// @match        https://app.plex.tv/*
+// @match        https://www.youtube.com/*
+// @match        https://youtube-nocookie.com/*
+// @match        https://music.youtube.com/*
+// @match        https://pocketcasts.com/*
+// @match        https://open.spotify.com/*
+// @match        https://hyperbeam.com/*
+// @match        https://calendar.google.com/*
+// @match        https://www.redgifs.com/*
+// @match        https://xhamster.com/*
+// @match        https://youtube.googleapis.com/*
+// @match        https://drive.google.com/*
+// @match        https://www.tiktok.com/*
+// @match        https://www.notion.so/*
+// @match        https://letterboxd.com/*
+// @match        https://www.amazon.com/*
+// @match        https://bandcamp.23video.com/*
+// @match        https://www.erome.com/*
+// @match        *://mail.google.com/*
+// @match        *.//chat.google.com/*
+// @match        *.//contacts.google.com/*
+// @match        https://www.google.com/maps*
+// @match        https://google.com/maps*
+// @match        https://pitchfork.com/*
+// @match        https://www.thecut.com/*
+// @match        https://translate.google.com/*
+// @match        https://www.vulture.com/*
+// @match        https://en.wikipedia.org/*
+// @grant        GM_addStyle
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Site-specific styles
+if (window.location.hostname === "www.wsj.com") {
+        GM_addStyle(`
+div[class*="scrubBackground"],div[class*="scrubProgress"],div.video-volume-h,div.video-volume-v,div[class*="g-artboard"] div[class*="g-aiPointText"],div[class*="g-artboard"] div[class*="g-aiAbs"]{color-scheme:only light;}
+button[class*="BackToTopButton"]{background-color: darkslategray;}
+        `);
+    }
+
+if (window.location.hostname === "www.cnn.com") {
+        GM_addStyle(`
+.container__headline,.zone__title-url, h2[class*="zone__title"], a[class*="zone__title"] {color: #ffffff}
+.container__title:not(.container__title--emphatic,.container__title--underscored,.container__title--bold,.container__title--bulleted-headlines,.container_bulleted-headlines__title ) .container__title-text, .container__title:not( .container__title--emphatic,.container__title--underscored,.container__title--bold,.container__title--bulleted-headlines,.container_bulleted-headlines__title ) .container__title_url-text {border-left: 6px solid #ffffff;}
+div[class*="container_ribbon__carousel-button"],.container__video-duration {filter:invert(1);}
+        `);
+    }
+
+if (window.location.hostname === "www.discogs.com") {
+        GM_addStyle(`
+.expanded_2iYYq {background: #858585 !important;}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{filter:invert(1);}
+.navigation, .app-store-badge, .link_1ctor>img, .apps_nFqip img{color-scheme:only light;}
+        `);
+    }
+
+if (window.location.hostname === "nypost.com" || window.location.hostname === "www.nypost.com") {
+        GM_addStyle(`
+.site-header__logo,.site-footer__logo,.breaking-news,h2[class*="sports-plus"],li[class*="sports-plus-logo"],.widget--sports-plus-columnists a.widget__logo,.flag--stamp--exclusive{color-scheme:only light;}
+        `);
+    }
+
+if (window.location.hostname === "apnews.com" || window.location.hostname === "www.apnews.com") {
+        GM_addStyle(`
+.Page-header-bar-logo{color-scheme:only light;}
+        `);
+    }
+
+if (window.location.hostname === "www.metal-archives.com") {
+        GM_addStyle(`
+//:root {color-scheme: only light !important;}
+a{color: #f4b8b8;}
+        `);
+    }
+
+if (window.location.hostname === "ytmnd.com" || window.location.hostname === "www.ytmnd.com") {
+        GM_addStyle(`
+body{background-image: none;}
+
+div#container{background-image: none !important;}
+
+#header,#main,#footer {background-color: rgb(0 0 0) !important;}
+
+.site_link,div[class*="magic card"] div {color: rgb(255 0 0) !important;}
+
+div[id*="fav_addnote"]{filter:invert(1);}
+        `);
+    }
+
+if (window.location.hostname.endsWith("bandcamp.com")) {
+        GM_addStyle(`
+.inline_player .prevbutton, .inline_player .nextbutton {background: transparent url(/img/nextprevinvert.png) no-repeat 0 0;background-size: 40px 12px}
+
+.inline_player .nextbutton {background-position: 100% 0 !important;}
+
+.inline_player .thumb,.inline_player .playbutton,.track_list .play_status,#big_play_button,.plb-btn,article-playbutton > div {color-scheme:only light;}
+
+.inline_player .progbar_fill {background-color: #bb9f9f66 !important;}
+
+.info #prevnext,article-end {filter:invert(1);}
+
+#big_play_button:hover{background: #fff !important;}
+        `);
+    }
+
+if (window.location.hostname === "discord.com" || window.location.hostname === "app.plex.tv" || window.location.hostname === "www.youtube.com" || window.location.hostname === "youtube-nocookie.com" || window.location.hostname === "music.youtube.com" || window.location.hostname === "pocketcasts.com" || window.location.hostname === "open.spotify.com" || window.location.hostname === "hyperbeam.com" || window.location.hostname === "calendar.google.com" || window.location.hostname === "www.redgifs.com" || window.location.hostname === "xhamster.com" || window.location.hostname === "youtube.googleapis.com" || window.location.hostname === "drive.google.com" || window.location.hostname === "www.tiktok.com" || window.location.hostname === "www.notion.so" || window.location.hostname === "letterboxd.com") {
+        GM_addStyle(`
+:root {color-scheme: only light !important;}
+::-webkit-scrollbar {color-scheme: only dark !important;}
+::-webkit-scrollbar-thumb {background: #565656;border-radius: 10px;}
+        `);
+    }
+
+if (window.location.hostname === "www.amazon.com") {
+        GM_addStyle(`
+div[class*="_p13n-desktop-sims-fbt_fbt-desktop_image-background"]{background-color: #c3c3c3;}
+
+div[class*="quadrantImageContainer"],div[class*="new-detail-faceout-box"] div[class*="image-background"],div[class*="missionImageContainer"]{background: #cdcdcd;}
+
+img[alt*="Digital Music"],img[class*="amazon-music-logo-badge"],#sw-gtc .a-button-text,span[data-action="ewc-delete-item"] .a-button-inner,button[data-action="a-stepper-increment"],button[data-action="a-stepper-decrement"],span[class*="rpi-icon"]{filter:invert(1);}
+        `);
+    }
+
+if (window.location.hostname === "bandcamp.23video.com") {
+        GM_addStyle(`
+#player{color-scheme:only light;}
+        `);
+    }
+
+if (window.location.hostname === "www.erome.com") {
+        GM_addStyle(`
+:root {color-scheme: only light !important;}
+::-webkit-scrollbar {color-scheme: only dark !important; width: 10px !important;}
+::-webkit-scrollbar-thumb {background: #565656; border-radius: 10px;}
+        `);
+    }
+
+if (window.location.hostname === "mail.google.com") {
+        GM_addStyle(`
+:root, .aZ6::-webkit-scrollbar-thumb,#\\:1fa{color-scheme:only light;}
+.Nu.S3.aZ6,.nH.bkK,.J-M.J-M-ayU.Ft,.J-M.aX0.aYO.jQjAxd,.J-M.agd.aYO.jQjAxd.aX2{color-scheme:auto;}
+.ajz,.c4.aA,div[class^="tl"],.aiC,.gW{filter:invert(1);}
+        `);
+    }
+
+    if (window.location.hostname === "chat.google.com") {
+        GM_addStyle(`
+:root{color-scheme:only light;}
+.nH.bkK{color-scheme:auto;}
+        `);
+    }
+
+if (window.location.hostname === "contacts.google.com") {
+        GM_addStyle(`
+:root{color-scheme:auto;}
+.f3n4ge{color-scheme:dark;}
+        `);
+    }
+
+if (window.location.hostname === "translate.google.com") {
+        GM_addStyle(`
+.ita-kd-inputtools-div,.vk-t-btn.vk-sf-cl, .vk-cap.vk-sf-b.vk-sf-c16,.vk-cap.vk-sf-b.vk-sf-c20,.vk-cap.vk-sf-b.vk-sf-c8,.ita-kd-menuitem .ita-kd-checkbox,.ita-kd-menuitem-inputtool-icon {filter:invert(1);}
+        `);
+    }
+
+if (window.location.hostname.endsWith("google.com") && window.location.pathname.startsWith("/maps")) {
+        GM_addStyle(`
+div[class*="pane-open-mode"]:not(div[class*="app-imagery-mode"]) .id-scene{filter: invert(100%) hue-rotate(0.4turn) !important;}
+#gbwa{filter:invert(1) !important;}
+button[aria-label="Expand"],button[aria-label="Minimize"]{color-scheme:dark;}
+        `);
+    }
+
+if (window.location.hostname === "pitchfork.com") {
+        GM_addStyle(`
+div[class*="StackedNavigationGrid"]{height: 7rem !important;}
+div[class*="StackedNavigationTop"]{height: 4.5rem !important;}
+        `);
+    }
+
+if (window.location.hostname === "www.thecut.com") {
+        GM_addStyle(`
+path.svg-whitebox{fill:#0000 !important}
+        `);
+    }
+
+if (window.location.hostname === "www.vulture.com") {
+        GM_addStyle(`
+div.show-more-wrap,div.collection-simple-svg-title,div.read-more-svg,div.arrows-container,div.social-section,div.social-search,button.nav-dropdown-button-trigger span.hamburger,button.nav-dropdown-button-trigger span.close-x {color-scheme:only light;}
+div.recap-navigation-header g path,span.show-more-text {filter:invert(1);}
+        `);
+    }
+
+if (window.location.hostname === "en.wikipedia.org") {
+        GM_addStyle(`
+.skin-invert-image img, html.skin-theme-clientpref-night .skin-invert, html.skin-theme-clientpref-night .oo-ui-iconElement-icon:not(.oo-ui-image-progressive):not(.oo-ui-image-destructive):not(.oo-ui-checkboxInputWidget-checkIcon):not(.oo-ui-image-invert):not(.mw-no-invert), html.skin-theme-clientpref-night .oo-ui-indicatorElement-indicator {color-scheme: dark;}
+img[src*="Black_x"]{filter:invert(1);}
+        `);
+    }
+
+})();
