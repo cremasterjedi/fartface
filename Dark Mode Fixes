@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Mode Fixes
 // @namespace    http://tampermonkey.net/
-// @version      1.006
+// @version      1.007
 // @description  Custom CSS changes for multiple websites
 // @author       cremasterjedi
 // @match        https://www.wsj.com/*
