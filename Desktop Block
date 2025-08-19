@@ -1,7 +1,10 @@
-! Name: Me Adblock
+! Title: Desktop Block
 ! 1 hour
-! Version: 1.001
-bandcamp.com#$# .info #prevnext {filter: invert(1) !important;}, #big_play_button:hover{background: #fff !important;}, .inline_player .thumb,.inline_player .playbutton,.track_list .play_status,#big_play_button,.plb-btn,article-playbutton > div {color-scheme:only light !important;}, .inline_player .progbar_fill {background-color: #bb9f9f66 !important;}
+! Version: 1.002
+bandcamp.com#$#.info #prevnext {filter: invert(1) !important;} 
+bandcamp.com#$##big_play_button:hover{background: #fff !important;} 
+bandcamp.com#$#.inline_player .thumb,.inline_player .playbutton,.track_list .play_status,#big_play_button,.plb-btn,article-playbutton > div {color-scheme:only light !important;} 
+bandcamp.com#$#.inline_player .progbar_fill {background-color: #bb9f9f66 !important;}
 ##.gHhSUG.pycp4o-1
 kotaku.com##.cICFzA.bxm4mm-5
 independent.co.uk##.iesdCe.sc-pBjRv
