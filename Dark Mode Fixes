@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Mode Fixes
 // @namespace    http://tampermonkey.net/
-// @version      1.003
+// @version      1.004
 // @description  Custom CSS changes for multiple websites
 // @author       cremasterjedi
 // @match        https://www.wsj.com/*
@@ -44,6 +44,7 @@
 // @match        https://translate.google.com/*
 // @match        https://www.vulture.com/*
 // @match        https://en.wikipedia.org/*
+// @run-at       document-end
 // @grant        GM_addStyle
 // ==/UserScript==
 
