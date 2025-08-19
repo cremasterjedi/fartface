@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Mode Fixes
 // @namespace    http://tampermonkey.net/
-// @version      1.001
+// @version      1.002
 // @description  Custom CSS changes for multiple websites
 // @author       cremasterjedi
 // @match        https://www.wsj.com/*
@@ -106,7 +106,6 @@ div[id*="fav_addnote"]{filter:invert(1);}
     }
 
 if (window.location.hostname.endsWith("bandcamp.com")) {
-    window.addEventListener('load', function() {
         GM_addStyle(`
 .inline_player .prevbutton, .inline_player .nextbutton {background: transparent url(/img/nextprevinvert.png) no-repeat 0 0;background-size: 40px 12px}
 
@@ -120,7 +119,6 @@ if (window.location.hostname.endsWith("bandcamp.com")) {
 
 #big_play_button:hover{background: #fff !important;}
         `);
-       }); 
     }
 
 if (window.location.hostname === "discord.com" || window.location.hostname === "app.plex.tv" || window.location.hostname === "www.youtube.com" || window.location.hostname === "youtube-nocookie.com" || window.location.hostname === "music.youtube.com" || window.location.hostname === "pocketcasts.com" || window.location.hostname === "open.spotify.com" || window.location.hostname === "hyperbeam.com" || window.location.hostname === "calendar.google.com" || window.location.hostname === "www.redgifs.com" || window.location.hostname === "xhamster.com" || window.location.hostname === "youtube.googleapis.com" || window.location.hostname === "drive.google.com" || window.location.hostname === "www.tiktok.com" || window.location.hostname === "www.notion.so" || window.location.hostname === "letterboxd.com") {
