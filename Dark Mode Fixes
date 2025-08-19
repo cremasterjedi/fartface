@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Mode Fixes
 // @namespace    http://tampermonkey.net/
-// @version      1.002
+// @version      1.003
 // @description  Custom CSS changes for multiple websites
 // @author       cremasterjedi
 // @match        https://www.wsj.com/*
@@ -13,6 +13,8 @@
 // @match        https://*.ytmnd.com/*
 // @match        https://bandcamp.com/*
 // @match        https://*.bandcamp.com/*
+// @match       *://bandcamp.com/EmbeddedPlayer*
+// @match       *://*.bandcamp.com/EmbeddedPlayer*
 // @match        https://discord.com/*
 // @match        https://app.plex.tv/*
 // @match        https://www.youtube.com/*
@@ -105,7 +107,7 @@ div[id*="fav_addnote"]{filter:invert(1);}
         `);
     }
 
-if (window.location.hostname.endsWith("bandcamp.com")) {
+if (location.hostname.endsWith("bandcamp.com") && (location.pathname.startsWith("/EmbeddedPlayer") || true)) {
         GM_addStyle(`
 .inline_player .prevbutton, .inline_player .nextbutton {background: transparent url(/img/nextprevinvert.png) no-repeat 0 0;background-size: 40px 12px}
 
