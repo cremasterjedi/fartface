@@ -1,6 +1,6 @@
 ! Title: Desktop Block
 ! 1 hour
-! Version: 1.005
+! Version: 1.006
 
 ! Dark Mode Fixes
 bandcamp.com#$#.info #prevnext {filter: invert(1) !important;} 
@@ -9,6 +9,7 @@ bandcamp.com#$#.inline_player .thumb,.inline_player .playbutton,.track_list .pla
 bandcamp.com#$#.inline_player .progbar_fill {background-color: #bb9f9f66 !important;}
 app.plex.tv#$#:root {color-scheme: only light !important;}
 www.youtube-nocookie.com#$#div[class*="html5-video-player"]{color-scheme:only light !important;}
+thequietus.com#$##CookiebotWidget{color-scheme:only light !important;]
 
 ##.gHhSUG.pycp4o-1
 kotaku.com##.cICFzA.bxm4mm-5
