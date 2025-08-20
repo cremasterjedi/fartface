@@ -1,5 +1,5 @@
 ! Title: Mobile Block
-! Version: 1.004
+! Version: 1.005
 
 ! Bandcamp Embed Styling
 bandcamp.com#$#.info #prevnext {filter: invert(1) !important;} 
@@ -8,6 +8,7 @@ bandcamp.com#$#.inline_player .thumb,.inline_player .playbutton,.track_list .pla
 bandcamp.com#$#.inline_player .progbar_fill {background-color: #bb9f9f66 !important;}
 app.plex.tv#$#:root {color-scheme: only light !important;}
 www.youtube-nocookie.com#$#div[class*="html5-video-player"]{color-scheme:only light !important;}
+thequietus.com#$##CookiebotWidget{color-scheme:only light !important;]
 
 ! 2021-07-23 https://reason.com
 reason.com##body > .ad-container.container > .ad-height-desktop-250.ad-height-mobile-250.advertisement
