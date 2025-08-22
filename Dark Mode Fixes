@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dark Mode Fixes
 // @namespace    http://tampermonkey.net/
-// @version      1.007
+// @version      1.008
 // @description  Custom CSS changes for multiple websites
 // @author       cremasterjedi
 // @match        https://www.wsj.com/*
@@ -88,7 +88,7 @@ if (window.location.hostname === "apnews.com" || window.location.hostname === "w
 
 if (window.location.hostname === "www.metal-archives.com") {
         GM_addStyle(`
-//:root {color-scheme: only light !important;}
+body {color-scheme: only light !important;}
 a{color: #f4b8b8;}
         `);
     }
