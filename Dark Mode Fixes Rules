@@ -3,7 +3,7 @@
 ! Version: 1.000
 
 ! Only Light
-app.plex.tv#$#:root {color-scheme: only light !important;}
+app.plex.tv#$#:root{color-scheme: only light !important;}
 bandcamp.23video.com#$##player{color-scheme:only light !important;}
 calendar.google.com#$#:root{color-scheme: only light !important;}
 discord.com#$#:root{color-scheme: only light !important;}
