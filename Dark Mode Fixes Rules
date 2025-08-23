@@ -1,0 +1,103 @@
+! Title: Dark Mode Fixes Rules
+! 1 hour
+! Version: 1.000
+
+! Only Light
+app.plex.tv#$#:root {color-scheme: only light !important;}
+bandcamp.23video.com#$##player{color-scheme:only light !important;}
+calendar.google.com#$#:root{color-scheme: only light !important;}
+discord.com#$#:root{color-scheme: only light !important;}
+drive.google.com#$#:root{color-scheme: only light !important;}
+www.erome.com#$#body{color-scheme: only light !important;}
+hyperbeam.com#$#:root{color-scheme: only light !important;}
+letterboxd.com#$#:root{color-scheme: only light !important;}
+music.youtube.com#$#:root{color-scheme: only light !important;}
+www.notion.so#$#:root{color-scheme: only light !important;}
+open.spotify.com#$#:root{color-scheme: only light !important;}
+pocketcasts.com#$#:root{color-scheme: only light !important;}
+www.redgifs.com#$#.Wrapper{color-scheme: only light !important;}
+www.tiktok.com#$#:root{color-scheme: only light !important;}
+xhamster.com#$#:root{color-scheme: only light !important;}
+www.youtube.com#$#:root{color-scheme: only light !important;}
+www.youtube-nocookie.com#$#div[class*="html5-video-player"]{color-scheme:only light !important;}
+youtube.googleapis.com#$#:root{color-scheme: only light !important;}
+
+! Amazon
+www.amazon.com#$#div[class*="_p13n-desktop-sims-fbt_fbt-desktop_image-background"]{background-color: #c3c3c3 !important;}
+www.amazon.com#$#div[class*="quadrantImageContainer"],div[class*="new-detail-faceout-box"] div[class*="image-background"],div[class*="missionImageContainer"]{background: #cdcdcd !important;}
+www.amazon.com#$#img[alt*="Digital Music"],img[class*="amazon-music-logo-badge"],#sw-gtc .a-button-text,span[data-action="ewc-delete-item"] .a-button-inner,button[data-action="a-stepper-increment"],button[data-action="a-stepper-decrement"],span[class*="rpi-icon"]{filter:invert(1) !important;}
+
+! AP News
+www.apnews.com#$#.Page-header-bar-logo{color-scheme:only light !important;}
+apnews.com#$#.Page-header-bar-logo{color-scheme:only light !important;}
+
+! Bandcamp
+bandcamp.com#$#.inline_player .prevbutton, .inline_player .nextbutton {background-size: 40px 12px !important;}
+bandcamp.com#$#.inline_player .nextbutton {background-position: 100% 0 !important;}
+bandcamp.com#$#.info #prevnext {filter: invert(1) !important;}
+bandcamp.com#$##big_play_button:hover{background: #fff !important;}
+bandcamp.com#$#.inline_player .thumb,.inline_player .playbutton,.track_list .play_status,#big_play_button,.plb-btn,article-playbutton > div {color-scheme:only light !important;}
+bandcamp.com#$#.inline_player .progbar_fill {background-color: #bb9f9f66 !important;}
+
+! CNN
+www.cnn.com#$#.container__headline,.zone__title-url,h2[class*="zone__title"],a[class*="zone__title"]{color: #ffffff !important;}
+www.cnn.com#$#.container__title:not(.container__title--emphatic,.container__title--underscored,.container__title--bold,.container__title--bulleted-headlines,.container_bulleted-headlines__title).container__title-text,.container__title:not(.container__title--emphatic,.container__title--underscored,.container__title--bold,.container__title--bulleted-headlines,.container_bulleted-headlines__title).container__title_url-text{border-left: 6px solid #ffffff !important;}
+www.cnn.com#$#div[class*="container_ribbon__carousel-button"],.container__video-duration{filter:invert(1) !important;}
+
+! Discogs
+www.discogs.com#$#.expanded_2iYYq {background: #858585 !important;}
+www.discogs.com#$#.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{filter:invert(1) !important;}
+www.discogs.com#$#.navigation, .app-store-badge, .link_1ctor>img, .apps_nFqip img{color-scheme:only light !important;}
+
+! Gmail
+mail.google.com#$#:root, .aZ6::-webkit-scrollbar-thumb,#\:1fa{color-scheme:only light !important;}
+mail.google.com#$#.Nu.S3.aZ6,.nH.bkK,.J-M.J-M-ayU.Ft,.J-M.aX0.aYO.jQjAxd,.J-M.agd.aYO.jQjAxd.aX2{color-scheme:auto !important;}
+mail.google.com#$#.ajz,.c4.aA,div[class^="tl"],.aiC,.gW{filter:invert(1) !important;}
+
+! Google Chat
+chat.google.com#$#:root{color-scheme:only light !important;}
+chat.google.com#$#.nH.bkK{color-scheme:auto !important;}
+
+! Google Contacts
+contacts.google.com#$#:root{color-scheme:auto !important;}
+contacts.google.com#$#.f3n4ge{color-scheme:dark !important;}
+
+! Google Translate
+translate.google.com#$#.ita-kd-inputtools-div,.vk-t-btn.vk-sf-cl, .vk-cap.vk-sf-b.vk-sf-c16,.vk-cap.vk-sf-b.vk-sf-c20,.vk-cap.vk-sf-b.vk-sf-c8,.ita-kd-menuitem .ita-kd-checkbox,.ita-kd-menuitem-inputtool-icon {filter:invert(1) !important;}
+
+! Metal Archives
+www.metal-archives.com#$#body{color-scheme: only light !important;}
+www.metal-archives.com#$#a:not(a:visited){color: #f4b8b8 !important;}
+
+! NYPost
+nypost.com#$#.site-header__logo,.site-footer__logo,.breaking-news,h2[class*="sports-plus"],li[class*="sports-plus-logo"],.widget--sports-plus-columnists a.widget__logo,.flag--stamp--exclusive{color-scheme:only light !important;}
+
+! The Cut
+www.thecut.com#$#path.svg-whitebox{fill:#0000 !important}
+
+! The Quietus
+thequietus.com#$##CookiebotWidget{color-scheme:only light !important;}
+
+! Vulture
+www.vulture.com#$#div.show-more-wrap,div.collection-simple-svg-title,div.read-more-svg,div.arrows-container,div.social-section,div.social-search,button.nav-dropdown-button-trigger span.hamburger,button.nav-dropdown-button-trigger span.close-x {color-scheme:only light !important;}
+www.vulture.com#$#div.recap-navigation-header g path,span.show-more-text {filter:invert(1) !important;}
+
+! Wikipedia
+en.wikipedia.org#$#.skin-invert-image img, html.skin-theme-clientpref-night .skin-invert, html.skin-theme-clientpref-night .oo-ui-iconElement-icon:not(.oo-ui-image-progressive):not(.oo-ui-image-destructive):not(.oo-ui-checkboxInputWidget-checkIcon):not(.oo-ui-image-invert):not(.mw-no-invert), html.skin-theme-clientpref-night .oo-ui-indicatorElement-indicator {color-scheme: dark !important;}
+en.wikipedia.org#$#img[src*="Black_x"]{filter:invert(1) !important;}
+
+! WSJ
+www.wsj.com#$#div[class*="scrubBackground"],div[class*="scrubProgress"],div.video-volume-h,div.video-volume-v,div[class*="g-artboard"] div[class*="g-aiPointText"],div[class*="g-artboard"] div[class*="g-aiAbs"]{color-scheme:only light !important;}
+www.wsj.com#$#button[class*="BackToTopButton"]{background-color: darkslategray !important;}
+
+! YTMND
+www.ytmnd.com#$#body{background-image: none !important;}
+www.ytmnd.com#$#div#container{background-image: none !important;}
+www.ytmnd.com#$##header,#main,#footer {background-color: rgb(0 0 0) !important;}
+www.ytmnd.com#$#.site_link,div[class*="magic card"] div {color: rgb(255 0 0) !important;}
+www.ytmnd.com#$#div[id*="fav_addnote"]{filter:invert(1) !important;}
+ytmnd.com#$#body{background-image: none !important;}
+ytmnd.com#$#div#container{background-image: none !important;}
+ytmnd.com#$##header,#main,#footer {background-color: rgb(0 0 0) !important;}
+ytmnd.com#$#.site_link,div[class*="magic card"] div {color: rgb(255 0 0) !important;}
+ytmnd.com#$#div[id*="fav_addnote"]{filter:invert(1) !important;}
