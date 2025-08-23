@@ -1,0 +1,33 @@
+// ==UserScript==
+// @name         Dark Mode Fixes Simple
+// @namespace    http://tampermonkey.net/
+// @version      1.000
+// @description  Custom CSS changes for multiple websites
+// @author       cremasterjedi
+// @match        https://bandcamp.com/*
+// @match        https://*.bandcamp.com/*
+// @match        https://www.google.com/maps*
+// @match        https://google.com/maps*
+// @grant        GM_addStyle
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Site-specific styles
+
+if (location.hostname.endsWith("bandcamp.com")) {
+        GM_addStyle(`
+.inline_player .prevbutton, .inline_player .nextbutton {background: transparent url(/img/nextprevinvert.png) no-repeat 0 0;background-size: 40px 12px;}
+        `);
+    }
+
+if (window.location.hostname.endsWith("google.com") && window.location.pathname.startsWith("/maps")) {
+        GM_addStyle(`
+div[class*="pane-open-mode"]:not(div[class*="app-imagery-mode"]) .id-scene{filter: invert(100%) hue-rotate(0.4turn) !important;}
+#gbwa{filter:invert(1) !important;}
+button[aria-label="Expand"],button[aria-label="Minimize"]{color-scheme:dark;}
+        `);
+    }
+
+})();
