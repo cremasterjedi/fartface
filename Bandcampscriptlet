@@ -1,9 +1,12 @@
-{
-  "resources": {
-    "Bandcampscriptlet.js": {
-      "alias": "Bandcampscriptlet",
-      "dependencies": [],
-      "content": "(() => { console.log('Hello from my custom scriptlet!'); })();"
-    }
-  }
+"Bandcampscriptlet.js": {
+  "alias": "Bandcampscriptlet",
+  "dependencies": [],
+  "content": "(() => { \
+      const style = document.createElement('style'); \
+      style.textContent = `.inline_player .prevbutton, .inline_player .nextbutton { \
+          background: transparent url(/img/nextprevinvert.png) no-repeat 0 0 !important; \
+          background-size: 40px 12px !important; \
+      }`; \
+      document.head.appendChild(style); \
+  })();"
 }
