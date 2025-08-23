@@ -1,0 +1,9 @@
+{
+  "resources": {
+    "Bandcampscriptlet.js": {
+      "alias": "Bandcampscriptlet",
+      "dependencies": [],
+      "content": "(() => { console.log('Hello from my custom scriptlet!'); })();"
+    }
+  }
+}
