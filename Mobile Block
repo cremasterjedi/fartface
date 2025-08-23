@@ -1,14 +1,5 @@
 ! Title: Mobile Block
-! Version: 1.006
-
-! Bandcamp Embed Styling
-bandcamp.com#$#.info #prevnext {filter: invert(1) !important;} 
-bandcamp.com#$##big_play_button:hover{background: #fff !important;} 
-bandcamp.com#$#.inline_player .thumb,.inline_player .playbutton,.track_list .play_status,#big_play_button,.plb-btn,article-playbutton > div {color-scheme:only light !important;} 
-bandcamp.com#$#.inline_player .progbar_fill {background-color: #bb9f9f66 !important;}
-app.plex.tv#$#:root {color-scheme: only light !important;}
-www.youtube-nocookie.com#$#div[class*="html5-video-player"]{color-scheme:only light !important;}
-thequietus.com#$##CookiebotWidget{color-scheme:only light !important;}
+! Version: 1.007
 
 ! 2021-07-23 https://reason.com
 reason.com##body > .ad-container.container > .ad-height-desktop-250.ad-height-mobile-250.advertisement
