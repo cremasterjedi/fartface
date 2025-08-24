@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.000
+! Version: 1.001
 
 ! Only Light
 app.plex.tv#$#:root{color-scheme: only light !important;}
@@ -61,6 +61,10 @@ chat.google.com#$#.nH.bkK{color-scheme:auto !important;}
 ! Google Contacts
 contacts.google.com#$#:root{color-scheme:auto !important;}
 contacts.google.com#$#.f3n4ge{color-scheme:dark !important;}
+
+! Google Maps
+google.com#$#div[class*="pane-open-mode"]:not(div[class*="app-imagery-mode"]) .id-scene{filter: invert(100%) hue-rotate(0.4turn) !important;}
+google.com#$#button[aria-label="Expand"],button[aria-label="Minimize"]{color-scheme:dark;}
 
 ! Google Translate
 translate.google.com#$#.ita-kd-inputtools-div,.vk-t-btn.vk-sf-cl, .vk-cap.vk-sf-b.vk-sf-c16,.vk-cap.vk-sf-b.vk-sf-c20,.vk-cap.vk-sf-b.vk-sf-c8,.ita-kd-menuitem .ita-kd-checkbox,.ita-kd-menuitem-inputtool-icon {filter:invert(1) !important;}
