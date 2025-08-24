@@ -3,7 +3,7 @@
     "Bandcampscriptlet.js": {
       "alias": "Bandcampscriptlet",
       "dependencies": [],
-      "content": "(() => { const apply = () => { const style = document.createElement('style'); style.textContent = `.inline_player .prevbutton, .inline_player .nextbutton { background: transparent url(/img/nextprevinvert.png) no-repeat 0 0 !important; background-size: 40px 12px !important; }`; document.head.appendChild(style); }; if(document.head) apply(); else window.addEventListener('DOMContentLoaded', apply); })();"
+      "content": "(() => { const apply = () => { const style = document.createElement('style'); style.textContent = `.inline_player .prevbutton, .inline_player .nextbutton {background-image: url(/img/nextprevinvert.png) !important;}`; document.head.appendChild(style); }; if(document.head) apply(); else window.addEventListener('DOMContentLoaded', apply); })();"
     }
   }
 }
