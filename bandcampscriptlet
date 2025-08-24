@@ -1,4 +1,4 @@
-/// bandcampscriptlet.js
+/// bandcampscriptlet
 (function() {
     document.head.appendChild(
         Object.assign(document.createElement("style"), {
