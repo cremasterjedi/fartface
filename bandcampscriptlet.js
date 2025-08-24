@@ -1,4 +1,3 @@
-// Scriptlet for uBlock Origin
 /// bandcampscriptlet.js
 (function() {
     document.head.appendChild(
