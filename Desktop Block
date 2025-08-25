@@ -1,6 +1,6 @@
 ! Title: Desktop Block
 ! 1 hour
-! Version: 1.008
+! Version: 1.009
 
 ##.gHhSUG.pycp4o-1
 kotaku.com##.cICFzA.bxm4mm-5
@@ -161,3 +161,4 @@ economist.com##._advert_1aj6h_1, ._incontent_1aj6h_11
 glamour.com,pitchfork.com#@#div[class^="ContentFooterNewsletterContentWrapper-"]
 kotaku.com##div:has(>[style*="712/logo.svg"])
 kotaku.com##section[class*="widget keleops-ad"]
+torontolife.com##.assmbly-ad-wrapper
