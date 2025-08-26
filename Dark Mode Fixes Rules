@@ -32,9 +32,9 @@ www.apnews.com#$#.Page-header-bar-logo{color-scheme:only light !important;}
 apnews.com#$#.Page-header-bar-logo{color-scheme:only light !important;}
 
 ! Bandcamp
-bandcamp.com#$#.inline_player .prevbutton, .inline_player .nextbutton {background-size: 40px 12px !important;}
-bandcamp.com#$#.inline_player .nextbutton {background-position: 100% 0 !important;}
-bandcamp.com#$#.info #prevnext {filter: invert(1) !important;}
+! bandcamp.com#$#.inline_player .prevbutton, .inline_player .nextbutton {background-size: 40px 12px !important;}
+! bandcamp.com#$#.inline_player .nextbutton {background-position: 100% 0 !important;}
+! bandcamp.com#$#.info #prevnext {filter: invert(1) !important;}
 bandcamp.com#$##big_play_button:hover{background: #fff !important;}
 bandcamp.com#$#.inline_player .thumb,.inline_player .playbutton,.track_list .play_status,#big_play_button,.plb-btn,article-playbutton > div {color-scheme:only light !important;}
 bandcamp.com#$#.inline_player .progbar_fill {background-color: #bb9f9f66 !important;}
