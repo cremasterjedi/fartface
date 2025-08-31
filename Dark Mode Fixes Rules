@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.006
+! Version: 1.007
 
 ! Only Light
 app.plex.tv#$#:root{color-scheme: only light !important;}
@@ -108,3 +108,7 @@ ytmnd.com#$#div#container{background-image: none !important;}
 ytmnd.com#$##header,#main,#footer {background-color: rgb(0 0 0) !important;}
 ytmnd.com#$#.site_link,div[class*="magic card"] div {color: rgb(255 0 0) !important;}
 ytmnd.com#$#div[id*="fav_addnote"]{filter:invert(1) !important;}
+
+! Other Stuff
+mashable.com#$##euSMf1FbiNs11{display:none !important}
+abcnews.go.com#$#.navLogo{filter:invert(1) !important}
