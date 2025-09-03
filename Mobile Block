@@ -1,5 +1,5 @@
 ! Title: Mobile Block
-! Version: 1.010
+! Version: 1.011
 
 ! 2021-07-23 https://reason.com
 reason.com##body > .ad-container.container > .ad-height-desktop-250.ad-height-mobile-250.advertisement
@@ -1509,3 +1509,4 @@ www.wsj.com##div.css-c54t2t
 torontolife.com##.assmbly-ad-wrapper
 nysun.com##.mr-\[-50vw\]
 mashable.com##section.mt-4
+www.5280.com##div[id*="in-article-ad"]
