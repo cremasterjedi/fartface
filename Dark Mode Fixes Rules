@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.008
+! Version: 1.009
 
 ! Only Light
 app.plex.tv#$#:root{color-scheme: only light !important;}
@@ -75,6 +75,9 @@ translate.google.com#$#.ita-kd-inputtools-div,.vk-t-btn.vk-sf-cl, .vk-cap.vk-sf-
 ! Metal Archives
 www.metal-archives.com#$#body{color-scheme: only light !important;}
 www.metal-archives.com#$#a:not(a:visited){color: #f4b8b8 !important;}
+
+! Noema
+noemamag.com#$#.eos-logo--img,.eos-header__nav{filter:invert(1) !important;}
 
 ! NYPost
 nypost.com#$#.site-header__logo,.site-footer__logo,.breaking-news,h2[class*="sports-plus"],li[class*="sports-plus-logo"],.widget--sports-plus-columnists a.widget__logo,.flag--stamp--exclusive{color-scheme:only light !important;}
