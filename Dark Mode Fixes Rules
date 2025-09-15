@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0010
+! Version: 1.0011
 
 ! Only Light
 app.plex.tv#$#:root{color-scheme: only light !important;}
@@ -45,6 +45,9 @@ bandcamp.com#$#.inline_player .progbar_fill {background-color: #bb9f9f66 !import
 www.cnn.com#$#.container__headline,.zone__title-url,h2[class*="zone__title"],a[class*="zone__title"]{color: #ffffff !important;}
 www.cnn.com#$#.container__title:not(.container__title--emphatic,.container__title--underscored,.container__title--bold,.container__title--bulleted-headlines,.container_bulleted-headlines__title).container__title-text,.container__title:not(.container__title--emphatic,.container__title--underscored,.container__title--bold,.container__title--bulleted-headlines,.container_bulleted-headlines__title).container__title_url-text{border-left: 6px solid #ffffff !important;}
 www.cnn.com#$#div[class*="container_ribbon__carousel-button"],.container__video-duration{filter:invert(1) !important;}
+
+! Decibel
+www.decibelmagazine.com#$#body{background-image:none !important;}
 
 ! Discogs
 www.discogs.com#$#.expanded_2iYYq {background: #858585 !important;}
