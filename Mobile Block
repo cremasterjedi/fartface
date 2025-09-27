@@ -1,5 +1,5 @@
 ! Title: Mobile Block
-! Version: 1.013
+! Version: 1.014
 
 ! 2021-07-23 https://reason.com
 reason.com##body > .ad-container.container > .ad-height-desktop-250.ad-height-mobile-250.advertisement
@@ -1514,3 +1514,4 @@ www.wsj.com##div.e1cp7uwz8.css-1r56xm7
 www.politico.com##.md\:pt-\[1\.875rem\].sm\:pt-5.pt-\[2\.375rem\]
 www.politico.com##.ad--fixed-leaderboard-above.bgc--transparent
 www.theamericanconservative.com##.js-ad-footer.c-main-footer__ad-overlay
+artfulparent.com##.bottom.swp_floating_horizontal_wrapper.nc_wrapper
