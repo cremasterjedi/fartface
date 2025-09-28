@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0012
+! Version: 1.0013
 
 ! Only Light
 app.plex.tv#$#:root{color-scheme: only light !important;}
@@ -60,7 +60,7 @@ www.discogs.com#$#.navigation, .app-store-badge, .link_1ctor>img, .apps_nFqip im
 ! Gmail
 mail.google.com#$#:root, .aZ6::-webkit-scrollbar-thumb,#\:1fa{color-scheme:only light !important;}
 mail.google.com#$#.Nu.S3.aZ6,.nH.bkK,.J-M.J-M-ayU.Ft,.J-M.aX0.aYO.jQjAxd,.J-M.agd.aYO.jQjAxd.aX2{color-scheme:auto !important;}
-mail.google.com#$#.ajz,.c4.aA,div[class^="tl"],.aiC,.gW{filter:invert(1) !important;}
+mail.google.com#$#.ajz,.c4.aA,div[class^="tl"],.aiC,.gW,.FOBRw-I-ql-JX-O .FOBRw-ank-Rtc0Jf-ql-O{filter:invert(1) !important;}
 
 ! Google Chat
 chat.google.com#$#:root{color-scheme:only light !important;}
