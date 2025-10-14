@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules Ublock Style
 ! 1 hour
-! Version: 1.0001
+! Version: 1.0002
 
 ! Only Light
 app.plex.tv##:root:style(color-scheme: only light !important;)
@@ -21,6 +21,10 @@ xhamster.com##:root:style(color-scheme: only light !important;)
 www.youtube.com##:root:style(color-scheme: only light !important;)
 www.youtube-nocookie.com##div[class*="html5-video-player"]:style(color-scheme:only light !important;)
 youtube.googleapis.com##:root:style(color-scheme: only light !important;)
+
+! ABC News Go
+abcnews.go.com##.logoContainer:style(filter:invert(1) !important;)
+abcnews.go.com##.burgerContainer:style(filter:invert(1) !important;)
 
 ! Amazon
 www.amazon.com##div[class*="_p13n-desktop-sims-fbt_fbt-desktop_image-background"]:style(background-color: #c3c3c3 !important;)
