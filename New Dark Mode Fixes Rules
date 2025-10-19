@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0003
+! Version: 1.0004
 
 youtube.com,hyperbeam.com,bandcamp.23video.com,erome.com,plaza.one,app.plex.tv,pocketcasts.com,notion.so,discord.com,youtube.googleapis.com,pluto.tv,drive.google.com,mail.google.com#$#:root{color-scheme:only light !important;}
 metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com#$#body{color-scheme:only light !important;}
@@ -9,7 +9,7 @@ www.youtube-nocookie.com#$#div[class*="html5-video-player"]{color-scheme:only li
 *#$#img{color-scheme:only light !important;}
 *#$#.spcv_emptyStackLayout>svg{color-scheme:only light !important;}
 *#$#div[id*="vjs_video"]{color-scheme:only light !important}
-google.com#$#.MrEfLc{color-scheme:only light !important;}
+google.com#$#.MrEfLc,.yQsxXc{color-scheme:only light !important;}
 
 ! ABC News
 
@@ -78,8 +78,8 @@ futurism.com#$#.footer-logo-wrapper,img[class*="header-logo"]{filter:invert(1) !
 mail.google.com#$#.aia,body.Su,.VD{color-scheme:auto !important;}
 mail.google.com#$#.f.gW,.ajz,.aiz,.aiA,.hx .gH.bAm{filter:invert(1) !important;}
 mail.google.com#$#.zA:hover{box-shadow:none !important;}
-workspace.google.com#$#.hXYaJ{background-image:none !important;}
-workspace.google.com#$#.hXYaJ{background-color:blue !important;}
+google.com#$#.hXYaJ{background-image:none !important;}
+google.com#$#.hXYaJ{background-color:blue !important;}
 
 ! Google Chat
 
