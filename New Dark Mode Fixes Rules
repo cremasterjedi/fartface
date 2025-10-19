@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0002
+! Version: 1.0003
 
 youtube.com,hyperbeam.com,bandcamp.23video.com,erome.com,plaza.one,app.plex.tv,pocketcasts.com,notion.so,discord.com,youtube.googleapis.com,pluto.tv,drive.google.com,mail.google.com#$#:root{color-scheme:only light !important;}
 metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com#$#body{color-scheme:only light !important;}
@@ -75,9 +75,11 @@ futurism.com#$#.footer-logo-wrapper,img[class*="header-logo"]{filter:invert(1) !
 
 ! GMail
 
-mail.google.com#$#.aia,body.Su{color-scheme:auto !important;}
+mail.google.com#$#.aia,body.Su,.VD{color-scheme:auto !important;}
 mail.google.com#$#.f.gW,.ajz,.aiz,.aiA,.hx .gH.bAm{filter:invert(1) !important;}
 mail.google.com#$#.zA:hover{box-shadow:none !important;}
+mail.google.com#$#.hXYaJ{background-image:none !important;}
+mail.google.com#$#.hXYaJ{background-color:blue !important;}
 
 ! Google Chat
 
