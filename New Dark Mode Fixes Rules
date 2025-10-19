@@ -65,6 +65,10 @@ www.discogs.com#$#.expanded_2iYYq{background: #858585 !important;}
 www.discogs.com#$#.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{filter:invert(1) !important;}
 www.discogs.com#$#.navigation, .app-store-badge, .link_1ctor>img, .apps_nFqip img{color-scheme:only light !important;}
 
+! Fandom
+
+fandom.com#$#.MenuPanel-module_menuIconWrapper__maFkg,.global-navigation.anon,.global-action__item.register,.top-wikis-block__title-block,.top-wikis-block__explore-arrow,.newsletter__submit.wds-button,.sc-211341db-4.vblLL,.navigation-panel__close-button{color-scheme:only light !important}
+
 ! Futurism
 
 futurism.com#$#.footer-logo-wrapper,img[class*="header-logo"]{filter:invert(1) !important;}
