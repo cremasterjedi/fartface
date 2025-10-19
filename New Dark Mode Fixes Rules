@@ -174,7 +174,7 @@ wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only 
 
 ! WSJ
 
-wsj.com#$#div[class*="scrubBackground"],div[class*="scrubProgress"],div.video-volume-h,div.video-volume-v,div[class*="g-artboard"] div[class*="g-aiPointText"],div[class*="g-artboard"] div[class*="g-aiAbs"],div[data-sub_type="charts"]{color-scheme:only light !important;}
+wsj.com#$#div[class*="scrubBackground"],div[class*="scrubProgress"],div.video-volume-h,div.video-volume-v,div[class*="g-artboard"] div[class*="g-aiPointText"],div[class*="g-artboard"] div[class*="g-aiAbs"],div[data-sub_type="charts"],.css-zfrk0v-ImgWithLinkWrapper{color-scheme:only light !important;}
 wsj.com#$#img[alt="WSJ Logo"]{filter:invert(1) !important;}
 
 ! YTMND
