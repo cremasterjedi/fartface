@@ -78,8 +78,8 @@ futurism.com#$#.footer-logo-wrapper,img[class*="header-logo"]{filter:invert(1) !
 mail.google.com#$#.aia,body.Su,.VD{color-scheme:auto !important;}
 mail.google.com#$#.f.gW,.ajz,.aiz,.aiA,.hx .gH.bAm{filter:invert(1) !important;}
 mail.google.com#$#.zA:hover{box-shadow:none !important;}
-mail.google.com#$#.hXYaJ{background-image:none !important;}
-mail.google.com#$#.hXYaJ{background-color:blue !important;}
+workspace.google.com#$#.hXYaJ{background-image:none !important;}
+workspace.google.com#$#.hXYaJ{background-color:blue !important;}
 
 ! Google Chat
 
