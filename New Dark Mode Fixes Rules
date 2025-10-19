@@ -101,6 +101,10 @@ letterboxd.com/email/call-sheet#$?#body{color-scheme:auto !important;}
 
 mashable.com#$##euSMf1FbiNs11{display:none !important;}
 
+! Metal Archives
+
+metal-archives.com#$#a:not(a:visited){color: #f4b8b8 !important;}
+
 ! Mother Jones
 
 motherjones.com#$#a[href]{text-shadow:none !important;}
