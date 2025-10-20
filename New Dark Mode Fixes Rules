@@ -167,6 +167,7 @@ vulture.com#$#div.show-more-wrap,div.collection-simple-svg-title,div.read-more-s
 ! Wikipedia
 
 wikipedia.org#$#.grid.uls-menu.uls-narrow{color-scheme:auto !important;}
+wikipedia.org#$#html.skin-theme-clientpref-night .skin-invert{filter:invert(0) !important;}
 
 ! Wired
 
