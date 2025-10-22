@@ -20,7 +20,7 @@ abcnews.go.com#$#.Image.Logo.Logo__xxxl{color-scheme:auto !important;}
 
 amazon.com#$#div[class*="_p13n-desktop-sims-fbt_fbt-desktop_image-background"]{background-color: #c3c3c3 !important;}
 amazon.com#$#div[class*="quadrantImageContainer"],div[class*="new-detail-faceout-box"] div[class*="image-background"],div[class*="missionImageContainer"],div[class*="shop-by-carousel-desktop_image"]{background: #cdcdcd !important;}
-amazon.com#$#span[class*="flag"],.nav-action-inner,span:has(i[class*="a-icon-buynow"]),div[aria-label="Video Player"],#gw-sign-in-button,.a-button.a-button-primary,#nav-search-submit-text,.hmenu-close-icon,.hm-icon.nav-sprite,#nav-logo-sprites,#nav-packard-glow-loc-icon,.nav-cart-icon.nav-sprite,i[class*="icp-flyout-flag"],.nav-logo-base.nav-sprite,.a-button.a-button-oneclick.a-button-icon.onml-buy-now-button,span[class*="a-button-preorder"],a-icon.a-icon-alert{color-scheme:only light !important;}
+amazon.com#$#span[class*="flag"],.nav-action-inner,span:has(i[class*="a-icon-buynow"]),div[aria-label="Video Player"],#gw-sign-in-button,.a-button.a-button-primary,#nav-search-submit-text,.hmenu-close-icon,.hm-icon.nav-sprite,#nav-logo-sprites,#nav-packard-glow-loc-icon,.nav-cart-icon.nav-sprite,i[class*="icp-flyout-flag"],.nav-logo-base.nav-sprite,.a-button.a-button-oneclick.a-button-icon.onml-buy-now-button,span[class*="a-button-preorder"],a-icon.a-icon-alert,.side-menu-close-button{color-scheme:only light !important;}
 amazon.com#$#img[alt="Digital Music"],span[id*="share-button"]>.a-button-inner,span[id*="delete-button"]>.a-button-inner{filter:invert(1) !important;}
 
 ! Bandcamp
