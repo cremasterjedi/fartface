@@ -123,7 +123,7 @@ motherjones.com#$#a[href]{text-shadow:none !important;}
 
 ! New Yorker
 
-newyorker.com#$#img[src="/verso/static/thenewyorker-us/assets/logo-anniver-100.svg"]{filter:invert(1) !important}
+newyorker.com#$#img[src="/verso/static/thenewyorker-us/assets/logo-anniver-100.svg"]{filter: invert(1) hue-rotate(200deg) saturate(5); !important}
 
 ! Noema Mag
 
