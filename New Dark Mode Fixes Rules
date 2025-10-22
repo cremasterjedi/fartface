@@ -27,7 +27,7 @@ amazon.com#$#img[alt="Digital Music"],span[id*="share-button"]>.a-button-inner,s
 
 bandcamp.com#$##prevnext,.invertIconography .nextbutton,.invertIconography .prevbutton{filter:invert(1) !important;}
 bandcamp.com#$##big_play_button:hover{background: #fff !important;}
-bandcamp.com#$#.artlink,.inline_player .thumb,.inline_player .playbutton,.track_list .play_status,#big_play_button,.plb-btn,article-playbutton > div,.art.compact,.bc-ui2.you-own-this-icon,button[data-bind="click: addToCart"]{color-scheme:only light !important;}
+bandcamp.com#$#.artlink,.inline_player .thumb,.inline_player .playbutton,.track_list .play_status,#big_play_button,.plb-btn,article-playbutton > div,.art.compact,.bc-ui2.you-own-this-icon,button[data-bind="click: addToCart"],span[class*="flag-icon"]{color-scheme:only light !important;}
 bandcamp.com#$#.inline_player .progbar_fill{background-color: #bb9f9f66 !important;}
 bandcamp.com#$#.download-bottom-area{background:none !important;}
 
