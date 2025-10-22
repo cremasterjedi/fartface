@@ -121,6 +121,10 @@ metal-archives.com#$#a:not(a:visited){color: #f4b8b8 !important;}
 
 motherjones.com#$#a[href]{text-shadow:none !important;}
 
+! New York Daily News
+
+nydailynews.com#$#h1[class*="custom-logo"],div[class*="custom-logo"]{filter: invert(1) hue-rotate(180deg) saturate(5);}
+
 ! New Yorker
 
 newyorker.com#$#img[src="/verso/static/thenewyorker-us/assets/logo-anniver-100.svg"]{filter: invert(1) hue-rotate(180deg) saturate(5); !important}
