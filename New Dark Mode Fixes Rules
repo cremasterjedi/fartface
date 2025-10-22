@@ -133,6 +133,11 @@ noemamag.com#$#.eos-logo--img,.eos-header__nav{filter:invert(1) !important;}
 
 nypost.com#$#.site-header__logo,.site-footer__logo,.widget__logo,g,li[class*="sports-plus-logo"]{color-scheme:only light !important;}
 
+! Paypal
+
+paypal.com#$#.t8mu2h0.t8mu2h1.t8mu2h3,.tpceri0.tpceri1.tpceri4{filter:invert(1) !important;}
+paypal.com#$##main-title-img,#widgetContainer__heroEngagement{color-scheme:only light !important;}
+
 ! The Quietus
 
 thequietus.com#$##CookiebotWidget{color-scheme:only light !important;}
