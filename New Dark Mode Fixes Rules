@@ -143,6 +143,10 @@ paypal.com#$##main-title-img,#widgetContainer__heroEngagement{color-scheme:only 
 thequietus.com#$##CookiebotWidget{color-scheme:only light !important;}
 thequietus.com#$#.col.col-12.position-relative>a>img,.d-flex.align-items-center>a>img,.position-sticky>a>img{filter:invert(1) !important;}
 
+! Reason
+
+reason.com#$#.logo-header .logo{filter: invert(1) hue-rotate(180deg);}
+
 ! Stereogum
 
 stereogum.com#$#.menu-logo--black,.global-logo--black,.comments-section-link>img{color-scheme:auto !important;}
