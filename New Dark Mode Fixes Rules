@@ -102,7 +102,7 @@ theguardian.com#$#.inline-the-guardian-roundel.inline-logo{color-scheme:only lig
 
 ! Harpers
 
-harpers.org#$#a[class*="navbar-brand.logo"]{filter:invert(1) !important;}
+harpers.org#$#a[class*="navbar-brand logo"]{filter:invert(1) !important;}
 
 ! IMDB
 
