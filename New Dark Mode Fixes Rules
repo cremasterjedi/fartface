@@ -100,6 +100,10 @@ google.com/maps#$#.RLEGzd,.elNXIb{color-scheme:only light !important;}
 
 theguardian.com#$#.inline-the-guardian-roundel.inline-logo{color-scheme:only light !important;}
 
+! Harpers
+
+harpers.org#$#a[class*="navbar-brand.logo"]{filter:invert() !important;}
+
 ! IMDB
 
 imdb.com#$#a[aria-label="Home"],.euaRkO,.drawer__panelHeaderClose,.SUNXh,.jhgcVM,.footer__sign-in-button{color-scheme:only light !important;}
