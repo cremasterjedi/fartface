@@ -53,7 +53,7 @@ cnn.com#$#div[class*="container_ribbon__carousel-button"],.container__video-dura
 ! The Cut
 
 thecut.com#$#path.svg-whitebox{fill:#0000 !important;}
-thecut.com#$#.social-section,.social{color-scheme:only light !important;}
+thecut.com,curbed.com#$#.social-section,.social{color-scheme:only light !important;}
 
 ! Daily Mail
 
