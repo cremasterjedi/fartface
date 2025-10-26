@@ -80,7 +80,7 @@ futurism.com#$#.footer-logo-wrapper,img[class*="header-logo"]{filter:invert(1) !
 ! GMail
 
 mail.google.com#$#.aia,body.Su,.VD,.brC-brG-Jz-bBA.brC-brG-bsf{color-scheme:auto !important;}
-mail.google.com#$#.f.gW,.ajz,.aiz,.aiA,.hx .gH.bAm{filter:invert(1) !important;}
+mail.google.com#$#.f.gW,.ajz,.aiz,.aiA{filter:invert(1) !important;}
 mail.google.com#$#.zA:hover{box-shadow:none !important;}
 mail.google.com#$#.ajn.ajo{background-color:#000000 !important;}
 google.com#$#.hXYaJ{background-image:none !important;}
