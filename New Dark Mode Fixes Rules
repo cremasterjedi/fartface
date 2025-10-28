@@ -108,6 +108,10 @@ harpers.org#$#a[class*="navbar-brand logo"]{filter:invert(1) !important;}
 
 imdb.com#$#a[aria-label="Home"],.euaRkO,.drawer__panelHeaderClose,.SUNXh,.jhgcVM,.footer__sign-in-button{color-scheme:only light !important;}
 
+! Inoreader
+
+inoreader.com#$#iframe{color-scheme:auto !important;}
+
 ! Letterboxd
 
 letterboxd.com#$#.site-logo{color-scheme:only light !important;}
