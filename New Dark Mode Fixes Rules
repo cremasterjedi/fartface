@@ -147,7 +147,7 @@ nypost.com#$#.site-header__logo,.site-footer__logo,.widget__logo,g,li[class*="sp
 
 ! Paypal
 
-paypal.com#$#.t8mu2h0.t8mu2h1.t8mu2h3,.tpceri0.tpceri1.tpceri4{filter:invert(1) !important;}
+paypal.com#$#.t8mu2h0.t8mu2h1.t8mu2h3,.tpceri0.tpceri1.tpceri4,img[alt="PayPal Logo"],img[alt="PayPal"]{filter:invert(1) !important;}
 paypal.com#$##main-title-img,#widgetContainer__heroEngagement{color-scheme:only light !important;}
 
 ! The Quietus
