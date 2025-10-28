@@ -193,7 +193,7 @@ wikipedia.org#$#td[class*="table-"]{filter:invert(0) !important;}
 ! Wired
 
 wired.com#$#div[component="logo-clickable"]:not(div[class*="page-theme-inverted"] div[component="logo-clickable"]){filter:invert(1) !important;}
-wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only light !important}
+wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg,.c-player-info__progressbar{color-scheme:only light !important}
 
 ! WSJ
 
