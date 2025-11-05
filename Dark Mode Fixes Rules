@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0013
+! Version: 1.0014
 
 ! Only Light
 app.plex.tv#$#:root{color-scheme: only light !important;}
@@ -96,6 +96,10 @@ www.thecut.com#$#path.svg-whitebox{fill:#0000 !important}
 
 ! The Quietus
 thequietus.com#$##CookiebotWidget{color-scheme:only light !important;}
+
+! Stereogum
+
+stereogum.com#$#.spcv_emptyStackLayout>svg{color-scheme:only light !important;}
 
 ! Vulture
 www.vulture.com#$#div.show-more-wrap,div.collection-simple-svg-title,div.read-more-svg,div.arrows-container,div.social-section,div.social-search,button.nav-dropdown-button-trigger span.hamburger,button.nav-dropdown-button-trigger span.close-x {color-scheme:only light !important;}
