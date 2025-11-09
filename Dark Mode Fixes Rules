@@ -1,6 +1,8 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0015
+! Version: 1.0016
+
+*#$##openweb-comments{color-scheme:only light !important;}
 
 ! Only Light
 app.plex.tv,calendar.google.com,discord.com,erome.com,pluto.tv,chat.google.com,deltekenterprise.com,plaza.one,drive.google.com,hyperbeam.com,letterboxd.com,youtube.com,notion.so,pocketcasts.com,tiktok.com,xhamster.com,youtube.googleapis.com#$#:root{color-scheme: only light !important;}
