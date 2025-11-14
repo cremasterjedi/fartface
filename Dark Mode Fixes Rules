@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0016
+! Version: 1.0017
 
 *#$##openweb-comments{color-scheme:only light !important;}
 
@@ -11,6 +11,7 @@ www.cbsnews.com,contacts.google.com#$#:root{color-scheme: auto !important;}
 bandcamp.23video.com#$##player{color-scheme:only light !important;}
 www.redgifs.com#$#.Wrapper{color-scheme: only light !important;}
 www.youtube-nocookie.com#$#div[class*="html5-video-player"]{color-scheme:only light !important;}
+9to5google.com,gizmodo.com,stereogum.com#$#iframe{color-scheme:auto !important;}
 
 ! Amazon
 www.amazon.com#$#div[class*="_p13n-desktop-sims-fbt_fbt-desktop_image-background"]{background-color: #c3c3c3 !important;}
