@@ -1,5 +1,5 @@
 ! Title: Mobile Block
-! Version: 1.019
+! Version: 1.020
 
 ! 2021-07-23 https://reason.com
 reason.com##body > .ad-container.container > .ad-height-desktop-250.ad-height-mobile-250.advertisement
@@ -1525,3 +1525,4 @@ www.yahoo.com###_R_lk5clubsnm6fbH1_
 www.forbes.com##div.G9049W9y.SfBp78q9._58TEnws-.Sp8pK
 www.forbes.com##div._34sPE
 theatlantic.com##div [class*="BreakingNewsBar"]
+usatoday.com##div[data-t-l*="taboola"]
