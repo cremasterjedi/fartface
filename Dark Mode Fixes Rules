@@ -111,4 +111,4 @@ ytmnd.com#$#div[id*="fav_addnote"]{filter:invert(1) !important;}
 
 ! Other Stuff
 mashable.com#$##euSMf1FbiNs11{display:none !important}
-abcnews.go.com#$#.navLogo{filter:invert(1) !important}
+abcnews.go.com#$#.headerBar{filter:invert(1) !important}
