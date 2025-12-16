@@ -46,7 +46,7 @@ www.discogs.com#$#.swiper-pagination.swiper-pagination-clickable.swiper-paginati
 www.discogs.com#$#.navigation, .app-store-badge, .link_1ctor>img, .apps_nFqip img{color-scheme:only light !important;}
 
 ! Gamesradar
-gamesradar.com/totalfilm#$?#.shrink-0.my-auto.block{filter:invert(1);}
+gamesradar.com/totalfilm#$#.shrink-0.my-auto.block{filter:invert(1);}
 
 ! Gmail
 mail.google.com#$#:root, .aZ6::-webkit-scrollbar-thumb,#\:1fa{color-scheme:only light !important;}
