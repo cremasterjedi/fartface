@@ -1,89 +1,105 @@
 // ==UserScript==
-// @name         Robust Smart Dimmer
-// @version      1.4
+// @name         Non-Destructive Smart Dimmer
+// @version      1.6
 // @match        *://*/*
+// @run-at       document-start
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
 
-    const style = document.createElement('style');
-    style.innerHTML = `
-        html { transition: filter 0.4s ease-in-out !important; }
-        html.is-dimmed { filter: brightness(0.8) contrast(1.1) !important; background-color: #121212 !important; }
-        html.is-dimmed img, html.is-dimmed video { filter: brightness(1.2) contrast(0.9) !important; }
-        #dimmer-toggle {
-            position: fixed; bottom: 20px; right: 20px; z-index: 2147483647;
-            width: 40px; height: 40px; border-radius: 50%;
-            background: #333; color: white; cursor: pointer;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 20px; border: 2px solid #555; box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-        }
-        #dimmer-toggle.manual-on { background: #ffcc00; color: #000; }
-        #dimmer-toggle.manual-off { background: #555; color: #aaa; }
-    `;
-    document.head.appendChild(style);
+    const siteKey = `dimmer_pref_${window.location.host}`;
+    let userPref = localStorage.getItem(siteKey) || 'auto'; 
 
-    const siteKey = `dimmer_mode_${window.location.host}`; 
-    // Modes: null (auto), "force-on", "force-off"
-    let userMode = localStorage.getItem(siteKey); 
+    // Create a style element that we will update dynamically
+    const styleEl = document.createElement('style');
+    styleEl.id = 'smart-dimmer-styles';
+    
+    // We append to documentElement immediately so it exists before the body
+    document.documentElement.appendChild(styleEl);
 
-    const btn = document.createElement('div');
-    btn.id = 'dimmer-toggle';
-    btn.innerHTML = '💡';
-    document.body.appendChild(btn);
+    function getLuminance() {
+        // We check the computed style of the body or document
+        const target = document.body || document.documentElement;
+        const color = window.getComputedStyle(target).backgroundColor;
+        
+        // If the background is transparent (rgba 0,0,0,0), it defaults to white on most browsers
+        if (color === 'rgba(0, 0, 0, 0)' || color === 'transparent') return 1;
 
-    function getLuminance(el) {
-        if (!el) return 0;
-        const color = window.getComputedStyle(el).backgroundColor;
         const rgb = color.match(/\d+/g);
-        if (!rgb || rgb.length < 3) return 0;
-        return (0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]) / 255;
+        if (rgb && rgb.length >= 3) {
+            return (0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]) / 255;
+        }
+        return 1; // Default to bright if we can't tell
     }
 
-    function applyLogic() {
-        // 1. Priority: Manual Override
-        if (userMode === "force-on") {
-            document.documentElement.classList.add('is-dimmed');
-            btn.className = 'manual-on';
-            return;
-        }
-        if (userMode === "force-off") {
-            document.documentElement.classList.remove('is-dimmed');
-            btn.className = 'manual-off';
-            return;
-        }
+    function update() {
+        const isBright = getLuminance() > 0.82;
+        const shouldDim = (userPref === 'on') || (userPref === 'auto' && isBright);
 
-        // 2. Auto-Detection Logic
-        const bodyLum = getLuminance(document.body);
-        const docLum = getLuminance(document.documentElement);
-        const isBright = bodyLum > 0.8 || docLum > 0.8;
+        // We ONLY use filters here. No 'background-color' overrides.
+        const filterVal = shouldDim ? 'brightness(0.8) contrast(1.1)' : 'none';
+        const mediaFilter = shouldDim ? 'brightness(1.2) contrast(0.9)' : 'none';
 
-        if (isBright) {
-            document.documentElement.classList.add('is-dimmed');
-            btn.className = ''; // Default auto look
-        } else {
-            document.documentElement.classList.remove('is-dimmed');
-            btn.className = '';
-        }
+        styleEl.innerHTML = `
+            html { 
+                filter: ${filterVal} !important; 
+                transition: filter 0.4s ease !important;
+                /* Removed background-color override that caused blackouts */
+            }
+            img, video, canvas, [style*="background-image"] { 
+                filter: ${mediaFilter} !important; 
+            }
+            #dimmer-ui {
+                position: fixed; bottom: 20px; right: 20px; z-index: 2147483647;
+                width: 44px; height: 44px; border-radius: 50%;
+                background: ${userPref === 'on' ? '#ffcc00' : '#333'};
+                border: 2px solid white; cursor: pointer;
+                display: flex; align-items: center; justify-content: center;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.5); font-size: 20px;
+                transition: background 0.3s;
+            }
+        `;
     }
 
-    btn.onclick = () => {
-        if (userMode === "force-on") userMode = "force-off";
-        else if (userMode === "force-off") userMode = null;
-        else userMode = "force-on"; // Cycle: Auto -> On -> Off
-
-        localStorage.setItem(siteKey, userMode);
-        applyLogic();
+    // Toggle logic
+    const toggle = (e) => {
+        e.stopPropagation();
+        if (userPref === 'auto') userPref = 'on';
+        else if (userPref === 'on') userPref = 'off';
+        else userPref = 'auto';
+        
+        localStorage.setItem(siteKey, userPref);
+        update();
     };
 
-    // Fix for "Undo on Scroll": We use a debounce to prevent infinite loops
-    const observer = new MutationObserver(() => applyLogic());
-    observer.observe(document.body, { attributes: true, attributeFilter: ['style', 'class'] });
+    // Initialize UI and Observer
+    const init = () => {
+        if (!document.getElementById('dimmer-ui')) {
+            const btn = document.createElement('div');
+            btn.id = 'dimmer-ui';
+            btn.innerHTML = '💡';
+            btn.addEventListener('click', toggle);
+            document.body.appendChild(btn);
+        }
+        update();
+    };
 
-    // Fix for "Initial Load": Check multiple times as the page loads
-    applyLogic();
-    const loadCheck = setInterval(applyLogic, 500);
-    setTimeout(() => clearInterval(loadCheck), 4000); // Stop checking after 4s
+    // Monitor for changes (fixes the "Undo on scroll" issue)
+    const observer = new MutationObserver(() => update());
+    
+    if (document.readyState === 'loading') {
+        window.addEventListener('DOMContentLoaded', () => {
+            init();
+            observer.observe(document.documentElement, { attributes: true, subtree: true, attributeFilter: ['style', 'class'] });
+        });
+    } else {
+        init();
+        observer.observe(document.documentElement, { attributes: true, subtree: true, attributeFilter: ['style', 'class'] });
+    }
+
+    // Final fallback check for slow-loading themes
+    setTimeout(update, 1000);
+    setTimeout(update, 3000);
 })();
