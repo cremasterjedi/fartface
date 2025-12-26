@@ -1,15 +1,11 @@
 ! Title: New Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0006
+! Version: 1.0007
 
 youtube.com,hyperbeam.com,bandcamp.23video.com,erome.com,plaza.one,app.plex.tv,pocketcasts.com,notion.so,discord.com,youtube.googleapis.com,pluto.tv,drive.google.com,mail.google.com,deltekenterprise.com,tiktok.com#$#:root{color-scheme:only light !important;}
-metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com#$#body{color-scheme:only light !important;}
-redgifs.com#$#.Wrapper{color-scheme:only light !important;}
+metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,xhamster.com#$#body{color-scheme:only light !important;}
 www.youtube-nocookie.com#$#div[class*="html5-video-player"]{color-scheme:only light !important;}
-*#$#img{color-scheme:only light !important;}
-*#$#.spcv_emptyStackLayout>svg{color-scheme:only light !important;}
-*#$#div[id*="vjs_video"]{color-scheme:only light !important}
-google.com#$#.MrEfLc,.yQsxXc{color-scheme:only light !important;}
+*#$#img,#openweb-comments,div[id*="vjs_video"]{color-scheme:only light !important;}
 
 ! ABC News
 
@@ -20,20 +16,24 @@ abcnews.go.com#$#.Image.Logo.Logo__xxxl{color-scheme:auto !important;}
 
 amazon.com#$#div[class*="_p13n-desktop-sims-fbt_fbt-desktop_image-background"]{background-color: #c3c3c3 !important;}
 amazon.com#$#div[class*="quadrantImageContainer"],div[class*="new-detail-faceout-box"] div[class*="image-background"],div[class*="missionImageContainer"],div[class*="shop-by-carousel-desktop_image"]{background: #cdcdcd !important;}
-amazon.com#$#span[class*="flag"],.nav-action-inner,span:has(i[class*="a-icon-buynow"]),div[aria-label="Video Player"],#gw-sign-in-button,.a-button.a-button-primary,#nav-search-submit-text,.hmenu-close-icon,.hm-icon.nav-sprite,#nav-logo-sprites,#nav-packard-glow-loc-icon,.nav-cart-icon.nav-sprite,i[class*="icp-flyout-flag"],.nav-logo-base.nav-sprite,.a-button.a-button-oneclick.a-button-icon.onml-buy-now-button,span[class*="a-button-preorder"],a-icon.a-icon-alert,.side-menu-content,.side-menu-close-button{color-scheme:only light !important;}
-amazon.com#$#img[alt="Digital Music"],span[id*="share-button"]>.a-button-inner,span[id*="delete-button"]>.a-button-inner{filter:invert(1) !important;}
+amazon.com#$#span[class*="flag"],.nav-action-inner,span:has(i[class*="a-icon-buynow"]),div[aria-label="Video Player"],#gw-sign-in-button,.a-button.a-button-primary,#nav-search-submit-text,.hmenu-close-icon,.hm-icon.nav-sprite,#nav-logo-sprites,#nav-packard-glow-loc-icon,.nav-cart-icon.nav-sprite,i[class*="icp-flyout-flag"],.nav-logo-base.nav-sprite,.a-button.a-button-oneclick.a-button-icon.onml-buy-now-button,span[class*="a-button-preorder"],a-icon.a-icon-alert,.side-menu-content,.side-menu-close-button,.puis-play-button-contents>.aok-relative.aok-inline-block,#nav-tagline{color-scheme:only light !important;}
+amazon.com#$#img[alt="Digital Music"],span[id*="share-button"]>.a-button-inner,span[id*="delete-button"]>.a-button-inner,img[alt="Amazon Music"]{filter:invert(1) !important;}
+
+! Android Authority
+
+androidauthority.com#$#youtube-video{color-scheme:auto !important;}
 
 ! Bandcamp
 
 bandcamp.com#$##prevnext,.invertIconography .nextbutton,.invertIconography .prevbutton{filter:invert(1) !important;}
 bandcamp.com#$##big_play_button:hover{background: #fff !important;}
-bandcamp.com#$#.artlink,.inline_player .thumb,.inline_player .playbutton,.track_list .play_status,#big_play_button,.plb-btn,article-playbutton > div,.art.compact,.bc-ui2.you-own-this-icon,button[data-bind="click: addToCart"],span[class*="flag-icon"]{color-scheme:only light !important;}
+bandcamp.com#$#.artlink,.art,.inline_player .thumb,.inline_player .playbutton,.track_list .play_status,#big_play_button,.plb-btn,article-playbutton > div,.art.compact,.bc-ui2.you-own-this-icon,button[data-bind="click: addToCart"],span[class*="flag-icon"]{color-scheme:only light !important;}
 bandcamp.com#$#.inline_player .progbar_fill{background-color: #bb9f9f66 !important;}
 bandcamp.com#$#.download-bottom-area{background:none !important;}
 
 ! Best Buy
 
-bestbuy.com#$#div[style*="background-image"],a[style*="background-image"]{color-scheme:only light !important;}
+bestbuy.com#$#div[style*="background-image"],a[style*="background-image"],div[data-testid="hero-banner-wrapper"]{color-scheme:only light !important;}
 bestbuy.com#$#img[alt="My Best Buy Memberships logo"]{filter:invert(1) !important;}
 
 ! Blu Ray
@@ -49,11 +49,14 @@ cbsnews.com#$#:root{color-scheme:auto !important;}
 cnn.com#$#.container__headline,.zone__title-url,h2[class*="zone__title"],a[class*="zone__title"]{color: #ffffff !important;}
 cnn.com#$#.container__title:not(.container__title--emphatic,.container__title--underscored,.container__title--bold,.container__title--bulleted-headlines,.container_bulleted-headlines__title).container__title-text,.container__title:not(.container__title--emphatic,.container__title--underscored,.container__title--bold,.container__title--bulleted-headlines,.container_bulleted-headlines__title).container__title_url-text{border-left: 6px solid #ffffff !important;}
 cnn.com#$#div[class*="container_ribbon__carousel-button"],.container__video-duration-icon{filter:invert(1) !important;}
+cnn.com#$#img[alt="Streaming_Kicker_Desktop_large.png"]{color-scheme:auto !important;}
 
 ! The Cut
 
 thecut.com#$#path.svg-whitebox{fill:#0000 !important;}
 thecut.com,curbed.com#$#.social-section,.social,.social-search{color-scheme:only light !important;}
+thecut.com,curbed.com#$#.follow_circle-bordered.rss>.inactive,.follow_circle-bordered.instagram>.inactive{background-color:white !important;}
+thecut.com,curbed.com#$#.follow_circle-bordered.rss>.inactive,.follow_circle-bordered.instagram>.inactive{border-radius:20px !important;}
 
 ! Daily Mail
 
@@ -69,32 +72,33 @@ www.discogs.com#$#.navigation, .app-store-badge, .link_1ctor>img, .apps_nFqip im
 
 discord.com#$#.embedMedia__623de{color-scheme:auto !important;}
 
-! Fandom
-
-fandom.com#$#.MenuPanel-module_menuIconWrapper__maFkg,.wds-global-footer__links-list,.global-navigation.anon,.global-action__item.register,.top-wikis-block__title-block,.top-wikis-block__explore-arrow,.newsletter__submit.wds-button,.sc-211341db-4.vblLL,.navigation-panel__close-button{color-scheme:only light !important}
-
 ! Futurism
 
 futurism.com#$#.footer-logo-wrapper,img[class*="header-logo"]{filter:invert(1) !important;}
 
+! Gizmodo Video Player
+
+.not-prose.video-container{color-scheme:auto !important;}
+
 ! GMail
 
-mail.google.com#$#.aia,body.Su,.VD,.brC-brG-Jz-bBA.brC-brG-bsf{color-scheme:auto !important;}
-mail.google.com#$#.f.gW,.ajz,.aiz,.aiA{filter:invert(1) !important;}
+mail.google.com#$#.aia,body.Su,.VD,.brC-brG-Jz-bBA.brC-brG-bsf..nH.Hd{color-scheme:auto !important;}
+mail.google.com#$#.f.gW,.ajz,.aiz,.aiA,.FOBRw-ank-Rtc0Jf.FOBRw-ank-Rtc0Jf-ql-O{filter:invert(1) !important;}
 mail.google.com#$#.zA:hover{box-shadow:none !important;}
 mail.google.com#$#.ajn.ajo{background-color:#000000 !important;}
-google.com#$#.hXYaJ{background-image:none !important;}
-google.com#$#.hXYaJ{background-color:blue !important;}
-google.com#$#.UPJOje-bN97Pc{color-scheme:auto !important;}
+
+! Google
+
+.hXYaJ{background-image:none !important;}
+.hXYaJ{background-color:blue !important;}
+.UPJOje-bN97Pc{color-scheme:auto !important;}
+.MrEfLc,.yQsxXc{color-scheme:only light !important;}
+div[aria-label*="corresponding number key"],.obhoOb{filter: invert(100%) hue-rotate(0.4turn) !important;}
+.RLEGzd,.elNXIb{color-scheme:only light !important;}
 
 ! Google Chat
 
 mail.google.com/chat#$?#:root{color-scheme:auto !important;}
-
-! Google Maps
-
-google.com/maps#$#div[class*="pane-open-mode"]:not(div[class*="app-imagery-mode"]) .id-scene,.obhoOb{filter: invert(100%) hue-rotate(0.4turn) !important;}
-google.com/maps#$#.RLEGzd,.elNXIb{color-scheme:only light !important;}
 
 ! The Guardian
 
@@ -104,17 +108,17 @@ theguardian.com#$#.inline-the-guardian-roundel.inline-logo{color-scheme:only lig
 
 harpers.org#$#a[class*="navbar-brand logo"]{filter:invert(1) !important;}
 
+! Iframe fixes
+
+9to5google.com,gizmodo.com,inoreader.com,stereogum.com,kotaku.com#$#iframe{color-scheme:auto !important;}
+
 ! IMDB
 
 imdb.com#$#a[aria-label="Home"],.euaRkO,.drawer__panelHeaderClose,.SUNXh,.jhgcVM,.footer__sign-in-button{color-scheme:only light !important;}
 
-! Inoreader
-
-inoreader.com#$#iframe{color-scheme:auto !important;}
-
 ! Letterboxd
 
-letterboxd.com#$#.site-logo{color-scheme:only light !important;}
+letterboxd.com#$#.site-logo,.message,.tags,.ir.logo,.toggle.menuburger.-closed,.tag-link.-long{color-scheme:only light !important;}
 letterboxd.com/email/call-sheet#$?#body{color-scheme:auto !important;}
 
 ! Mashable
@@ -133,6 +137,11 @@ motherjones.com#$#a[href]{text-shadow:none !important;}
 
 nydailynews.com#$#h1[class*="custom-logo"],div[class*="custom-logo"]{filter: invert(1) hue-rotate(180deg) saturate(5);}
 
+! New York Magazine Media Player
+
+newsoveraudio.com#$#button[class*="default-play-button"],button[class*="default-pause-button"]{color-scheme:only light !important;}
+newsoveraudio.com#$#._f3y8jl{background-color:#ababab !important;}
+
 ! New Yorker
 
 newyorker.com#$#img[src="/verso/static/thenewyorker-us/assets/logo-anniver-100.svg"]{filter: invert(1) hue-rotate(180deg) saturate(5); !important}
@@ -147,8 +156,8 @@ nypost.com#$#.site-header__logo,.site-footer__logo,.widget__logo,g,li[class*="sp
 
 ! Paypal
 
-paypal.com#$#.t8mu2h0.t8mu2h1.t8mu2h3,.tpceri0.tpceri1.tpceri4,img[alt="PayPal Logo"],img[alt="PayPal"]{filter:invert(1) !important;}
-paypal.com#$##main-title-img,#widgetContainer__heroEngagement{color-scheme:only light !important;}
+paypal.com#$#.t8mu2h0.t8mu2h1.t8mu2h3,.tpceri0.tpceri1.tpceri4,.logo-ticker-section-logos-container{filter:invert(1) !important;}
+paypal.com#$##main-title-img,#widgetContainer__heroEngagement,._pypl-logo-wrapper_1wzpj_1818.undefined._paypal-logo-desktop_1wzpj_2576._paypal-logo-mobile_1wzpj_2605{color-scheme:only light !important;}
 
 ! The Quietus
 
@@ -159,10 +168,10 @@ thequietus.com#$#.col.col-12.position-relative>a>img,.d-flex.align-items-center>
 
 reason.com#$#.logo-header .logo{filter: invert(1) hue-rotate(180deg);}
 
-! Stereogum
+! Redgifs
 
-stereogum.com#$#.menu-logo--black,.global-logo--black,.comments-section-link>img{color-scheme:auto !important;}
-stereogum.com#$#.spcv_emptyStackLayout>svg{color-scheme:only light !important;}
+redgifs.com#$#body{color-scheme:only light !important;}
+redgifs.com#$#.App.nav.desktop{--app-height:100%;}
 
 ! Tailscale
 
@@ -177,23 +186,19 @@ techcrunch.com#$#.rightrail-promo__logo{background-color:white !important;}
 
 theverge.com#$#.bx-align{color-scheme:only light !important;}
 
-! Vimeo
-
-player.vimeo.com#$#body{color-scheme:only light !important;}
-
 ! Vulture
 
-vulture.com#$#div.show-more-wrap,div.collection-simple-svg-title,div.read-more-svg,div.arrows-container,div.social-section,div.social-search,button.nav-dropdown-button-trigger span.hamburger,button.nav-dropdown-button-trigger span.close-x{color-scheme:only light !important;}
+vulture.com#$#div.show-more-wrap:not(.collection-articles_4-upcircles .show-more-wrap),div.collection-simple-svg-title,div.read-more-svg,div.arrows-container,div.social-section,div.social-search,button.nav-dropdown-button-trigger span.hamburger,button.nav-dropdown-button-trigger span.close-x{color-scheme:only light !important;}
 
 ! Wikipedia
 
-wikipedia.org#$#.grid.uls-menu.uls-narrow{color-scheme:auto !important;}
-wikipedia.org#$#td[class*="table-"]{filter:invert(0) !important;}
+wikipedia.org#$#.infobox-image img{background-color:white !important;}
+wikipedia.org#$#html.skin-theme-clientpref-night .skin-invert-image img, html.skin-theme-clientpref-night .skin-invert, html.skin-theme-clientpref-night .oo-ui-iconElement-icon:not(.oo-ui-image-progressive):not(.oo-ui-image-destructive):not(.oo-ui-checkboxInputWidget-checkIcon):not(.oo-ui-image-invert):not(.mw-no-invert), html.skin-theme-clientpref-night .oo-ui-indicatorElement-indicator{color-scheme: dark !important;}
 
 ! Wired
 
 wired.com#$#div[component="logo-clickable"]:not(div[class*="page-theme-inverted"] div[component="logo-clickable"]){filter:invert(1) !important;}
-wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg,.c-player-info__progressbar{color-scheme:only light !important}
+wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only light !important}
 
 ! WSJ
 
