@@ -1,0 +1,74 @@
+// ==UserScript==
+// @name         Smooth Dynamic Dimmer with Transitions
+// @namespace    http://tampermonkey.net/
+// @version      1.2
+// @description  Dims bright websites with a smooth fade and protects image contrast.
+// @author       Assistant
+// @match        *://*/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // 1. Inject the styles with Transition support
+    const style = document.createElement('style');
+    style.innerHTML = `
+        /* Smooth transition for the whole page */
+        html {
+            transition: filter 0.5s ease-in-out !important;
+        }
+
+        /* The dimming state */
+        html.is-too-bright {
+            filter: brightness(0.85) contrast(1.1) !important;
+        }
+
+        /* Smooth transition for media elements */
+        html img, html video, html canvas {
+            transition: filter 0.5s ease-in-out !important;
+        }
+
+        /* Anti-dimming for media */
+        html.is-too-bright img, 
+        html.is-too-bright video, 
+        html.is-too-bright canvas {
+            filter: brightness(1.18) contrast(0.9) !important;
+        }
+    `;
+    document.head.appendChild(style);
+
+    // 2. Logic to calculate luminance
+    function checkBrightness() {
+        // Use default 'white' if body style isn't loaded yet
+        const bgColor = window.getComputedStyle(document.body).backgroundColor;
+        const rgb = bgColor.match(/\d+/g);
+        
+        if (rgb && rgb.length >= 3) {
+            // Standard Luminance Formula
+            const l = (0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]) / 255;
+            
+            if (l > 0.82) { // Threshold: 1.0 is pure white, 0.0 is black
+                document.documentElement.classList.add('is-too-bright');
+            } else {
+                document.documentElement.classList.remove('is-too-bright');
+            }
+        }
+    }
+
+    // 3. Watch for dynamic changes (Theme toggles, lazy-loading)
+    const observer = new MutationObserver(() => {
+        checkBrightness();
+    });
+
+    // Start observing when the body is available
+    if (document.body) {
+        observer.observe(document.body, { attributes: true, attributeFilter: ['style', 'class'] });
+        checkBrightness();
+    } else {
+        window.addEventListener('DOMContentLoaded', () => {
+            observer.observe(document.body, { attributes: true, attributeFilter: ['style', 'class'] });
+            checkBrightness();
+        });
+    }
+})();
