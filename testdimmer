@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Punch-Through Smart Dimmer
-// @version      1.8
+// @name         Draggable Punch-Through Dimmer
+// @version      1.9
 // @match        *://*/*
 // @grant        none
 // ==/UserScript==
@@ -8,97 +8,114 @@
 (function() {
     'use strict';
 
+    // 1. Storage & State
     const siteKey = `dimmer_pref_${window.location.host}`;
+    const posKey = 'dimmer_ui_pos';
     let userPref = localStorage.getItem(siteKey) || 'auto';
+    let opacity = localStorage.getItem('dimmer_opacity') || '0.35';
 
-    // 1. Setup the "Holey" Shield
+    // 2. Setup Shield & UI
     const shield = document.createElement('div');
     shield.id = 'dimmer-shield';
     shield.style.cssText = `
         position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
-        background: rgba(0, 0, 0, 0.35);
+        background: rgba(0, 0, 0, ${opacity});
         pointer-events: none; z-index: 2147483646;
-        display: none; transition: opacity 0.3s;
-        /* This is the magic: it hides the overlay where the mask is white */
-        mask-image: none; -webkit-mask-image: none;
+        display: none; -webkit-mask-composite: destination-out;
     `;
     document.documentElement.appendChild(shield);
 
-    // 2. CSS for UI
-    const style = document.createElement('style');
-    style.innerHTML = `
-        #dimmer-ui {
-            position: fixed; bottom: 20px; right: 20px; z-index: 2147483647;
-            width: 44px; height: 44px; border-radius: 50%;
-            background: #333; border: 2px solid white; cursor: pointer;
-            display: flex; align-items: center; justify-content: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.5); font-size: 20px;
-        }
-        #dimmer-ui.active { background: #ffcc00; }
+    const container = document.createElement('div');
+    container.id = 'dimmer-controls';
+    const savedPos = JSON.parse(localStorage.getItem(posKey) || '{"bottom":"20px","right":"20px"}');
+    Object.assign(container.style, {
+        position: 'fixed', zIndex: '2147483647', padding: '10px',
+        background: '#333', border: '1px solid #555', borderRadius: '12px',
+        display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px',
+        boxShadow: '0 4px 15px rgba(0,0,0,0.5)', cursor: 'grab', userSelect: 'none',
+        ...savedPos
+    });
+
+    container.innerHTML = `
+        <div id="dimmer-drag" style="font-size: 10px; color: #888; margin-bottom: -5px;">⠿</div>
+        <div id="dimmer-bulb" style="font-size: 20px; cursor: pointer;">💡</div>
+        <input type="range" id="dimmer-slider" min="0.1" max="0.8" step="0.05" value="${opacity}" 
+               style="width: 60px; cursor: pointer;">
     `;
-    document.head.appendChild(style);
+    document.body.appendChild(container);
 
+    // 3. Functions
     function updateMask() {
-        const images = document.querySelectorAll('img, video, iframe, [role="img"]');
-        let maskParts = [
-            'linear-gradient(#fff, #fff)' // The base mask (covers everything)
-        ];
-
+        const images = document.querySelectorAll('img, video, iframe, canvas');
+        let maskParts = ['linear-gradient(#fff, #fff)'];
         images.forEach(img => {
             const rect = img.getBoundingClientRect();
-            // Only mask images that are actually visible on screen
-            if (rect.width > 20 && rect.height > 20 && rect.top < window.innerHeight && rect.bottom > 0) {
-                const top = rect.top;
-                const left = rect.left;
-                const width = rect.width;
-                const height = rect.height;
-                
-                // Create a "hole" using a gradient subtraction technique
-                maskParts.push(`linear-gradient(#000, #000) no-repeat ${left}px ${top}px / ${width}px ${height}px`);
+            if (rect.width > 10 && rect.height > 10 && rect.top < window.innerHeight && rect.bottom > 0) {
+                maskParts.push(`linear-gradient(#000, #000) no-repeat ${rect.left}px ${rect.top}px / ${rect.width}px ${rect.height}px`);
             }
         });
-
-        // 'destination-out' makes the black gradients transparent "holes" in the white mask
-        shield.style.webkitMaskComposite = 'destination-out';
         shield.style.webkitMaskImage = maskParts.join(', ');
     }
 
-    function getLuminance() {
+    function refresh() {
         const color = window.getComputedStyle(document.body || document.documentElement).backgroundColor;
         const rgb = color.match(/\d+/g);
-        return (rgb && rgb.length >= 3) ? (0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]) / 255 : 1;
-    }
-
-    function refresh() {
-        const isBright = getLuminance() > 0.82;
-        const shouldDim = (userPref === 'on') || (userPref === 'auto' && isBright);
+        const l = (rgb && rgb.length >= 3) ? (0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]) / 255 : 1;
         
+        const shouldDim = (userPref === 'on') || (userPref === 'auto' && l > 0.82);
         shield.style.display = shouldDim ? 'block' : 'none';
+        shield.style.background = `rgba(0, 0, 0, ${opacity})`;
+        
+        const bulb = document.getElementById('dimmer-bulb');
+        bulb.style.filter = userPref === 'on' ? 'drop-shadow(0 0 5px #ffcc00)' : (userPref === 'off' ? 'grayscale(1)' : 'none');
         if (shouldDim) updateMask();
-
-        const btn = document.getElementById('dimmer-ui');
-        if (btn) btn.classList.toggle('active', userPref === 'on' || (userPref === 'auto' && isBright));
     }
 
-    // Toggle button and init logic
-    const init = () => {
-        const btn = document.createElement('div');
-        btn.id = 'dimmer-ui'; btn.innerHTML = '💡';
-        btn.onclick = () => {
-            userPref = (userPref === 'auto') ? 'on' : (userPref === 'on' ? 'off' : 'auto');
-            localStorage.setItem(siteKey, userPref);
-            refresh();
-        };
-        document.body.appendChild(btn);
-        
+    // 4. Interaction Logic
+    document.getElementById('dimmer-bulb').onclick = () => {
+        userPref = (userPref === 'auto') ? 'on' : (userPref === 'on' ? 'off' : 'auto');
+        localStorage.setItem(siteKey, userPref);
         refresh();
-        window.addEventListener('scroll', updateMask, { passive: true });
-        window.addEventListener('resize', updateMask);
-        
-        const observer = new MutationObserver(refresh);
-        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
     };
 
-    if (document.readyState === 'loading') window.addEventListener('DOMContentLoaded', init);
-    else init();
+    document.getElementById('dimmer-slider').oninput = (e) => {
+        opacity = e.target.value;
+        localStorage.setItem('dimmer_opacity', opacity);
+        refresh();
+    };
+
+    // Drag Logic
+    let isDragging = false;
+    container.onmousedown = (e) => {
+        if (e.target.tagName === 'INPUT') return;
+        isDragging = true;
+        container.style.cursor = 'grabbing';
+        let shiftX = e.clientX - container.getBoundingClientRect().left;
+        let shiftY = e.clientY - container.getBoundingClientRect().top;
+
+        function moveAt(clientX, clientY) {
+            let x = clientX - shiftX;
+            let y = clientY - shiftY;
+            container.style.left = x + 'px';
+            container.style.top = y + 'px';
+            container.style.bottom = 'auto';
+            container.style.right = 'auto';
+        }
+
+        function onMouseMove(e) { moveAt(e.clientX, e.clientY); }
+        document.addEventListener('mousemove', onMouseMove);
+        document.onmouseup = () => {
+            isDragging = false;
+            container.style.cursor = 'grab';
+            document.removeEventListener('mousemove', onMouseMove);
+            localStorage.setItem(posKey, JSON.stringify({top: container.style.top, left: container.style.left}));
+            document.onmouseup = null;
+        };
+    };
+
+    // 5. Observers & Listeners
+    window.addEventListener('scroll', () => { if (shield.style.display === 'block') updateMask(); }, { passive: true });
+    new MutationObserver(refresh).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'class'] });
+    
+    refresh();
 })();
