@@ -1,8 +1,7 @@
 // ==UserScript==
-// @name         Non-Destructive Smart Dimmer
-// @version      1.6
+// @name         Punch-Through Smart Dimmer
+// @version      1.8
 // @match        *://*/*
-// @run-at       document-start
 // @grant        none
 // ==/UserScript==
 
@@ -10,96 +9,96 @@
     'use strict';
 
     const siteKey = `dimmer_pref_${window.location.host}`;
-    let userPref = localStorage.getItem(siteKey) || 'auto'; 
+    let userPref = localStorage.getItem(siteKey) || 'auto';
 
-    // Create a style element that we will update dynamically
-    const styleEl = document.createElement('style');
-    styleEl.id = 'smart-dimmer-styles';
-    
-    // We append to documentElement immediately so it exists before the body
-    document.documentElement.appendChild(styleEl);
+    // 1. Setup the "Holey" Shield
+    const shield = document.createElement('div');
+    shield.id = 'dimmer-shield';
+    shield.style.cssText = `
+        position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+        background: rgba(0, 0, 0, 0.35);
+        pointer-events: none; z-index: 2147483646;
+        display: none; transition: opacity 0.3s;
+        /* This is the magic: it hides the overlay where the mask is white */
+        mask-image: none; -webkit-mask-image: none;
+    `;
+    document.documentElement.appendChild(shield);
+
+    // 2. CSS for UI
+    const style = document.createElement('style');
+    style.innerHTML = `
+        #dimmer-ui {
+            position: fixed; bottom: 20px; right: 20px; z-index: 2147483647;
+            width: 44px; height: 44px; border-radius: 50%;
+            background: #333; border: 2px solid white; cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5); font-size: 20px;
+        }
+        #dimmer-ui.active { background: #ffcc00; }
+    `;
+    document.head.appendChild(style);
+
+    function updateMask() {
+        const images = document.querySelectorAll('img, video, iframe, [role="img"]');
+        let maskParts = [
+            'linear-gradient(#fff, #fff)' // The base mask (covers everything)
+        ];
+
+        images.forEach(img => {
+            const rect = img.getBoundingClientRect();
+            // Only mask images that are actually visible on screen
+            if (rect.width > 20 && rect.height > 20 && rect.top < window.innerHeight && rect.bottom > 0) {
+                const top = rect.top;
+                const left = rect.left;
+                const width = rect.width;
+                const height = rect.height;
+                
+                // Create a "hole" using a gradient subtraction technique
+                maskParts.push(`linear-gradient(#000, #000) no-repeat ${left}px ${top}px / ${width}px ${height}px`);
+            }
+        });
+
+        // 'destination-out' makes the black gradients transparent "holes" in the white mask
+        shield.style.webkitMaskComposite = 'destination-out';
+        shield.style.webkitMaskImage = maskParts.join(', ');
+    }
 
     function getLuminance() {
-        // We check the computed style of the body or document
-        const target = document.body || document.documentElement;
-        const color = window.getComputedStyle(target).backgroundColor;
-        
-        // If the background is transparent (rgba 0,0,0,0), it defaults to white on most browsers
-        if (color === 'rgba(0, 0, 0, 0)' || color === 'transparent') return 1;
-
+        const color = window.getComputedStyle(document.body || document.documentElement).backgroundColor;
         const rgb = color.match(/\d+/g);
-        if (rgb && rgb.length >= 3) {
-            return (0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]) / 255;
-        }
-        return 1; // Default to bright if we can't tell
+        return (rgb && rgb.length >= 3) ? (0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]) / 255 : 1;
     }
 
-    function update() {
+    function refresh() {
         const isBright = getLuminance() > 0.82;
         const shouldDim = (userPref === 'on') || (userPref === 'auto' && isBright);
-
-        // We ONLY use filters here. No 'background-color' overrides.
-        const filterVal = shouldDim ? 'brightness(0.8) contrast(1.1)' : 'none';
-        const mediaFilter = shouldDim ? 'brightness(1.2) contrast(0.9)' : 'none';
-
-        styleEl.innerHTML = `
-            html { 
-                filter: ${filterVal} !important; 
-                transition: filter 0.4s ease !important;
-                /* Removed background-color override that caused blackouts */
-            }
-            img, video, canvas, [style*="background-image"] { 
-                filter: ${mediaFilter} !important; 
-            }
-            #dimmer-ui {
-                position: fixed; bottom: 20px; right: 20px; z-index: 2147483647;
-                width: 44px; height: 44px; border-radius: 50%;
-                background: ${userPref === 'on' ? '#ffcc00' : '#333'};
-                border: 2px solid white; cursor: pointer;
-                display: flex; align-items: center; justify-content: center;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.5); font-size: 20px;
-                transition: background 0.3s;
-            }
-        `;
-    }
-
-    // Toggle logic
-    const toggle = (e) => {
-        e.stopPropagation();
-        if (userPref === 'auto') userPref = 'on';
-        else if (userPref === 'on') userPref = 'off';
-        else userPref = 'auto';
         
-        localStorage.setItem(siteKey, userPref);
-        update();
-    };
+        shield.style.display = shouldDim ? 'block' : 'none';
+        if (shouldDim) updateMask();
 
-    // Initialize UI and Observer
-    const init = () => {
-        if (!document.getElementById('dimmer-ui')) {
-            const btn = document.createElement('div');
-            btn.id = 'dimmer-ui';
-            btn.innerHTML = '💡';
-            btn.addEventListener('click', toggle);
-            document.body.appendChild(btn);
-        }
-        update();
-    };
-
-    // Monitor for changes (fixes the "Undo on scroll" issue)
-    const observer = new MutationObserver(() => update());
-    
-    if (document.readyState === 'loading') {
-        window.addEventListener('DOMContentLoaded', () => {
-            init();
-            observer.observe(document.documentElement, { attributes: true, subtree: true, attributeFilter: ['style', 'class'] });
-        });
-    } else {
-        init();
-        observer.observe(document.documentElement, { attributes: true, subtree: true, attributeFilter: ['style', 'class'] });
+        const btn = document.getElementById('dimmer-ui');
+        if (btn) btn.classList.toggle('active', userPref === 'on' || (userPref === 'auto' && isBright));
     }
 
-    // Final fallback check for slow-loading themes
-    setTimeout(update, 1000);
-    setTimeout(update, 3000);
+    // Toggle button and init logic
+    const init = () => {
+        const btn = document.createElement('div');
+        btn.id = 'dimmer-ui'; btn.innerHTML = '💡';
+        btn.onclick = () => {
+            userPref = (userPref === 'auto') ? 'on' : (userPref === 'on' ? 'off' : 'auto');
+            localStorage.setItem(siteKey, userPref);
+            refresh();
+        };
+        document.body.appendChild(btn);
+        
+        refresh();
+        window.addEventListener('scroll', updateMask, { passive: true });
+        window.addEventListener('resize', updateMask);
+        
+        const observer = new MutationObserver(refresh);
+        observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    };
+
+    if (document.readyState === 'loading') window.addEventListener('DOMContentLoaded', init);
+    else init();
 })();
