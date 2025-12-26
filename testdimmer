@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Draggable Punch-Through Dimmer V2.1
-// @version      2.1
+// @name         Smart Dimmer - Side Switcher
+// @version      2.2
 // @match        *://*/*
 // @grant        none
 // ==/UserScript==
@@ -8,12 +8,14 @@
 (function() {
     'use strict';
 
+    // 1. Persistent State
     const siteKey = `dimmer_pref_${window.location.host}`;
-    const posKey = 'dimmer_ui_pos_v2_1';
+    const sideKey = 'dimmer_ui_side'; // Stores 'left' or 'right'
     let userPref = localStorage.getItem(siteKey) || 'auto';
     let opacity = localStorage.getItem('dimmer_opacity') || '0.35';
+    let side = localStorage.getItem(sideKey) || 'right';
 
-    // 1. The Shield (Dimmer Overlay)
+    // 2. The Shield (Dimmer Overlay)
     const shield = document.createElement('div');
     shield.id = 'dimmer-shield';
     shield.style.cssText = `
@@ -24,29 +26,31 @@
     `;
     document.documentElement.appendChild(shield);
 
-    // 2. The Control Panel
+    // 3. The Control Panel
     const panel = document.createElement('div');
     panel.id = 'dimmer-panel';
-    const savedPos = JSON.parse(localStorage.getItem(posKey) || '{"top":"20px","left":"20px"}');
     
-    Object.assign(panel.style, {
-        position: 'fixed', zIndex: '2147483647', padding: '12px',
-        background: '#1a1a1a', border: '1px solid #444', borderRadius: '12px',
-        display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px',
-        boxShadow: '0 10px 30px rgba(0,0,0,0.6)', color: 'white', width: '90px',
-        touchAction: 'none', // Prevents scrolling while dragging on touch devices
-        ...savedPos
-    });
+    function applySideStyles() {
+        panel.style.cssText = `
+            position: fixed; bottom: 20px; z-index: 2147483647; padding: 12px;
+            background: #1a1a1a; border: 1px solid #444; borderRadius: 12px;
+            display: flex; flexDirection: column; alignItems: center; gap: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6); color: white; width: 90px;
+            border-radius: 12px; transition: right 0.3s, left 0.3s;
+            ${side}: 20px; ${side === 'right' ? 'left' : 'right'}: auto;
+        `;
+    }
+    applySideStyles();
 
     panel.innerHTML = `
-        <div id="dimmer-handle" style="cursor: move; width: 100%; text-align: center; background: #333; border-radius: 6px; padding: 4px 0; font-size: 10px; color: #aaa; user-select: none; border: 1px solid #444;">⋮⋮ DRAG</div>
+        <button id="dimmer-side-toggle" style="cursor: pointer; width: 100%; background: #333; border: 1px solid #444; border-radius: 4px; color: #aaa; font-size: 14px; padding: 2px 0;">⇄ SWAP</button>
         <div id="dimmer-bulb" style="font-size: 28px; cursor: pointer; user-select: none; margin: 5px 0;">💡</div>
         <input type="range" id="dimmer-slider" min="0.05" max="0.95" step="0.05" value="${opacity}" style="width: 70px; cursor: pointer;">
-        <div id="dimmer-status" style="font-size: 9px; color: #888; font-family: monospace; letter-spacing: 1px;">MODE: ${userPref}</div>
+        <div id="dimmer-status" style="font-size: 9px; color: #888; font-family: sans-serif; letter-spacing: 1px; text-align: center;">${userPref.toUpperCase()}</div>
     `;
     document.body.appendChild(panel);
 
-    // 3. Logic & Rendering
+    // 4. Core Logic
     function updateMask() {
         const images = document.querySelectorAll('img, video, canvas, iframe');
         let maskParts = ['linear-gradient(#fff, #fff)'];
@@ -65,19 +69,20 @@
         const rgb = color.match(/\d+/g);
         const l = (rgb && rgb.length >= 3) ? (0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]) / 255 : 1;
         
-        const shouldDim = (userPref === 'on') || (userPref === 'auto' && l > 0.8);
+        const isBright = l > 0.8;
+        const shouldDim = (userPref === 'on') || (userPref === 'auto' && isBright);
+        
         shield.style.display = shouldDim ? 'block' : 'none';
         shield.style.background = `rgba(0, 0, 0, ${opacity})`;
         
-        document.getElementById('dimmer-status').innerText = `MODE: ${userPref.toUpperCase()}`;
+        document.getElementById('dimmer-status').innerText = userPref.toUpperCase();
         document.getElementById('dimmer-bulb').style.filter = (userPref === 'on' || (userPref === 'auto' && shouldDim)) ? 'drop-shadow(0 0 8px #ffd700)' : 'grayscale(1)';
 
         if (shouldDim) updateMask();
     }
 
-    // 4. Input Events
-    document.getElementById('dimmer-bulb').onclick = (e) => {
-        e.stopPropagation();
+    // 5. Event Listeners
+    document.getElementById('dimmer-bulb').onclick = () => {
         userPref = (userPref === 'auto') ? 'on' : (userPref === 'on' ? 'off' : 'auto');
         localStorage.setItem(siteKey, userPref);
         refresh();
@@ -89,52 +94,16 @@
         refresh();
     };
 
-    // 5. Fixed Drag-and-Drop Logic
-    const handle = document.getElementById('dimmer-handle');
-    let active = false;
-    let currentX;
-    let currentY;
-    let initialX;
-    let initialY;
-    let xOffset = 0;
-    let yOffset = 0;
-
-    handle.addEventListener("mousedown", dragStart);
-    document.addEventListener("mouseup", dragEnd);
-    document.addEventListener("mousemove", drag);
-
-    function dragStart(e) {
-        initialX = e.clientX - xOffset;
-        initialY = e.clientY - yOffset;
-        if (e.target === handle) active = true;
-    }
-
-    function dragEnd() {
-        initialX = currentX;
-        initialY = currentY;
-        active = false;
-        localStorage.setItem(posKey, JSON.stringify({top: panel.style.top, left: panel.style.left}));
-    }
-
-    function drag(e) {
-        if (active) {
-            e.preventDefault();
-            currentX = e.clientX - initialX;
-            currentY = e.clientY - initialY;
-            xOffset = currentX;
-            yOffset = currentY;
-            
-            // Apply coordinates relative to the initial saved position
-            const startTop = parseInt(savedPos.top) || 20;
-            const startLeft = parseInt(savedPos.left) || 20;
-            
-            panel.style.top = (startTop + currentY) + "px";
-            panel.style.left = (startLeft + currentX) + "px";
-        }
-    }
+    document.getElementById('dimmer-side-toggle').onclick = () => {
+        side = (side === 'right') ? 'left' : 'right';
+        localStorage.setItem(sideKey, side);
+        applySideStyles();
+    };
 
     // 6. Automation
     window.addEventListener('scroll', () => { if (shield.style.display === 'block') updateMask(); }, { passive: true });
-    new MutationObserver(refresh).observe(document.body, { attributes: true, attributeFilter: ['style', 'class'] });
+    window.addEventListener('resize', updateMask);
+    new MutationObserver(refresh).observe(document.body, { attributes: true, attributeFilter: ['style', 'class'], subtree: true });
+
     refresh();
 })();
