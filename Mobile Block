@@ -1,5 +1,5 @@
 ! Title: Mobile Block
-! Version: 1.020
+! Version: 1.021
 
 ! 2021-07-23 https://reason.com
 reason.com##body > .ad-container.container > .ad-height-desktop-250.ad-height-mobile-250.advertisement
@@ -1528,3 +1528,5 @@ theatlantic.com##div [class*="BreakingNewsBar"]
 usatoday.com##div[data-t-l*="taboola"]
 komonews.com,turnto10.com##div[class*="MidArticleAdUnit"]
 komonews.com,turnto10.com##div[class*="openwebAd"]
+www.fedweek.com##.center-block
+www.fedweek.com##div[class*="code-block"]:has(div[id*="pub-ad"])
