@@ -3,12 +3,6 @@
 ! Version: 1.009
 
 ##.gHhSUG.pycp4o-1
-independent.co.uk##.iesdCe.sc-pBjRv
-independent.co.uk##.kGOiaE.sc-qZusK
-independent.co.uk##.hsfcA-d.sc-pBwqG
-chromeunboxed.com##.amp-custom-banner-top-post
-independent.co.uk###main > div.sc-qYFre.hnJKGH:nth-child(4)
-independent.co.uk##.sc-qYTrh, .cnaHyU
 arstechnica.com##.i-amphtml-element, .i-amphtml-notbuilt, .amp-notbuilt, .i-amphtml-layout-responsive, .i-amphtml-layout-size-defined, .amp-unresolved, .i-amphtml-unresolved
 metro.co.uk##.metro-amp-ad
 metro.co.uk##.metro-amp-minute-media
@@ -44,8 +38,6 @@ nytimes.com###story-ad-8-wrapper
 nytimes.com###story-ad-9-wrapper
 smithsonianmag.com###desktopInArticle-0
 smithsonianmag.com##.ad-slot, .article-slot-centered, .hidden-phone
-fastcompany.com##.ad-wrapper, .ad-wrapper--flexiblepushdown, .ad-wrapper--articletop
-fastcompany.com###post__wrapper-90608471 > div.post__article-top-ad-wrapper:first-child
 wsj.com##.wsj-modern-ad-container
 winaero.com##.gadadsense
 wired.com###app-root > div.page.page-theme-standard.page--article > div.sc-bdnxRM.jvCTkj.should-hold-space.linpfi.nfhnjjnb:nth-child(9)
@@ -53,11 +45,6 @@ faroutmagazine.co.uk##.GRVMpuWrapper, .mobile
 ##div.imncgb.bxm4mm-19
 ##.cULvCC.bxm4mm-0
 ##.egrACp.sc-6zn1bq-0.bxm4mm-19
-fastcompany.com##div.homepage-page__ff-ad-container
-fastcompany.com##div.homepage-page__video-ad-container
-fastcompany.com##div.homepage-page__all-ad-container
-fastcompany.com##div.homepage-page__tag-ad-container
-fastcompany.com##div.all-feed__mobile-ad-container
 slate.com##div.slate-ad.ad--mobileOnly
 spin.com##div#div-promo
 hbr.org##.amp-leaderboard__container
@@ -69,24 +56,11 @@ www.ghacks.net##div.banner-feed.box-banner:nth-of-type(5)
 www.c-span.org###cspan-ad-still-wiv-four-1
 www.c-span.org###cspan-ad-still-wiv-four-2
 www.wsj.com###cx-what-to-read-next
-chromeunboxed.com##.ezoic-ad.medrectangle-4.medrectangle-4127.adtester-container.adtester-container-127
-chromeunboxed.com##.ezoic-ad.box-4.box-4126.adtester-container.adtester-container-126
-chromeunboxed.com##.ezoic-ad.box-2.box-2669.adtester-container.adtester-container-669
-chromeunboxed.com##.ezoic-ad.box-2.box-2669.adtester-container.adtester-container-669
-www.bloomberg.com###leaderboard-Q8pLyxq
-www.bloomberg.com###leaderboard-ImcPdcq
-www.washingtonian.com###b091039b64b3456ca7c5014a0a2ee00a
-www.washingtonian.com###acd2fda3023d44e6b25d08c2d5701b7e
-www.theverge.com##.remixd-wrapper
 www.reddit.com##._4ELfhcLRELWhYrOp6R4se.GoogleAd.HomeAds.InArticleAd.LeftAd.SidebarAd.ad-300-250.ad-banner.adbar.adbox1.ads-area.adsense-ad.box_ad.googad
 barrons.com##.barrons-body-ad-placement
 ##.sc-1ez0oyg-0.fwCBOs
 ###commerce-inset-wrapper
 www.howtogeek.com##.entry-content.e-content > div
-www.independent.co.uk##.sc-edgecu.YLzSB.sc-jlAnOM.hZIzdy
-www.independent.co.uk###newsletter-component
-www.independent.co.uk##.sc-iXuA-DT.iriPxc.sc-jYuJnc.erAWdS
-www.independent.co.uk###taboola-below-article-1
 www.mentalfloss.com##.article-body-section.top-leaderboard-limit > .article-body-content-container > .article-body-content > .article-body > p:nth-of-type(14)
 www.mentalfloss.com##.article-body-section.top-leaderboard-limit > .article-body-content-container > .article-body-content > .article-body > p:nth-of-type(9)
 www.mentalfloss.com##.article-body-section.top-leaderboard-limit > .article-body-content-container > .article-body-content > .article-body > p:nth-of-type(4)
@@ -111,7 +85,6 @@ arstechnica.com##.ad.ad_crown
 www.mentalfloss.com###mm-player-placeholder-large-screen
 www.mentalfloss.com##.style_7z5va1-o_O-style_48hmcm-o_O-style_1ts1q2h
 www.mentalfloss.com##.ad_1wlbbof
-www.bloomberg.com##div.relative.my-6.mx-auto.block.lg\:my-10.min-h-ad.css--ad
 upornia.com##div.sxssghvxqgwfxqhhggs
 upornia.com##div.mimmahnisawqishhaam
 upornia.com##.qwhhsqiskim
