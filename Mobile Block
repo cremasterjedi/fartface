@@ -1530,3 +1530,4 @@ komonews.com,turnto10.com##div[class*="MidArticleAdUnit"]
 komonews.com,turnto10.com##div[class*="openwebAd"]
 www.fedweek.com##.center-block
 www.fedweek.com##div[class*="code-block"]:has(div[id*="pub-ad"])
+the-independent.com##div[data-mpu1]
