@@ -1,8 +1,8 @@
 ! Title: New Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0007
+! Version: 1.0008
 
-youtube.com,hyperbeam.com,bandcamp.23video.com,erome.com,plaza.one,app.plex.tv,pocketcasts.com,notion.so,discord.com,youtube.googleapis.com,pluto.tv,drive.google.com,mail.google.com,deltekenterprise.com,tiktok.com#$#:root{color-scheme:only light !important;}
+youtube.com,hyperbeam.com,bandcamp.23video.com,erome.com,plaza.one,app.plex.tv,pocketcasts.com,notion.so,discord.com,youtube.googleapis.com,pluto.tv,drive.google.com,mail.google.com,deltekenterprise.com,tiktok.com,copilot.microsoft.com#$#:root{color-scheme:only light !important;}
 metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,xhamster.com#$#body{color-scheme:only light !important;}
 www.youtube-nocookie.com#$#div[class*="html5-video-player"]{color-scheme:only light !important;}
 *#$#img,#openweb-comments,div[id*="vjs_video"]{color-scheme:only light !important;}
@@ -70,7 +70,7 @@ www.discogs.com#$#.navigation, .app-store-badge, .link_1ctor>img, .apps_nFqip im
 
 ! Discord
 
-discord.com#$#.embedMedia__623de{color-scheme:auto !important;}
+discord.com#$#.embedMedia__623de,article[class*="embedFull"]{color-scheme:auto !important;}
 
 ! Futurism
 
@@ -154,6 +154,11 @@ noemamag.com#$#.eos-logo--img,.eos-header__nav{filter:invert(1) !important;}
 
 nypost.com#$#.site-header__logo,.site-footer__logo,.widget__logo,g,li[class*="sports-plus-logo"]{color-scheme:only light !important;}
 
+! Paisano's Pizza
+
+paisanospizza.com#$#body{background-image: none !important;}
+paisanospizza.com#$#img#store-logo{filter:invert(1) hue-rotate(180deg) contrast(1.5)}
+
 ! Paypal
 
 paypal.com#$#.t8mu2h0.t8mu2h1.t8mu2h3,.tpceri0.tpceri1.tpceri4,.logo-ticker-section-logos-container{filter:invert(1) !important;}
@@ -197,7 +202,7 @@ wikipedia.org#$#html.skin-theme-clientpref-night .skin-invert-image img, html.sk
 
 ! Wired
 
-wired.com#$#div[component="logo-clickable"]:not(div[class*="page-theme-inverted"] div[component="logo-clickable"]){filter:invert(1) !important;}
+wired.com#$#img[src*="logo.svg"]{filter:invert(1) !important;}
 wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only light !important}
 
 ! WSJ
