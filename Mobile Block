@@ -1454,9 +1454,9 @@ fortune.com###__next > div.sc-3f90509f-0.kbcHqM:first-child
 www.rawstory.com##div[id*="lightbox-inline-form"]
 kotaku.com##div[class*="bxm4mm"]
 www.androidauthority.com##.e_Tn.e_5b
-www.independent.co.uk##div[class*="toncsa"]
-www.independent.co.uk##div[id^="ad-"]
-www.independent.co.uk##.mobile-only
+www.independent.co.uk,the-independent.com##div[class*="toncsa"]
+www.independent.co.uk,the-independent.com##div[id^="ad-"]
+www.independent.co.uk,the-independent.com##.mobile-only
 www.yahoo.com##div[class*="faux-bleed"]
 fortune.com###__next > div.__variable_40b425.__variable_75b0c8.__variable_cdc833 > div.sc-598c3945-0.fiWNxs:first-child
 fortune.com##.ddsPZo
