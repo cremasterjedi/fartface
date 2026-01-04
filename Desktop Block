@@ -3,7 +3,6 @@
 ! Version: 1.009
 
 ##.gHhSUG.pycp4o-1
-kotaku.com##.cICFzA.bxm4mm-5
 independent.co.uk##.iesdCe.sc-pBjRv
 independent.co.uk##.kGOiaE.sc-qZusK
 independent.co.uk##.hsfcA-d.sc-pBwqG
@@ -80,7 +79,6 @@ www.washingtonian.com###b091039b64b3456ca7c5014a0a2ee00a
 www.washingtonian.com###acd2fda3023d44e6b25d08c2d5701b7e
 www.theverge.com##.remixd-wrapper
 www.reddit.com##._4ELfhcLRELWhYrOp6R4se.GoogleAd.HomeAds.InArticleAd.LeftAd.SidebarAd.ad-300-250.ad-banner.adbar.adbox1.ads-area.adsense-ad.box_ad.googad
-kotaku.com##.ynugv2-0.kXvAvi.js_sidebar-edit-video
 barrons.com##.barrons-body-ad-placement
 ##.sc-1ez0oyg-0.fwCBOs
 ###commerce-inset-wrapper
@@ -156,11 +154,8 @@ www.mensjournal.com##section[id*="phxoutbrain"]
 pagesix.com##div[class*="ad--container"]
 time.com##div[class*="webflix"]
 time.com##div[class*="overflow"]
-kotaku.com##div[class*="ad-mobile"]
 mirror.co.uk#$#div[data-testid*="commercial"] {display: none !important}
 androidpolice.com#@#.w-adsninja-video-player
 economist.com##._advert_1aj6h_1, ._incontent_1aj6h_11
 glamour.com,pitchfork.com#@#div[class^="ContentFooterNewsletterContentWrapper-"]
-kotaku.com##div:has(>[style*="712/logo.svg"])
-kotaku.com##section[class*="widget keleops-ad"]
 torontolife.com##.assmbly-ad-wrapper
