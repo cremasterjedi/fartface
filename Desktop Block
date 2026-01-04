@@ -2,126 +2,67 @@
 ! 1 hour
 ! Version: 1.009
 
-##.gHhSUG.pycp4o-1
-arstechnica.com##.i-amphtml-element, .i-amphtml-notbuilt, .amp-notbuilt, .i-amphtml-layout-responsive, .i-amphtml-layout-size-defined, .amp-unresolved, .i-amphtml-unresolved
+! keep below
+c-span.org##.cspan-ad-still-li-wrapper
+@@||steadyhq.com
+@@||steadycdn.com
+@@||steady.page
+@@||braze.com
+
+! check
 metro.co.uk##.metro-amp-ad
 metro.co.uk##.metro-amp-minute-media
 apnews.com##.bellow-article
 apnews.com##.Leaderboard, .leaderboard-0-2-10
 eonline.com##.amp__segment-ad, .amp__segment-ad--fixed
-reason.com##div.advertisement
-faroutmagazine.co.uk##.amp-next-page-separator
-faroutmagazine.co.uk##.flying-carpet
 discogs.com###page_aside > div.section:nth-child(4) > div.section_content.tall
 discogs.com###artist > tbody > tr:nth-child(34) > td.gray
-aeon.co##div:nth-child(2) > div.sc-bbmXgH.flpDFl
-c-span.org##.cspan-ad-still-wrapper, .cspan-ad-still-wrapper-top
-c-span.org##.cspan-ad-still-li-wrapper
 jezebel.com##.bxm4mm-16, .bgCrdI
-androidauthority.com###scrolled_view_bar
-androidauthority.com##header.aa-new-sticky-header.aa-sticky-has-deal:nth-child(6) > div.aa-bottom-header-section:nth-child(3)
-androidauthority.com##div.container-fluid.no-padding:nth-child(5)
-reason.com###connatix-moveable > div
-reason.com##div.wrap:nth-child(5) > div.content > main.main > div.page-container.container > div.article-row:first-child > div.article-body.col-sm-10.offset-sm-1.col-md-8.offset-md-2.offset-lg-0:first-child > article.rcom-standard-article.post-8082907.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.tag-taxes.tag-payroll-tax.tag-donald-trump.tag-stimulus > div.anyclip-block:nth-child(3) > p.small-grey-text:last-child
-reason.com##div.wrap:nth-child(5) > div.content > main.main > div.page-container.container > div.article-row:first-child > div.article-body.col-sm-10.offset-sm-1.col-md-8.offset-md-2.offset-lg-0:first-child > article.rcom-standard-article.post-8082802.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.tag-coronavirus.tag-epidemic.tag-epidemiology.tag-public-health.tag-quarantine.tag-donald-trump > div.anyclip-block:nth-child(3) > p.small-grey-text:last-child
-reason.com##div.wrap:nth-child(5) > div.content > main.main > div.page-container.container > div.article-row:first-child > div.article-body.col-sm-10.offset-sm-1.col-md-8.offset-md-2.offset-lg-0:first-child > article.rcom-standard-article.post-8082618.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.tag-reason-roundup.tag-breonna-taylor.tag-police-brutality.tag-police.tag-donald-trump.tag-joe-biden > div.anyclip-block:nth-child(3) > p.small-grey-text:last-child
 yahoo.com##div.pencilad.W\(100\%\).H\(100px\).Bgc\(\$c-fuji-grey-b\).Bdc\(\$c-fuji-grey-c\).Bds\(s\).BdY.Bdtw\(0px\).Bdbw\(1px\):nth-child(3)
 jalopnik.com##.pycp4o-0, .kDBWIt
 inverse.com##.Uzp, .AHS
-reason.com##div.container.ad-container:nth-child(3)
 lifehacker.com##.bxm4mm-14, .iDaCdY, .js_movable_ad_slot
 discogs.com###artist > tbody > tr:nth-child(14) > td.gray
 wired.com##.in-content
-reason.com##div.container.ad-container:first-child
 billboard.com##article.article.article--bb:nth-child(8) > div.article-body:last-child > amp-fx-flying-carpet.i-amphtml-element.i-amphtml-layout-fixed-height.i-amphtml-layout-size-defined.i-amphtml-built.i-amphtml-layout:nth-child(2)
 nytimes.com###story-ad-8-wrapper
 nytimes.com###story-ad-9-wrapper
 smithsonianmag.com###desktopInArticle-0
 smithsonianmag.com##.ad-slot, .article-slot-centered, .hidden-phone
-wsj.com##.wsj-modern-ad-container
 winaero.com##.gadadsense
 wired.com###app-root > div.page.page-theme-standard.page--article > div.sc-bdnxRM.jvCTkj.should-hold-space.linpfi.nfhnjjnb:nth-child(9)
-faroutmagazine.co.uk##.GRVMpuWrapper, .mobile
-##div.imncgb.bxm4mm-19
-##.cULvCC.bxm4mm-0
-##.egrACp.sc-6zn1bq-0.bxm4mm-19
 slate.com##div.slate-ad.ad--mobileOnly
 spin.com##div#div-promo
 hbr.org##.amp-leaderboard__container
-www.ghacks.net##.mb--10.banner-leaderboard.banner-feed.box-banner
-www.ghacks.net##div.box-banner:nth-of-type(1)
-www.ghacks.net##div.banner-feed.box-banner:nth-of-type(2)
-www.ghacks.net##div.banner-feed.box-banner:nth-of-type(3)
-www.ghacks.net##div.banner-feed.box-banner:nth-of-type(5)
-www.c-span.org###cspan-ad-still-wiv-four-1
-www.c-span.org###cspan-ad-still-wiv-four-2
-www.wsj.com###cx-what-to-read-next
 www.reddit.com##._4ELfhcLRELWhYrOp6R4se.GoogleAd.HomeAds.InArticleAd.LeftAd.SidebarAd.ad-300-250.ad-banner.adbar.adbox1.ads-area.adsense-ad.box_ad.googad
 barrons.com##.barrons-body-ad-placement
-##.sc-1ez0oyg-0.fwCBOs
-###commerce-inset-wrapper
 www.howtogeek.com##.entry-content.e-content > div
-www.mentalfloss.com##.article-body-section.top-leaderboard-limit > .article-body-content-container > .article-body-content > .article-body > p:nth-of-type(14)
-www.mentalfloss.com##.article-body-section.top-leaderboard-limit > .article-body-content-container > .article-body-content > .article-body > p:nth-of-type(9)
-www.mentalfloss.com##.article-body-section.top-leaderboard-limit > .article-body-content-container > .article-body-content > .article-body > p:nth-of-type(4)
 www.wellandgood.com##.post__main.contentmax\:ml-\[335px\] > div.container__ad.container__ad--inline
 www.wellandgood.com##.container.container__ad.container__ad--horizontal.show-mobile
-arstechnica.com##.ad.ad_crown
-arstechnica.com##aside.ad.ad_fullwidth.fullwidth
 www.grid.news##.ArticleBody-sc-1eiq3o0-2.diYIzH.article-body-wrapper > div.default__AdsWrapper-xaonxe-0.dWcoya.free-start-ads-block
 www.everydayhealth.com##.video-anyclip.video-anyclip--playlist
-www.androidauthority.com##.xb.-_.yb
 dotesports.com##div.proper-ad-unit
 www.businessinsider.com##div.in-post-sticky.only-desktop
 www.insider.com##div.in-post-sticky.only-desktop
 markets.businessinsider.com##div.in-post-sticky.only-desktop
 www.grid.news##div.default__AdsWrapper-xaonxe-0.kXmxNw.free-start-ads-block
-www.wsj.com##div.Box-sc-m4230u-0.immersiveStyles__BodyAdWrapper-sc-1v752pj-5.iooXwK.KeBJu
-www.wsj.com##div.Box-sc-m4230u-0.immersiveStyles__BodyAdWrapper-sc-1v752pj-6.iooXwK.jyMYXp
-www.politico.com##.styles_rightPane__3riQk
-www.politico.com##.styles_layout__1DSas
-www.politico.com##.styles_PibAd-disclaimer__joo8c
-arstechnica.com##.ad.ad_crown
-www.mentalfloss.com###mm-player-placeholder-large-screen
-www.mentalfloss.com##.style_7z5va1-o_O-style_48hmcm-o_O-style_1ts1q2h
-www.mentalfloss.com##.ad_1wlbbof
 upornia.com##div.sxssghvxqgwfxqhhggs
 upornia.com##div.mimmahnisawqishhaam
 upornia.com##.qwhhsqiskim
 upornia.com##.qnsimimkkaa
 pornhub.com##.clear.hd
-wsj.com##div.evq75q11.css-xgokil-Box
 redgifs.com###jerky-im
-wsj.com##.wsj-body-ad
 xhamster.com##.wio-dsp-b
 xhamster.com##.wio-dplayer
 xhamster.com##.wio-dcams-widget
 time.com##.article-small-sidebar
 www.theatlantic.com##.GptAd_root__2eqVh
 pitchfork.com#@#iframe[width="100%"][height="120"]:not([src*="bandcamp.com"])
-wsj.com##.ad-portal
 heatmap.news##middle_leaderboard
 heatmap.news##bottom_leaderboard
 theatlantic.com##.ArticleInjector_clsAvoider__pXehw
-www.androidauthority.com##.-__Gb
-www.androidauthority.com##.-___Ib
-www.androidauthority.com##.-___Gb
-www.androidauthority.com##.-___Cb
 pitchfork.com##.AdWrapper-dQtivb.fZrssQ.ad.ad--mid-content.should-hold-space
-www.wsj.com##div.css-nt7b75.e1of74uw9
-wsj.com##div.css-1t2oem8-Box.e1vnmyci0
-www.wsj.com##div.css-16i7ch2-Box.e1vnmyci0
-androidauthority.com##._--_-___Zb
-www.androidauthority.com##._--_-___gb._--_-___ib
-@@||steadyhq.com
-@@||steadycdn.com
-@@||steady.page
-@@||braze.com
-wsj.com##.css-qnqzgc-BannerContainer, .e1u55cw57
 wired.com##.AdWrapper-dQtivb, .fZrsta, .ad, .ad--sponsor-product
-vice.com##div[id*="htlad-post-article"]
-vice.com##.lngtd-dynamic-rr
-vice.com##.vice_M_leaderboard
 thequietus.com##.ad-container--billboard, .ad-container--header
 www.mensjournal.com##section[id*="phxoutbrain"]
 pagesix.com##div[class*="ad--container"]
