@@ -11,7 +11,7 @@ www.avclub.com###top_leaderboard.htlad-top_leaderboard
 www.mojo4music.com##div[class*="adContainer"]
 www.inc.com###adhesive-ad
 thequietus.com##.ad-container--header.ad-container--billboard
-www.independent.co.uk,the-independent.com##div[class*="toncsa"],div[id^="ad-"],.mobile-only
+www.independent.co.uk,the-independent.com##div[class*="toncsa"],div[id^="ad-"],.mobile-only,div[data-mpu1]
 ! www.independent.co.uk,the-independent.com##div[id^="ad-"]
 ! www.independent.co.uk,the-independent.com##.mobile-only
 www.bellesandgals.com##div[id*="hit-inc"]
@@ -24,7 +24,7 @@ komonews.com,turnto10.com##div[class*="MidArticleAdUnit"]
 komonews.com,turnto10.com##div[class*="openwebAd"]
 www.fedweek.com##.center-block
 www.fedweek.com##div[class*="code-block"]:has(div[id*="pub-ad"])
-the-independent.com##div[data-mpu1]
+! the-independent.com##div[data-mpu1]
 www.businessinsider.com##.bottom-section.grid-lines.as-narrow
 mashable.com##section.mt-4
 latimes.com##div[class="partner-ad-module-wrapper"]
