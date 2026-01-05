@@ -11,9 +11,9 @@ www.avclub.com###top_leaderboard.htlad-top_leaderboard
 www.mojo4music.com##div[class*="adContainer"]
 www.inc.com###adhesive-ad
 thequietus.com##.ad-container--header.ad-container--billboard
-www.independent.co.uk,the-independent.com##div[class*="toncsa"]
-www.independent.co.uk,the-independent.com##div[id^="ad-"]
-www.independent.co.uk,the-independent.com##.mobile-only
+www.independent.co.uk,the-independent.com##div[class*="toncsa"],div[id^="ad-"],.mobile-only
+! www.independent.co.uk,the-independent.com##div[id^="ad-"]
+! www.independent.co.uk,the-independent.com##.mobile-only
 www.bellesandgals.com##div[id*="hit-inc"]
 www.the-sun.com#@#.sticky-social
 androidpolice.com#@#.w-adsninja-video-player
