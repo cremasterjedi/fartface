@@ -85,6 +85,10 @@ www.thecut.com#$#path.svg-whitebox{fill:#0000 !important}
 ! The Quietus
 thequietus.com#$##CookiebotWidget{color-scheme:only light !important;}
 
+! The Verge
+
+theverge.com#$#div[class^="duet--layout--article-recirc-color-container"]{color-scheme:only light}
+
 ! Vulture
 www.vulture.com#$#div.show-more-wrap,div.collection-simple-svg-title,div.read-more-svg,div.arrows-container,div.social-section,div.social-search,button.nav-dropdown-button-trigger span.hamburger,button.nav-dropdown-button-trigger span.close-x {color-scheme:only light !important;}
 www.vulture.com#$#div.recap-navigation-header g path,span.show-more-text {filter:invert(1) !important;}
