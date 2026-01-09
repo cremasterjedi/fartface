@@ -29,5 +29,7 @@ www.wtvr.com###MAD_INLINE
 www.5280.com##div[id*="in-article-ad"]
 artfulparent.com##.nc_wrapper.swp_floating_horizontal_wrapper.bottom
 theamericanconservative.com##.c-main-footer__ad-overlay
-
+observer.co.uk##div[class*="xxs_250px"]:has(div[id*="article-mpu"])
+politico.com##.adlib-sticky-footer
+reason.com##div[class*="primis"]
 
