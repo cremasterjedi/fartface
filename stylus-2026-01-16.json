@@ -1,0 +1,515 @@
+[
+  {
+    "settings": {
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeStyleName": false,
+      "keepAlive": 0,
+      "keepAliveIdle": false,
+      "newStyleAsUsercss": false,
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "patchCsp": false,
+      "show-badge": true,
+      "styleViaASS": false,
+      "styleViaXhr": false,
+      "windowPosition": {},
+      "compactWidth": 850,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "dark",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "w",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.links.expanded": true,
+      "manage.minColumnWidth": 750,
+      "manage.newUI": false,
+      "manage.newUI.favicons": true,
+      "manage.newUI.faviconsGray": false,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "manage.searchMode": "meta",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.options.style.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "default",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "indent_mozdoc": true,
+        "space_around_combinator": true,
+        "space_around_cmp": false
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.arrowKeysTraverse": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.livePreview.delay": 0.2,
+      "editor.targetsFirst": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "none",
+      "iconset": -1,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popup.search.globals": false,
+      "popupWidth": 246,
+      "popupWidthMax": 280,
+      "updateOnlyEnabled": false
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "installDate": 1766642632644,
+    "name": "Only Light Root",
+    "sections": [
+      {
+        "code": ":root{color-scheme: only light !important;}",
+        "domains": [
+          "erome.com",
+          "pluto.tv",
+          "deltekenterprise.com",
+          "plaza.one",
+          "hyperbeam.com",
+          "youtube.com",
+          "xhamster.com",
+          "youtube.googleapis.com"
+        ]
+      },
+      {
+        "code": "body{color-scheme: only light !important;}",
+        "domains": [
+          "metal-archives.com",
+          "blu-ray.com",
+          "gizmodo.com",
+          "fandom.com",
+          "vimeo.com",
+          "kotaku.com",
+          "stereogum.com",
+          "androidpolice.com",
+          "xda-developers.com",
+          "9to5google.com",
+          "androidauthority.com",
+          "polygon.com",
+          "screenrant.com",
+          "cbr.com"
+        ]
+      },
+      {
+        "code": ":root{color-scheme: auto !important;}",
+        "domains": [
+          "cbsnews.com",
+          "smithsonianmag.com",
+          "observer.co.uk"
+        ]
+      },
+      {
+        "code": "#player{color-scheme: only light !important;}",
+        "domains": [
+          "bandcamp.23video.com"
+        ]
+      },
+      {
+        "code": ".Wrapper{color-scheme: only light !important;}",
+        "domains": [
+          "redgifs.com"
+        ]
+      },
+      {
+        "code": "div[class*=\"html5-video-player\"]{color-scheme: only light !important;}",
+        "domains": [
+          "youtube-nocookie.com"
+        ]
+      },
+      {
+        "code": "iframe{color-scheme: auto !important;}",
+        "domains": [
+          "9to5google.com",
+          "gizmodo.com",
+          "stereogum.com",
+          "xda-developers.com",
+          "androidpolice.com"
+        ]
+      }
+    ],
+    "updateDate": 1768585791450,
+    "_id": "f3ee2717-e218-4337-908c-bb4241cd2885",
+    "_rev": 1768585791450,
+    "id": 1
+  },
+  {
+    "enabled": true,
+    "installDate": 1766643441664,
+    "name": "Universal",
+    "sections": [
+      {
+        "code": "#openweb-comments{color-scheme:only light !important}"
+      }
+    ],
+    "updateDate": 1766643441664,
+    "_id": "9890f1ff-7200-4814-9ffc-589a5cee0e13",
+    "_rev": 1766650919252,
+    "id": 2
+  },
+  {
+    "enabled": true,
+    "installDate": 1766643642437,
+    "name": "AP News",
+    "sections": [
+      {
+        "code": ".Page-header-bar-logo{color-scheme:only light !important;}",
+        "domains": [
+          "apnews.com"
+        ]
+      }
+    ],
+    "updateDate": 1766643642437,
+    "_id": "1effd8f2-16c4-4577-8e6d-fb10edc1919a",
+    "_rev": 1766643642437,
+    "id": 3
+  },
+  {
+    "enabled": true,
+    "installDate": 1766643737634,
+    "name": "Bandcamp",
+    "sections": [
+      {
+        "code": ".inline_player .nextbutton:not(.invertIconography .nextbutton),article-end{filter:invert(1) !important;}\n.inline_player .prevbutton:not(.invertIconography .prevbutton){filter:invert(1) !important;}\n#big_play_button:hover{background: #fff !important;}\n.inline_player .thumb,.inline_player .playbutton,.track_list .play_status,#big_play_button,.plb-btn,article-playbutton > div {color-scheme:only light !important;}\n.inline_player .progbar_fill {background-color: #bb9f9f66 !important;}",
+        "domains": [
+          "bandcamp.com"
+        ]
+      }
+    ],
+    "updateDate": 1766643737634,
+    "_id": "379d9a2b-54b7-4828-a332-39e87aa945c9",
+    "_rev": 1766643737634,
+    "id": 4
+  },
+  {
+    "enabled": true,
+    "installDate": 1766643798298,
+    "name": "CNN",
+    "sections": [
+      {
+        "code": ".container__headline,.zone__title-url,h2[class*=\"zone__title\"],a[class*=\"zone__title\"]{color: #ffffff !important;}\n\n.container__title:not(.container__title--emphatic,.container__title--underscored,.container__title--bold,.container__title--bulleted-headlines,.container_bulleted-headlines__title).container__title-text,.container__title:not(.container__title--emphatic,.container__title--underscored,.container__title--bold,.container__title--bulleted-headlines,.container_bulleted-headlines__title).container__title_url-text{border-left: 6px solid #ffffff !important;}\n\ndiv[class*=\"container_ribbon__carousel-button\"],.container__video-duration{filter:invert(1) !important;}",
+        "domains": [
+          "cnn.com"
+        ]
+      }
+    ],
+    "updateDate": 1766643798298,
+    "_id": "661096ed-2c93-4d4f-9a5a-b499d2d67e1f",
+    "_rev": 1766643798298,
+    "id": 5
+  },
+  {
+    "enabled": true,
+    "installDate": 1766643861933,
+    "name": "Decibel",
+    "sections": [
+      {
+        "code": "body{background-image:none !important;}",
+        "domains": [
+          "decibelmagazine.com"
+        ]
+      }
+    ],
+    "updateDate": 1766643861933,
+    "_id": "bdbdbe13-4963-491b-bb39-06030edcb6ae",
+    "_rev": 1766643861933,
+    "id": 6
+  },
+  {
+    "enabled": true,
+    "installDate": 1766643918775,
+    "name": "Discogs",
+    "sections": [
+      {
+        "code": ".expanded_2iYYq {background: #858585 !important;}\n\n.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{filter:invert(1) !important;}\n\n.navigation, .app-store-badge, .link_1ctor>img, .apps_nFqip img{color-scheme:only light !important;}\n\n",
+        "domains": [
+          "discogs.com"
+        ]
+      }
+    ],
+    "updateDate": 1766643918775,
+    "_id": "13f29544-53a3-4479-aa6f-09b2ec399e08",
+    "_rev": 1766643918775,
+    "id": 7
+  },
+  {
+    "enabled": true,
+    "installDate": 1766643966533,
+    "name": "Gamesradar",
+    "sections": [
+      {
+        "code": "picture:has(img[src*=\"totalfilm.svg\"]){filter:invert(1);}",
+        "domains": [
+          "gamesradar.com"
+        ]
+      }
+    ],
+    "updateDate": 1766643966533,
+    "_id": "beb2c406-cb9e-4752-a087-fbfd5ec1d55b",
+    "_rev": 1766643966533,
+    "id": 8
+  },
+  {
+    "enabled": true,
+    "installDate": 1766644038569,
+    "name": "Metal Archives",
+    "sections": [
+      {
+        "code": "a:not(a:visited){color: #f4b8b8 !important;}",
+        "domains": [
+          "metal-archives.com"
+        ]
+      }
+    ],
+    "updateDate": 1766644038569,
+    "_id": "124c4624-d9b7-4b41-82fb-fb84b7d74ec8",
+    "_rev": 1766644038569,
+    "id": 9
+  },
+  {
+    "enabled": true,
+    "installDate": 1766644079544,
+    "name": "Noema",
+    "sections": [
+      {
+        "code": ".eos-logo--img,.eos-header__nav{filter:invert(1) !important;}",
+        "domains": [
+          "noemamag.com"
+        ]
+      }
+    ],
+    "updateDate": 1766644079544,
+    "_id": "029b518a-27e6-4367-bf97-741f33a06418",
+    "_rev": 1766644079544,
+    "id": 10
+  },
+  {
+    "enabled": true,
+    "installDate": 1766644122290,
+    "name": "NYPost",
+    "sections": [
+      {
+        "code": ".site-header__logo,.site-footer__logo,.breaking-news,h2[class*=\"sports-plus\"],li[class*=\"sports-plus-logo\"],.widget--sports-plus-columnists a.widget__logo,.flag--stamp--exclusive{color-scheme:only light !important;}",
+        "domains": [
+          "nypost.com"
+        ]
+      }
+    ],
+    "updateDate": 1766644122290,
+    "_id": "baa837a7-08dc-4bde-a478-94ed23cd20e2",
+    "_rev": 1766644122291,
+    "id": 11
+  },
+  {
+    "enabled": true,
+    "installDate": 1766644169209,
+    "name": "PC Gamer",
+    "sections": [
+      {
+        "code": ".w-full.sm\\:h-\\[var\\(--logo-height-desktop\\,auto\\)\\].h-auto.sm\\:max-h-full.max-h-\\[var\\(--logo-height-mobile\\,25px\\)\\].sm\\:max-w-full.max-w-32{color-scheme:only light !important;}",
+        "domains": [
+          "pcgamer.com"
+        ]
+      }
+    ],
+    "updateDate": 1766644169209,
+    "_id": "4ca61522-366e-40b6-972c-372cd7a74705",
+    "_rev": 1766644169210,
+    "id": 12
+  },
+  {
+    "enabled": true,
+    "installDate": 1766644240061,
+    "name": "The Cut",
+    "sections": [
+      {
+        "code": "path.svg-whitebox{fill:#0000 !important}",
+        "domains": [
+          "thecut.com"
+        ]
+      }
+    ],
+    "updateDate": 1766644240061,
+    "_id": "1848a0fa-dcc7-4ff2-ae0c-5534f7241347",
+    "_rev": 1766644240062,
+    "id": 13
+  },
+  {
+    "enabled": true,
+    "installDate": 1766644282041,
+    "name": "The Quietus",
+    "sections": [
+      {
+        "code": "#CookiebotWidget{color-scheme:only light !important;}",
+        "domains": [
+          "thequietus.com"
+        ]
+      }
+    ],
+    "updateDate": 1766644282041,
+    "_id": "869e5f47-cd70-4860-a841-02017ce189ce",
+    "_rev": 1766644282041,
+    "id": 14
+  },
+  {
+    "enabled": true,
+    "installDate": 1766644328149,
+    "name": "Vulture",
+    "sections": [
+      {
+        "code": "div.show-more-wrap,div.collection-simple-svg-title,div.read-more-svg,div.arrows-container,div.social-section,div.social-search,button.nav-dropdown-button-trigger span.hamburger,button.nav-dropdown-button-trigger span.close-x {color-scheme:only light !important;}\n\ndiv.recap-navigation-header g path,span.show-more-text {filter:invert(1) !important;}",
+        "domains": [
+          "vulture.com"
+        ]
+      }
+    ],
+    "updateDate": 1766644328149,
+    "_id": "ad8cb463-56d6-4ded-8987-d2d81fa14508",
+    "_rev": 1766644328150,
+    "id": 15
+  },
+  {
+    "enabled": true,
+    "installDate": 1766644375836,
+    "name": "Wired",
+    "sections": [
+      {
+        "code": "div[class*=\"CommentMessageBannerIconWrapper\"]>svg{color-scheme:only light !important}",
+        "domains": [
+          "wired.com"
+        ]
+      }
+    ],
+    "updateDate": 1766644375836,
+    "_id": "fe733f4d-214e-41bd-b4e7-4c5a156d5410",
+    "_rev": 1766644375836,
+    "id": 16
+  },
+  {
+    "enabled": true,
+    "installDate": 1766644446622,
+    "name": "WSJ",
+    "sections": [
+      {
+        "code": "div[class*=\"scrubBackground\"],div[class*=\"scrubProgress\"],div.video-volume-h,div.video-volume-v,div[class*=\"g-artboard\"] div[class*=\"g-aiPointText\"],div[class*=\"g-artboard\"] div[class*=\"g-aiAbs\"]{color-scheme:only light !important;}\n\nbutton[class*=\"BackToTopButton\"]{background-color: darkslategray !important;}",
+        "domains": [
+          "wsj.com"
+        ]
+      }
+    ],
+    "updateDate": 1766644446622,
+    "_id": "55d3f82c-f904-4080-a498-104d63665624",
+    "_rev": 1766644446622,
+    "id": 17
+  },
+  {
+    "enabled": true,
+    "installDate": 1766644539247,
+    "name": "YTMND",
+    "sections": [
+      {
+        "code": "body{background-image: none !important;}\n\ndiv#container{background-image: none !important;}\n\n#header,#main,#footer {background-color: rgb(0 0 0) !important;}\n\n.site_link,div[class*=\"magic card\"] div {color: rgb(255 0 0) !important;}\n\ndiv[id*=\"fav_addnote\"]{filter:invert(1) !important;}",
+        "domains": [
+          "ytmnd.com"
+        ]
+      }
+    ],
+    "updateDate": 1766644539247,
+    "_id": "138ac82f-e54b-494d-b9af-327daa0a5630",
+    "_rev": 1766644539247,
+    "id": 18
+  },
+  {
+    "enabled": true,
+    "installDate": 1766644575974,
+    "name": "Others",
+    "sections": [
+      {
+        "code": "#euSMf1FbiNs11{display:none !important}",
+        "domains": [
+          "mashable.com"
+        ]
+      },
+      {
+        "code": ".headerBar{filter:invert(1) !important}",
+        "domains": [
+          "abcnews.go.com"
+        ]
+      }
+    ],
+    "updateDate": 1766644610406,
+    "_id": "49cea433-fabd-46af-96e6-0d488eff6438",
+    "_rev": 1766644610406,
+    "id": 19
+  },
+  {
+    "enabled": true,
+    "installDate": 1768585925734,
+    "name": "The Verge",
+    "sections": [
+      {
+        "code": ".bx-align,div[class^=\"duet--layout--article-recirc-color-container\"]{color-scheme:only light}",
+        "domains": [
+          "theverge.com"
+        ]
+      }
+    ],
+    "updateDate": 1768585925734,
+    "_id": "de4c7ea6-0482-4313-ab3e-ab396ca10935",
+    "_rev": 1768585925737,
+    "id": 20
+  }
+]
