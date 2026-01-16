@@ -6,7 +6,7 @@
 
 ! Only Light
 app.plex.tv,calendar.google.com,discord.com,erome.com,pluto.tv,chat.google.com,deltekenterprise.com,plaza.one,drive.google.com,hyperbeam.com,letterboxd.com,youtube.com,notion.so,pocketcasts.com,tiktok.com,xhamster.com,youtube.googleapis.com#$#:root{color-scheme: only light !important;}
-metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,screenrant.com,cbr.com#$#body{color-scheme: only light !important;}
+metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,screenrant.com,cbr.com,slate.com#$#body{color-scheme: only light !important;}
 www.cbsnews.com,contacts.google.com,smithsonianmag.com,observer.co.uk#$#:root{color-scheme: auto !important;}
 bandcamp.23video.com#$##player{color-scheme:only light !important;}
 www.redgifs.com#$#.Wrapper{color-scheme: only light !important;}
