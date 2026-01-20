@@ -70,6 +70,10 @@ translate.google.com#$#.ita-kd-inputtools-div,.vk-t-btn.vk-sf-cl, .vk-cap.vk-sf-
 ! Metal Archives
 www.metal-archives.com#$#a:not(a:visited){color: #f4b8b8 !important;}
 
+! News Over Audio
+newsoveraudio.com#$#._f3y8jl{background-color:#ababab !important;}
+newsoveraudio.com#$#button[class*="default-play-button"],button[class*="default-pause-button"]{color-scheme:only light !important;}
+
 ! Noema
 noemamag.com#$#.eos-logo--img,.eos-header__nav{filter:invert(1) !important;}
 
