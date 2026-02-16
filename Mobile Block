@@ -1,5 +1,5 @@
 ! Title: Mobile Block
-! Version: 1.022
+! Version: 1.023
 
 ! 2026
 @@||steadyhq.com
@@ -32,4 +32,4 @@ theamericanconservative.com##.c-main-footer__ad-overlay
 observer.co.uk##div[class*="xxs_250px"]:has(div[id*="article-mpu"])
 politico.com##.adlib-sticky-footer
 reason.com##div[class*="primis"]
-
+musicradar.com##.recirc-feed.sponsored-card
