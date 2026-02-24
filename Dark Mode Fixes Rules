@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0019
+! Version: 1.0020
 
 *#$##openweb-comments{color-scheme:only light !important;}
 
@@ -80,6 +80,10 @@ noemamag.com#$#.eos-logo--img,.eos-header__nav{filter:invert(1) !important;}
 
 ! NYPost
 nypost.com#$#.site-header__logo,.site-footer__logo,.breaking-news,h2[class*="sports-plus"],li[class*="sports-plus-logo"],.widget--sports-plus-columnists a.widget__logo,.flag--stamp--exclusive{color-scheme:only light !important;}
+
+! Paisano's
+
+paisanospizza.com#$#body{background-image: none !important;}
 
 ! PC Gamer
 www.pcgamer.com#$#.w-full.sm\:h-\[var\(--logo-height-desktop\,auto\)\].h-auto.sm\:max-h-full.max-h-\[var\(--logo-height-mobile\,25px\)\].sm\:max-w-full.max-w-32{color-scheme:only light !important;}
