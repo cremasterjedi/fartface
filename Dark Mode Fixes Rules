@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0020
+! Version: 1.0021
 
 *#$##openweb-comments{color-scheme:only light !important;}
 
@@ -82,7 +82,6 @@ noemamag.com#$#.eos-logo--img,.eos-header__nav{filter:invert(1) !important;}
 nypost.com#$#.site-header__logo,.site-footer__logo,.breaking-news,h2[class*="sports-plus"],li[class*="sports-plus-logo"],.widget--sports-plus-columnists a.widget__logo,.flag--stamp--exclusive{color-scheme:only light !important;}
 
 ! Paisano's
-
 paisanospizza.com#$#body{background-image: none !important;}
 
 ! PC Gamer
@@ -112,6 +111,7 @@ wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only 
 ! WSJ
 www.wsj.com#$#div[class*="scrubBackground"],div[class*="scrubProgress"],div.video-volume-h,div.video-volume-v,div[class*="g-artboard"] div[class*="g-aiPointText"],div[class*="g-artboard"] div[class*="g-aiAbs"]{color-scheme:only light !important;}
 www.wsj.com#$#button[class*="BackToTopButton"]{background-color: darkslategray !important;}
+www.wsj.com#$#.audio-play-pause g:not(:hover) use:nth-of-type(2){filter:invert(1) !important;}
 
 ! YTMND
 www.ytmnd.com#$#body{background-image: none !important;}
