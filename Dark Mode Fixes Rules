@@ -111,7 +111,7 @@ wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only 
 ! WSJ
 www.wsj.com#$#div[class*="scrubBackground"],div[class*="scrubProgress"],div.video-volume-h,div.video-volume-v,div[class*="g-artboard"] div[class*="g-aiPointText"],div[class*="g-artboard"] div[class*="g-aiAbs"]{color-scheme:only light !important;}
 www.wsj.com#$#button[class*="BackToTopButton"]{background-color: darkslategray !important;}
-www.wsj.com#$#.audio-play-pause g:not(:hover) use:nth-of-type(2){filter:invert(1) !important;}
+www.wsj.com#$#.audio-player-inner.audio-size-sm.audio-size-vsm .audio-play-pause g:not(:hover) use:nth-of-type(2){filter:invert(1) !important;}
 
 ! YTMND
 www.ytmnd.com#$#body{background-image: none !important;}
