@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0022
+! Version: 1.0023
 
 *#$##openweb-comments{color-scheme:only light !important;}
 
@@ -74,7 +74,7 @@ newsoveraudio.com#$#._f3y8jl{background-color:#ababab !important;}
 newsoveraudio.com#$#button[class*="default-play-button"],button[class*="default-pause-button"]{color-scheme:only light !important;}
 
 ! New Yorker
-.c-player-info__progressbar{filter: invert(1) !important}
+newyorker.com#$#.c-player-info__progressbar{filter: invert(1) !important}
 
 ! Noema
 noemamag.com#$#.eos-logo--img,.eos-header__nav{filter:invert(1) !important;}
