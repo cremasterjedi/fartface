@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0023
+! Version: 1.0024
 
 *#$##openweb-comments,div[id*="vjs_video"]{color-scheme:only light !important;}
 
@@ -92,7 +92,7 @@ www.pcgamer.com#$#.w-full.sm\:h-\[var\(--logo-height-desktop\,auto\)\].h-auto.sm
 polygon.com#$#.is-sliding-in.w-secondary-header .css-menu--toggle{filter:invert(1) !important;}
 
 ! The Atlantic
-theatlantic.com#$#*[class*="NavHamburgerButton_root"]{filter:invert(1)!important}
+theatlantic.com#$#button[class*="NavHamburgerButton_root"]{filter:invert(1)!important}
 
 ! The Cut
 www.thecut.com#$#path.svg-whitebox{fill:#0000 !important}
