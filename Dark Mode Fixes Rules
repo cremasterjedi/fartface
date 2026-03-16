@@ -18,6 +18,9 @@ www.amazon.com#$#div[class*="_p13n-desktop-sims-fbt_fbt-desktop_image-background
 www.amazon.com#$#div[class*="quadrantImageContainer"],div[class*="new-detail-faceout-box"] div[class*="image-background"],div[class*="missionImageContainer"]{background: #cdcdcd !important;}
 www.amazon.com#$#img[alt*="Digital Music"],img[class*="amazon-music-logo-badge"],#sw-gtc .a-button-text,span[data-action="ewc-delete-item"] .a-button-inner,button[data-action="a-stepper-increment"],button[data-action="a-stepper-decrement"],span[class*="rpi-icon"],.icon-search-suggestion{filter:invert(1) !important;}
 
+! Android Police
+androidpolice.com#$#.topnav-icon.menu-icon{filter:invert(1)!important}
+
 ! AP News
 www.apnews.com#$#.Page-header-bar-logo{color-scheme:only light !important;}
 apnews.com#$#.Page-header-bar-logo{color-scheme:only light !important;}
