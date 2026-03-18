@@ -94,9 +94,6 @@ paisanospizza.com#$#body{background-image: none !important;}
 ! PC Gamer
 www.pcgamer.com#$#.w-full.sm\:h-\[var\(--logo-height-desktop\,auto\)\].h-auto.sm\:max-h-full.max-h-\[var\(--logo-height-mobile\,25px\)\].sm\:max-w-full.max-w-32{color-scheme:only light !important;}
 
-! Polygon
-polygon.com#$#.is-sliding-in.w-secondary-header .css-menu--toggle{filter:invert(1) !important;}
-
 ! The Atlantic
 theatlantic.com#$#button[class*="NavHamburgerButton_root"]{filter:invert(1)!important}
 
