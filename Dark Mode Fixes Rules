@@ -92,7 +92,7 @@ nypost.com#$#.site-header__logo,.site-footer__logo,.breaking-news,h2[class*="spo
 paisanospizza.com#$#body{background-image: none !important;}
 
 ! PC Gamer
-www.pcgamer.com#$#.w-full.sm\:h-\[var\(--logo-height-desktop\,auto\)\].h-auto.sm\:max-h-full.max-h-\[var\(--logo-height-mobile\,25px\)\].sm\:max-w-full.max-w-32{color-scheme:only light !important;}
+www.pcgamer.com#$#img[src="/media/img/pcgamer_logo.svg"]{color-scheme:only light !important;}
 
 ! The Atlantic
 theatlantic.com#$#button[class*="NavHamburgerButton_root"]{filter:invert(1)!important}
