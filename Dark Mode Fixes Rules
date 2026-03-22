@@ -80,7 +80,7 @@ newsoveraudio.com#$#._f3y8jl{background-color:#ababab !important;}
 newsoveraudio.com#$#button[class*="default-play-button"],button[class*="default-pause-button"]{color-scheme:only light !important;}
 
 ! New Yorker
-newyorker.com#$#div[data-testid="cne-audio-embed-target"]{filter: invert(1) !important;}
+newyorker.com#$#.c-player-info__progressbar{filter: invert(1) !important;}
 
 ! Noema
 noemamag.com#$#.eos-logo--img,.eos-header__nav{filter:invert(1) !important;}
