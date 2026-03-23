@@ -38,6 +38,10 @@ bandcamp.com#$#.inline_player .progbar_fill {background-color: #bb9f9f66 !import
 ! Blu-Ray
 blu-ray.com#$#h3:not([href="/deals/#4"]>h3){color:#fff !important;}
 
+! CBR
+
+cbr.com#$#.nav-center.header-section > .header-logo{color-scheme: auto !important} 
+
 ! CNN
 cnn.com#$#div[data-component-name="video-resource"],.footer__app-download-buttons,.header__app-download-buttons{color-scheme:only light !important;}
 cnn.com#$#.zone--t-light,.product-zone--t-light{color-scheme:auto !important;}
