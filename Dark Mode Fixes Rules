@@ -21,6 +21,9 @@ www.amazon.com#$#img[alt*="Digital Music"],img[class*="amazon-music-logo-badge"]
 ! Android Police
 androidpolice.com#$#.topnav-icon.menu-icon{filter:invert(1)!important}
 
+! AOL
+aol.com#$#.m-AolHeader__top-wrap{color-scheme: only light !important}
+
 ! AP News
 www.apnews.com#$#.Page-header-bar-logo{color-scheme:only light !important;}
 apnews.com#$#.Page-header-bar-logo{color-scheme:only light !important;}
