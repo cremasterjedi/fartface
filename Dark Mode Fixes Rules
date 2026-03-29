@@ -122,6 +122,9 @@ theverge.com#$#.bx-align,div[class^="duet--layout--article-recirc-color-containe
 www.vulture.com#$#div.show-more-wrap,div.collection-simple-svg-title,div.read-more-svg,div.arrows-container,div.social-section,div.social-search,button.nav-dropdown-button-trigger span.hamburger,button.nav-dropdown-button-trigger span.close-x {color-scheme:only light !important;}
 www.vulture.com#$#div.recap-navigation-header g path,span.show-more-text {filter:invert(1) !important;}
 
+! Washington Post
+washingtonpost.com#$#.fallback-available.pg-graphic{color-scheme:only light}
+
 ! Wikipedia
 en.wikipedia.org#$#.skin-invert-image img, html.skin-theme-clientpref-night .skin-invert, html.skin-theme-clientpref-night .oo-ui-iconElement-icon:not(.oo-ui-image-progressive):not(.oo-ui-image-destructive):not(.oo-ui-checkboxInputWidget-checkIcon):not(.oo-ui-image-invert):not(.mw-no-invert), html.skin-theme-clientpref-night .oo-ui-indicatorElement-indicator {color-scheme: dark !important;}
 en.wikipedia.org#$#img[src*="Black_x"]{filter:invert(1) !important;}
