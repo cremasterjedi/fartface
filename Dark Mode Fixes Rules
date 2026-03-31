@@ -1,6 +1,6 @@
 ! Title: Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0024
+! Version: 1.0025
 
 *#$##openweb-comments,div[id*="vjs_video"]{color-scheme:only light !important;}
 
@@ -10,7 +10,7 @@ metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.c
 www.cbsnews.com,contacts.google.com,smithsonianmag.com,observer.co.uk#$#:root{color-scheme: auto !important;}
 bandcamp.23video.com#$##player{color-scheme:only light !important;}
 www.redgifs.com#$#.Wrapper{color-scheme: only light !important;}
-www.youtube-nocookie.com#$#div[class*="html5-video-player"]{color-scheme:only light !important;}
+www.youtube-nocookie.com#$#html{color-scheme:only light !important;}
 9to5google.com,gizmodo.com,stereogum.com,xda-developers.com,androidpolice.com,polygon.com,androidauthority.com,kotaku.com#$#iframe{color-scheme:auto !important;}
 
 ! Amazon
