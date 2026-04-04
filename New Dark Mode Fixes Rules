@@ -82,7 +82,7 @@ mail.google.com#$#.aia,body.Su,.VD,.brC-brG-Jz-bBA.brC-brG-bsf,.nH.Hd{color-sche
 mail.google.com#$#.f.gW,.ajz,.aiz,.aiA,.FOBRw-ank-Rtc0Jf.FOBRw-ank-Rtc0Jf-ql-O{filter:invert(1) !important;}
 mail.google.com#$#.zA:hover{box-shadow:none !important;}
 mail.google.com#$#.ajn.ajo{background-color:#000000 !important;}
-mail.google.com#$#a[style*="jpg"],.ii.gt:has(img[src*="GS_ServiceMark"]){color-scheme:only light !important;}
+mail.google.com#$#a[style*="jpg"],.ii.gt:has(img[src*="GS_ServiceMark"]),.ajR{color-scheme:only light !important;}
 
 ! Google
 
