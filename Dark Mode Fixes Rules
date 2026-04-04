@@ -98,7 +98,7 @@ newyorker.com#$#.c-player-info__progressbar{filter: invert(1) !important;}
 noemamag.com#$#.eos-logo--img,.eos-header__nav{filter:invert(1) !important;}
 
 ! NYPost
-nypost.com#$#.site-header__logo,.site-footer__logo,.breaking-news,h2[class*="sports-plus"],li[class*="sports-plus-logo"],.widget--sports-plus-columnists a.widget__logo,.flag--stamp--exclusive{color-scheme:only light !important;}
+nypost.com#$#.site-header__logo,.site-footer__logo,.breaking-news,h2[class*="sports-plus"],li[class*="sports-plus-logo"],.widget--sports-plus-columnists a.widget__logo,.flag--stamp--exclusive,.logo.section-heading__wrap{color-scheme:only light !important;}
 
 ! Paisano's
 paisanospizza.com#$#body{background-image: none !important;}
