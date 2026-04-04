@@ -78,11 +78,11 @@ futurism.com#$#.footer-logo-wrapper,img[class*="header-logo"]{filter:invert(1) !
 
 ! Gizmodo Video Player
 
-.not-prose.video-container{color-scheme:auto !important;}
+gizmodo.com#$#.not-prose.video-container{color-scheme:auto !important;}
 
 ! GMail
 
-mail.google.com#$#.aia,body.Su,.VD,.brC-brG-Jz-bBA.brC-brG-bsf..nH.Hd{color-scheme:auto !important;}
+mail.google.com#$#.aia,body.Su,.VD,.brC-brG-Jz-bBA.brC-brG-bsf,.nH.Hd{color-scheme:auto !important;}
 mail.google.com#$#.f.gW,.ajz,.aiz,.aiA,.FOBRw-ank-Rtc0Jf.FOBRw-ank-Rtc0Jf-ql-O{filter:invert(1) !important;}
 mail.google.com#$#.zA:hover{box-shadow:none !important;}
 mail.google.com#$#.ajn.ajo{background-color:#000000 !important;}
@@ -90,13 +90,13 @@ mail.google.com#$#a[style*="jpg"],.ii.gt:has(img[src*="GS_ServiceMark"]){color-s
 
 ! Google
 
-.hXYaJ{background-image:none !important;}
-.hXYaJ{background-color:blue !important;}
-.UPJOje-bN97Pc{color-scheme:auto !important;}
-.MrEfLc,.yQsxXc{color-scheme:only light !important;}
-div[aria-label*="corresponding number key"],.obhoOb{filter: invert(100%) hue-rotate(0.4turn) !important;}
-.kDiHkf{filter:invert(1) hue-rotate(-0.4turn) !important}
-.RLEGzd,.elNXIb{color-scheme:only light !important;}
+google.com#$#.hXYaJ{background-image:none !important;}
+google.com#$#.hXYaJ{background-color:blue !important;}
+google.com#$#.UPJOje-bN97Pc{color-scheme:auto !important;}
+google.com#$#.MrEfLc,.yQsxXc{color-scheme:only light !important;}
+google.com#$#div[aria-label*="corresponding number key"],.obhoOb{filter: invert(100%) hue-rotate(0.4turn) !important;}
+google.com#$#.kDiHkf{filter:invert(1) hue-rotate(-0.4turn) !important}
+google.com#$#.RLEGzd,.elNXIb{color-scheme:only light !important;}
 
 ! Google Chat
 
