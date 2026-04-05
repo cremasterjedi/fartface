@@ -43,6 +43,7 @@ bandcamp.com#$#.ui-widget-content{background:#ffff !important;}
 
 bestbuy.com#$#div[style*="background-image"],a[style*="background-image"],div[data-testid="hero-banner-wrapper"]{color-scheme:only light !important;}
 bestbuy.com#$#img[alt="My Best Buy Memberships logo"]{filter:invert(1) !important;}
+bestbuy.com#$#.sku-block-header{background-color:#cdcdcd !important}
 
 ! Blu Ray
 
