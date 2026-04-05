@@ -12,6 +12,7 @@ bandcamp.23video.com#$##player{color-scheme:only light !important;}
 www.redgifs.com#$#.Wrapper{color-scheme: only light !important;}
 www.youtube-nocookie.com#$#html{color-scheme:only light !important;}
 9to5google.com,gizmodo.com,stereogum.com,xda-developers.com,androidpolice.com,polygon.com,androidauthority.com,kotaku.com#$#iframe{color-scheme:auto !important;}
+instagram.com#$#.EmbedSidecar{color-scheme:only light !important}
 
 ! Amazon
 www.amazon.com#$#div[class*="_p13n-desktop-sims-fbt_fbt-desktop_image-background"]{background-color: #c3c3c3 !important;}
