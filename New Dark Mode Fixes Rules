@@ -107,6 +107,7 @@ harpers.org#$#a[class*="navbar-brand logo"]{filter:invert(1) !important;}
 
 9to5google.com,gizmodo.com,inoreader.com,stereogum.com,kotaku.com,xda-developers.com,androidpolice.com,polygon.com,fandom.com#$#iframe{color-scheme:auto !important;}
 instagram.com#$#.EmbedSidecar{color-scheme:only light !important}
+embed.reddit.com#$#shreddit-aspect-ratio,faceplate-carousel{color-scheme:only light !important}
 
 ! IMDB
 
