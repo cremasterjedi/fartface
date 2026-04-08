@@ -151,6 +151,13 @@ newyorker.com#$#img[src="/verso/static/thenewyorker-us/assets/logo-header.svg"]{
 
 noemamag.com#$#.eos-logo--img,.eos-header__nav{filter:invert(1) !important;}
 
+! Now Voyager Mag
+
+nowvoyagermag.com#$#:root{--color-bg:revert !important}
+nowvoyagermag.com#$#:root{--color-text:revert !important}
+nowvoyagermag.com#$#.c-prose__footer-logo>svg{filter:invert(1) !important}
+nowvoyagermag.com#$#figcaption{color:revert !important}
+
 ! NY Post
 
 nypost.com#$#.site-header__logo,.site-footer__logo,.widget__logo,g,li[class*="sports-plus-logo"]{color-scheme:only light !important;}
