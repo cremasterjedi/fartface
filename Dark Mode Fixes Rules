@@ -97,6 +97,13 @@ newsoveraudio.com#$#button[class*="default-play-button"],button[class*="default-
 ! Noema
 noemamag.com#$#.eos-logo--img,.eos-header__nav{filter:invert(1) !important;}
 
+! Now Voyager Mag
+
+nowvoyagermag.com#$#:root{--color-bg:revert !important}
+nowvoyagermag.com#$#:root{--color-text:revert !important}
+nowvoyagermag.com#$#.c-prose__footer-logo>svg{filter:invert(1) !important}
+nowvoyagermag.com#$#figcaption{color:revert !important}
+
 ! NYPost
 nypost.com#$#.site-header__logo,.site-footer__logo,.breaking-news,h2[class*="sports-plus"],li[class*="sports-plus-logo"],.widget--sports-plus-columnists a.widget__logo,.flag--stamp--exclusive,.logo.section-heading__wrap{color-scheme:only light !important;}
 
