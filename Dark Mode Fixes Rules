@@ -6,7 +6,7 @@
 *#$#.c-player-info__progressbar{filter: invert(1) !important;}
 
 ! Only Light
-app.plex.tv,calendar.google.com,discord.com,erome.com,pluto.tv,chat.google.com,deltekenterprise.com,plaza.one,drive.google.com,hyperbeam.com,letterboxd.com,youtube.com,notion.so,pocketcasts.com,tiktok.com,xhamster.com,youtube.googleapis.com#$#:root{color-scheme: only light !important;}
+app.plex.tv,calendar.google.com,discord.com,erome.com,pluto.tv,chat.google.com,deltekenterprise.com,plaza.one,drive.google.com,hyperbeam.com,letterboxd.com,youtube.com,notion.so,pocketcasts.com,tiktok.com,xhamster.com,youtube.googleapis.com,brooklynvegan.com#$#:root{color-scheme: only light !important;}
 metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,screenrant.com,cbr.com,slate.com#$#body{color-scheme: only light !important;}
 www.cbsnews.com,contacts.google.com,smithsonianmag.com,observer.co.uk,climbing.com,outsideonline.com#$#:root{color-scheme: auto !important;}
 bandcamp.23video.com#$##player{color-scheme:only light !important;}
@@ -46,6 +46,10 @@ bandcamp.com#$#.inline_player .progbar_fill {background-color: #bb9f9f66 !import
 
 ! Blu-Ray
 blu-ray.com#$#h3:not([href="/deals/#4"]>h3){color:#fff !important;}
+
+! Brooklyn Vegan
+
+brooklynvegan.com#$#.w-mc.content-wrap.post-content,.flex-wrap.flex.card-inner{color-scheme:auto !important}
 
 ! CBR
 cbr.com#$#.nav-center.header-section > .header-logo{color-scheme: auto !important} 
