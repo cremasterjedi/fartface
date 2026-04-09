@@ -5,7 +5,7 @@
 youtube.com,hyperbeam.com,bandcamp.23video.com,erome.com,plaza.one,app.plex.tv,pocketcasts.com,notion.so,discord.com,youtube.googleapis.com,pluto.tv,drive.google.com,mail.google.com,deltekenterprise.com,tiktok.com,copilot.microsoft.com#$#:root{color-scheme:only light !important;}
 metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,xhamster.com,slate.com#$#body{color-scheme:only light !important;}
 www.youtube-nocookie.com#$#html{color-scheme:only light !important;}
-cbsnews.com,observer.co.uk#$#:root{color-scheme:auto !important;}
+cbsnews.com,observer.co.uk,climbing.com#$#:root{color-scheme:auto !important;}
 *#$#img,#openweb-comments,div[id*="vjs_video"]{color-scheme:only light !important;}
 *#$#.c-player-info__progressbar{filter: invert(1) !important}
 
