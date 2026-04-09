@@ -2,7 +2,7 @@
 ! 1 hour
 ! Version: 1.0010
 
-youtube.com,hyperbeam.com,bandcamp.23video.com,erome.com,plaza.one,app.plex.tv,pocketcasts.com,notion.so,discord.com,youtube.googleapis.com,pluto.tv,drive.google.com,mail.google.com,deltekenterprise.com,tiktok.com,copilot.microsoft.com#$#:root{color-scheme:only light !important;}
+youtube.com,hyperbeam.com,bandcamp.23video.com,erome.com,plaza.one,app.plex.tv,pocketcasts.com,notion.so,discord.com,youtube.googleapis.com,pluto.tv,drive.google.com,mail.google.com,deltekenterprise.com,tiktok.com,copilot.microsoft.com,brooklynvegan.com#$#:root{color-scheme:only light !important;}
 metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,xhamster.com,slate.com#$#body{color-scheme:only light !important;}
 www.youtube-nocookie.com#$#html{color-scheme:only light !important;}
 cbsnews.com,observer.co.uk,climbing.com,outsideonline.com#$#:root{color-scheme:auto !important;}
@@ -48,6 +48,10 @@ bestbuy.com#$#.sku-block-header{background-color:#cdcdcd !important}
 ! Blu Ray
 
 blu-ray.com#$#font,h3:not([href="/deals/#4"]>h3),b{color: #fff !important;}
+
+! Brooklyn Vegan
+
+brooklynvegan.com#$#.w-mc.content-wrap.post-content,.flex-wrap.flex.card-inner{color-scheme:auto !important}
 
 ! CNN
 
