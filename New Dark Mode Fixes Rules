@@ -176,6 +176,10 @@ paisanospizza.com#$#img#store-logo{filter:invert(1) hue-rotate(180deg) contrast(
 paypal.com#$#.t8mu2h0.t8mu2h1.t8mu2h3,.tpceri0.tpceri1.tpceri4,.logo-ticker-section-logos-container{filter:invert(1) !important;}
 paypal.com#$##main-title-img,#widgetContainer__heroEngagement,._pypl-logo-wrapper_1wzpj_1818.undefined._paypal-logo-desktop_1wzpj_2576._paypal-logo-mobile_1wzpj_2605{color-scheme:only light !important;}
 
+! PC Gamer
+
+pcgamer.com#$#.newsletter-form__header>svg{color-scheme:only light !important}
+
 ! Reason
 
 reason.com#$#.logo-header .logo{filter: invert(1) hue-rotate(180deg);}
