@@ -178,7 +178,7 @@ paypal.com#$##main-title-img,#widgetContainer__heroEngagement,._pypl-logo-wrappe
 
 ! PC Gamer
 
-pcgamer.com#$#.newsletter-form__header>svg{color-scheme:only light !important}
+pcgamer.com#$#.newsletter-form__header>svg,div[data-testid="buttons-social"]{color-scheme:only light !important}
 
 ! Reason
 
