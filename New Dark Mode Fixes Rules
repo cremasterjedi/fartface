@@ -1,6 +1,6 @@
 ! Title: New Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0010
+! Version: 1.0012
 
 youtube.com,hyperbeam.com,bandcamp.23video.com,erome.com,plaza.one,app.plex.tv,pocketcasts.com,notion.so,discord.com,youtube.googleapis.com,pluto.tv,drive.google.com,mail.google.com,deltekenterprise.com,tiktok.com,copilot.microsoft.com,brooklynvegan.com#$#:root{color-scheme:only light !important;}
 metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,xhamster.com,slate.com#$#body{color-scheme:only light !important;}
@@ -58,6 +58,10 @@ brooklynvegan.com#$#.w-mc.content-wrap.post-content,.flex-wrap.flex.card-inner{c
 cnn.com#$#div[data-component-name="video-resource"],.footer__app-download-buttons,.header__app-download-buttons{color-scheme:only light !important;}
 cnn.com#$#.zone--t-light,.product-zone--t-light{color-scheme:auto !important;}
 cnn.io#$#div[class*="g-aiAbs"]{color-scheme:only light !important;}
+
+! C-Span
+
+c-span.org#$#.banner.sm-rec.show-banner{color-scheme:only light !important}
 
 ! Daily Mail
 
