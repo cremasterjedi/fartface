@@ -118,6 +118,10 @@ paisanospizza.com#$#body{background-image: none !important;}
 ! PC Gamer
 www.pcgamer.com#$#img[src="/media/img/pcgamer_logo.svg"],.newsletter-form__header > svg{color-scheme:only light !important;}
 
+! TechCrunch
+
+techcrunch.com#$#.wp-block-techcrunch-menu-utility{color-scheme:only light !important}
+
 ! The Atlantic
 theatlantic.com#$#button[class*="NavHamburgerButton_root"]{filter:invert(1)!important}
 
