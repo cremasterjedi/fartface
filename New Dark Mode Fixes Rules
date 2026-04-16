@@ -119,7 +119,7 @@ embed.reddit.com#$#shreddit-aspect-ratio,faceplate-carousel{color-scheme:only li
 
 ! IMDB
 
-imdb.com#$#a[aria-label="Home"],.euaRkO,.drawer__panelHeaderClose,.SUNXh,.jhgcVM,.footer__sign-in-button{color-scheme:only light !important;}
+imdb.com#$#a[aria-label="Home"],.euaRkO,.drawer__panelHeaderClose,.SUNXh,.jhgcVM,.footer__sign-in-button,div[data-testid="video-aspect-ratio"]{color-scheme:only light !important;}
 
 ! Letterboxd
 
