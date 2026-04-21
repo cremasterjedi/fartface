@@ -70,7 +70,7 @@ www.discogs.com#$#.swiper-pagination.swiper-pagination-clickable.swiper-paginati
 www.discogs.com#$#.navigation, .app-store-badge, .link_1ctor>img, .apps_nFqip img{color-scheme:only light !important;}
 
 ! Economic Times
-economictimes.com#$#img[title="ET"]{background-color:#999 !important}
+economictimes.com#$##hLogo{background-color:#999 !important}
 economictimes.com#$#.menuIcon{filter:invert(1) !important}
 
 ! Gamesradar
