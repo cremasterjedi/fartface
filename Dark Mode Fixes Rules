@@ -143,7 +143,7 @@ www.vulture.com#$#div.show-more-wrap,div.collection-simple-svg-title,div.read-mo
 www.vulture.com#$#div.recap-navigation-header g path,span.show-more-text {filter:invert(1) !important;}
 
 ! Washington Post
-washingtonpost.com#$#.fallback-available.pg-graphic{color-scheme:only light}
+washingtonpost.com#$##chart,.fallback-available.pg-graphic{color-scheme:only light}
 
 ! Wikipedia
 en.wikipedia.org#$#.skin-invert-image img, html.skin-theme-clientpref-night .skin-invert, html.skin-theme-clientpref-night .oo-ui-iconElement-icon:not(.oo-ui-image-progressive):not(.oo-ui-image-destructive):not(.oo-ui-checkboxInputWidget-checkIcon):not(.oo-ui-image-invert):not(.mw-no-invert), html.skin-theme-clientpref-night .oo-ui-indicatorElement-indicator {color-scheme: dark !important;}
