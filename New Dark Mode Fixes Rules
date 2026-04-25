@@ -77,6 +77,10 @@ www.discogs.com#$#.navigation,.app-store-badge,.link_1ctor>img,.apps_nFqip img,.
 
 discord.com#$#.embedMedia__623de,article[class*="embedFull"]{color-scheme:auto !important;}
 
+! Economic Times
+
+economictimes.com#$#img[alt="The Economic Times"]{filter: invert(1) hue-rotate(187deg) saturate(3) !important}
+
 ! Futurism
 
 futurism.com#$#.footer-logo-wrapper,img[class*="header-logo"]{filter:invert(1) !important;}
