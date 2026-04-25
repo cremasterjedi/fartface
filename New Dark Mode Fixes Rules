@@ -79,6 +79,7 @@ discord.com#$#.embedMedia__623de,article[class*="embedFull"]{color-scheme:auto !
 
 ! Economic Times
 
+economictimes.indiatimes.com#$#img[alt="The Economic Times"]{filter: invert(1) hue-rotate(187deg) saturate(3) !important}
 economictimes.com#$#img[alt="The Economic Times"]{filter: invert(1) hue-rotate(187deg) saturate(3) !important}
 
 ! Futurism
