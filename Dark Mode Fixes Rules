@@ -65,6 +65,9 @@ cnn.com#$#.zone--t-light,.product-zone--t-light{color-scheme:auto !important;}
 ! CNN Graphics
 cnn.io#$#div[class*="g-aiAbs"]{color-scheme:only light !important;}
 
+! Death Metal
+deathmetal.org#$##death_metal_header{filter: invert(1) hue-rotate(180deg) saturate(20)!important}
+
 ! Decibel
 www.decibelmagazine.com#$#body{background-image:none !important;}
 
