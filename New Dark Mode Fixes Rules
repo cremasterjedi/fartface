@@ -96,7 +96,7 @@ gizmodo.com#$#.not-prose.video-container{color-scheme:auto !important;}
 
 ! GMail
 
-mail.google.com#$#.aia,body.Su,.VD,.brC-brG-Jz-bBA.brC-brG-bsf,.nH.Hd{color-scheme:auto !important;}
+mail.google.com#$#.aia,body.Su,.VD,.brC-brG-Jz-bBA.brC-brG-bsf,.nH.Hd,.nH.bkK:has(.nH.ar4.j7diG){color-scheme:auto !important;}
 mail.google.com#$#.f.gW,.ajz,.aiz,.aiA,.FOBRw-ank-Rtc0Jf.FOBRw-ank-Rtc0Jf-ql-O{filter:invert(1) !important;}
 mail.google.com#$#.zA:hover{box-shadow:none !important;}
 mail.google.com#$#.ajn.ajo{background-color:#000000 !important;}
@@ -115,6 +115,7 @@ google.com#$#.RLEGzd,.elNXIb{color-scheme:only light !important;}
 ! Google Chat
 
 mail.google.com/chat#$?#:root{color-scheme:auto !important;}
+chat.google.com#$#.GRa7Ee,.ef7iib{color-scheme:only light !important}
 
 ! Harpers
 
