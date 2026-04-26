@@ -110,7 +110,6 @@ newsoveraudio.com#$#button[class*="default-play-button"],button[class*="default-
 noemamag.com#$#.eos-logo--img,.eos-header__nav{filter:invert(1) !important;}
 
 ! Now Voyager Mag
-
 nowvoyagermag.com#$#:root{--color-bg:revert !important}
 nowvoyagermag.com#$#:root{--color-text:revert !important}
 nowvoyagermag.com#$#.c-prose__footer-logo>svg{filter:invert(1) !important}
@@ -124,7 +123,7 @@ nypost.com#$#.site-header__logo,.site-footer__logo,.breaking-news,h2[class*="spo
 paisanospizza.com#$#body{background-image: none !important;}
 
 ! PC Gamer
-www.pcgamer.com#$#img[src="/media/img/pcgamer_logo.svg"],.newsletter-form__header > svg,img[alt*="flag of"],a[data-mrf-recirculation="locale-flag"] img{color-scheme:only light !important;}
+www.pcgamer.com,gamesradar.com#$#img[src="/media/img/pcgamer_logo.svg"],.newsletter-form__header > svg,img[alt*="flag of"],a[data-mrf-recirculation="locale-flag"] img{color-scheme:only light !important;}
 
 ! TechCrunch
 
