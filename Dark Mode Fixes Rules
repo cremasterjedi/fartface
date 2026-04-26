@@ -3,7 +3,6 @@
 ! Version: 1.0026
 
 *#$##openweb-comments,div[id*="vjs_video"]{color-scheme:only light !important;}
-*#$#.c-player-info__progressbar{filter: invert(1) !important;}
 
 ! Only Light
 app.plex.tv,calendar.google.com,discord.com,erome.com,pluto.tv,chat.google.com,deltekenterprise.com,plaza.one,drive.google.com,hyperbeam.com,letterboxd.com,youtube.com,notion.so,pocketcasts.com,tiktok.com,xhamster.com,youtube.googleapis.com,brooklynvegan.com#$#:root{color-scheme: only light !important;}
@@ -108,6 +107,9 @@ www.metal-archives.com#$#a:not(a:visited){color: #f4b8b8 !important;}
 ! News Over Audio
 newsoveraudio.com#$#._f3y8jl{background-color:#ababab !important;}
 newsoveraudio.com#$#button[class*="default-play-button"],button[class*="default-pause-button"]{color-scheme:only light !important;}
+
+! New Yorker
+newyorker.com#$#div[data-testid="cne-audio-embed-target"]>iframe{filter: invert(1) !important}
 
 ! Noema
 noemamag.com#$#.eos-logo--img,.eos-header__nav{filter:invert(1) !important;}
