@@ -123,7 +123,7 @@ nypost.com#$#.site-header__logo,.site-footer__logo,.breaking-news,h2[class*="spo
 paisanospizza.com#$#body{background-image: none !important;}
 
 ! PC Gamer
-www.pcgamer.com,musicradar.com#$#img[src="/media/img/pcgamer_logo.svg"],.newsletter-form__header > svg,img[alt*="flag of"],a[data-mrf-recirculation="locale-flag"] img{color-scheme:only light !important;}
+pcgamer.com,musicradar.com,gamesradar.com#$#img[src="/media/img/pcgamer_logo.svg"],.newsletter-form__header > svg,img[alt*="flag of"],a[data-mrf-recirculation="locale-flag"] img{color-scheme:only light !important;}
 
 ! TechCrunch
 
