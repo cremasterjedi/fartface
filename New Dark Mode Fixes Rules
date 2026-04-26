@@ -67,6 +67,10 @@ c-span.org#$#.banner.sm-rec.show-banner{color-scheme:only light !important}
 
 dailymail.co.uk#$##logo{filter:invert(1) !important;}
 
+! Death Metal
+
+deathmetal.org#$##death_metal_header{filter: invert(1) hue-rotate(180deg) saturate(20)!important}
+
 ! Discogs
 
 www.discogs.com#$#.expanded_2iYYq{background: #858585 !important;}
