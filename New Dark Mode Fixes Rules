@@ -163,7 +163,7 @@ newsoveraudio.com#$#._f3y8jl{background-color:#ababab !important;}
 
 ! New Yorker
 
-newyorker.com#$#img[src="/verso/static/thenewyorker-us/assets/logo-header.svg"]{filter: invert(1) !important}
+newyorker.com#$#img[src="/verso/static/thenewyorker-us/assets/logo-header.svg"],div[data-testid="cne-audio-embed-target"]>iframe{filter: invert(1) !important}
 
 ! Noema Mag
 
