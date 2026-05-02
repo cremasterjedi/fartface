@@ -161,7 +161,7 @@ en.wikipedia.org#$#img[src*="Black_x"]{filter:invert(1) !important;}
 wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only light !important}
 
 ! WSJ
-www.wsj.com#$#a[class*="NextInnerLink"],#video-player,div[class*="g-artboard"] div[class*="g-aiPointText"],div[class*="g-artboard"] div[class*="g-aiAbs"],div[data-sub_type="charts"],.css-zfrk0v-ImgWithLinkWrapper,.datawrapper-script-embed.vis-height-fixed.vis-locator-map,img[class*="HedCut"]{color-scheme:only light !important;}
+www.wsj.com#$#a[class*="NextInnerLink"],#video-player,div[class*="video-player"],div[class*="g-artboard"] div[class*="g-aiPointText"],div[class*="g-artboard"] div[class*="g-aiAbs"],div[data-sub_type="charts"],.css-zfrk0v-ImgWithLinkWrapper,.datawrapper-script-embed.vis-height-fixed.vis-locator-map,img[class*="HedCut"]{color-scheme:only light !important;}
 www.wsj.com#$#button[class*="BackToTopButton"]{background-color: darkslategray !important;}
 www.wsj.com#$#.audio-player-inner.audio-size-sm.audio-size-vsm .audio-play-pause g:not(:hover) use:nth-of-type(2),.inset-audio-button-progress-wrapper{filter:invert(1) !important;}
 
