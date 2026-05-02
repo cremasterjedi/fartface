@@ -252,7 +252,7 @@ wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only 
 
 ! WSJ
 
-wsj.com#$#a[class*="NextInnerLink"],#video-player,div[class*="video-player"],div[class*="g-artboard"] div[class*="g-aiPointText"],div[class*="g-artboard"] div[class*="g-aiAbs"],div[data-sub_type="charts"],.css-zfrk0v-ImgWithLinkWrapper,.datawrapper-script-embed.vis-height-fixed.vis-locator-map,.pz-paning-zoom-images{color-scheme:only light !important;}
+wsj.com#$#a[class*="NextInnerLink"],#video-player,div[class*="video-player"],div[class*="ImgWrapper"],div[class*="g-artboard"] div[class*="g-aiPointText"],div[class*="g-artboard"] div[class*="g-aiAbs"],div[data-sub_type="charts"],.css-zfrk0v-ImgWithLinkWrapper,.datawrapper-script-embed.vis-height-fixed.vis-locator-map,.pz-paning-zoom-images{color-scheme:only light !important;}
 wsj.com#$#img[alt="WSJ Logo"],.audio-player-inner.audio-size-sm.audio-size-vsm .audio-play-pause g:not(:hover) use:nth-of-type(2),.inset-audio-button-progress-wrapper{filter:invert(1) !important;}
 
 ! YTMND
