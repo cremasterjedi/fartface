@@ -215,6 +215,7 @@ techcrunch.com#$#.rightrail-promo__logo{background-color:white !important;}
 ! The Atlantic
 
 theatlantic.com#$#button[class*="NavHamburgerButton_root"]{filter:hue-rotate(180deg) invert(1)!important;}
+theatlantic.com#$#hr[class*="c-section-divider"]{filter:invert(1) !important}
 
 ! The Cut
 
