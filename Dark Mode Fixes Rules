@@ -165,7 +165,7 @@ wsj.com#$#[class*="MichaelangeloChart"],a[class*="NextInnerLink"],#video-player,
 wsj.com#$#[data-type="inset"] div[class="label"],[data-type="inset"] div[class="legend"]{color:black !important}
 wsj.com#$#button[class*="BackToTopButton"]{background-color: darkslategray !important;}
 wsj.com#$#.inset-audio-button-progress-wrapper{filter:invert(1) !important;}
-wsj.com#$#.audio-player-inner .audio-play-pause path{fill:white !important;}
+wsj.com#$#[class*="StyledBox"] .audio-player-inner .audio-play-pause path{fill:white !important;}
 
 ! YTMND
 ytmnd.com#$#body{background-image: none !important;}
