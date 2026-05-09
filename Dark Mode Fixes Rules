@@ -161,13 +161,9 @@ en.wikipedia.org#$#img[src*="Black_x"]{filter:invert(1) !important;}
 wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only light !important}
 
 ! WSJ
-wsj.com#$#[class*="MichaelangeloChart"],a[class*="NextInnerLink"],#video-player,div[class*="video-player"],div[class*="ImgWrapper"],div[class*="g-artboard"] div[class*="g-aiPointText"],div[class*="g-artboard"] div[class*="g-aiAbs"],div[data-sub_type="charts"],.css-zfrk0v-ImgWithLinkWrapper,.datawrapper-script-embed.vis-height-fixed.vis-locator-map,img[class*="HedCut"]{color-scheme:only light !important;}
+wsj.com#$#.audio-player-inner.audio-size-sm.audio-size-vsm .audio-play-pause,[class*="MichaelangeloChart"],a[class*="NextInnerLink"],#video-player,div[class*="video-player"],div[class*="ImgWrapper"],div[class*="g-artboard"] div[class*="g-aiPointText"],div[class*="g-artboard"] div[class*="g-aiAbs"],div[data-sub_type="charts"],.css-zfrk0v-ImgWithLinkWrapper,.datawrapper-script-embed.vis-height-fixed.vis-locator-map,img[class*="HedCut"]{color-scheme:only light !important;}
 wsj.com#$#button[class*="BackToTopButton"]{background-color: darkslategray !important;}
-! wsj.com#$#[class*="StyledBox"] .audio-player-inner .audio-play-pause path{fill:white !important;}
-wsj.com#$#.inset-audio-button-progress-wrapper,.audio-scrub-wrapper{filter:invert(1) !important;}
-
-wsj.com#$#.audio-player-inner.audio-size-sm.audio-size-vsm .audio-play-pause{color-scheme:only light !important;}
-wsj.com#$#.audio-player-inner.audio-size-sm.audio-size-vsm button[data-testid="audio-play-pause"] .circle-icon {filter: invert(1) !important;}
+wsj.com#$#.inset-audio-button-progress-wrapper,.audio-scrub-wrapper,.audio-player-inner.audio-size-sm.audio-size-vsm button[data-testid="audio-play-pause"] .circle-icon{filter:invert(1) !important;}
 wsj.com#$#.audio-player-inner.audio-size-sm.audio-size-vsm .audio-play-pause g use:nth-of-type(1){fill:white !important;}
 wsj.com#$#.audio-player-inner.audio-size-sm.audio-size-vsm .audio-play-pause g[fill="currentColor"] use:nth-of-type(2){fill:white !important;}
 wsj.com#$#.audio-player-inner.audio-size-sm.audio-size-vsm .audio-play-pause g[fill="none"] use:nth-of-type(2){fill:black !important;}
