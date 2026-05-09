@@ -167,6 +167,7 @@ wsj.com#$#.inset-audio-button-progress-wrapper,.audio-scrub-wrapper,.audio-playe
 wsj.com#$#.audio-player-inner.audio-size-sm.audio-size-vsm .audio-play-pause g use:nth-of-type(1){fill:white !important;}
 wsj.com#$#.audio-player-inner.audio-size-sm.audio-size-vsm .audio-play-pause g[fill="currentColor"] use:nth-of-type(2){fill:white !important;}
 wsj.com#$#.audio-player-inner.audio-size-sm.audio-size-vsm .audio-play-pause g[fill="none"] use:nth-of-type(2){fill:black !important;}
+wsj.com#$#button[class*="BackToTopButton"],button[aria-label="Search"]{background-color: darkslategray !important;}
 
 ! YTMND
 ytmnd.com#$#body{background-image: none !important;}
