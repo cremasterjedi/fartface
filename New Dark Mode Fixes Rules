@@ -226,7 +226,7 @@ thecut.com,curbed.com#$#.follow_circle-bordered.rss>.inactive,.follow_circle-bor
 
 ! The Quietus
 
-thequietus.com#$##CookiebotWidget{color-scheme:only light !important;}
+thequietus.com#$##CookiebotWidget,audio.controls{color-scheme:only light !important;}
 thequietus.com#$#img[alt="The Quietus"],.position-sticky>a>img{filter:invert(1) !important;}
 
 ! The Verge
