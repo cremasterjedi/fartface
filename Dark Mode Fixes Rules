@@ -141,7 +141,7 @@ theatlantic.com#$#button[class*="NavHamburgerButton_root"],hr[class*="c-section-
 www.thecut.com#$#path.svg-whitebox{fill:#0000 !important}
 
 ! The Quietus
-thequietus.com#$##CookiebotWidget{color-scheme:only light !important;}
+thequietus.com#$##CookiebotWidget,audio{color-scheme:only light !important;}
 
 ! The Verge
 theverge.com#$#.bx-align,div[class^="duet--layout--article-recirc-color-container"]{color-scheme:only light}
