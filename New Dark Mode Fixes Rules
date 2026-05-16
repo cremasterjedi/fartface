@@ -203,6 +203,11 @@ reason.com#$#.logo-header .logo{filter: invert(1) hue-rotate(180deg);}
 redgifs.com#$#body{color-scheme:only light !important;}
 redgifs.com#$#.App.nav.desktop{--app-height:100%;}
 
+! Rolling Stone
+
+rollingstone.com#$#.video-wrap,[class*="the-latest-sidebar"]{color-scheme:only light !important}
+rollingstone.com#$#[class*="MegaMenu-Trigger"]{filter:invert(1) !important}
+
 ! Tailscale
 
 tailscale.com#$#div:has(>a[data-track-properties*="Footer"]:not(a[title="Homepage"])){color-scheme:only light !important;}
