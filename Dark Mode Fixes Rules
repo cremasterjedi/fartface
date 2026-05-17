@@ -2,7 +2,7 @@
 ! 1 hour
 ! Version: 1.0026
 
-*#$##openweb-comments,div[id*="vjs_video"]{color-scheme:only light !important;}
+*#$##openweb-comments,div[id*="vjs_video"],img{color-scheme:only light !important;}
 
 ! Only Light
 app.plex.tv,calendar.google.com,discord.com,erome.com,pluto.tv,chat.google.com,deltekenterprise.com,plaza.one,drive.google.com,hyperbeam.com,letterboxd.com,youtube.com,notion.so,pocketcasts.com,tiktok.com,xhamster.com,youtube.googleapis.com,brooklynvegan.com#$#:root{color-scheme: only light !important;}
@@ -131,7 +131,7 @@ paisanospizza.com#$#body{background-image: none !important;}
 pcgamer.com,musicradar.com,gamesradar.com,tomsguide.com,theweek.com,techradar.com,homesandgardens.com,t3.com,whathifi.com,tomshardware.com,cinemablend.com,whattowatch.com#$#img[src="/media/img/pcgamer_logo.svg"],.newsletter-form__header > svg,img[alt*="flag of"],a[data-mrf-recirculation="locale-flag"] img{color-scheme:only light !important;}
 
 ! Rolling Stone
-rollingstone.com#$#.video-wrap,[class*="the-latest-sidebar"]{color-scheme:only light !important}
+rollingstone.com#$#.video-wrap,.story-grid>header,.secondary-stories__the-list,.last-slide{color-scheme:only light !important}
 rollingstone.com#$#[class*="MegaMenu-Trigger"]{filter:invert(1) !important}
 
 ! TechCrunch
@@ -167,7 +167,6 @@ wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only 
 ! WSJ
 wsj.com#$#[data-block="big-top"] [data-block="dynamic-inset"],[data-inset_type="datawrapper"],[data-inset_type="datawrapper"] .datawrapper-script-embed,[data-inset_type="dynamic"]:not(:is([data-sub_type="quiz"],[data-sub_type="feedback-form"],[data-sub_type="parallax-gallery"],[data-sub_type="series-navigation"],[data-sub_type="origami"],[data-sub_type="timeline"],[data-sub_type="recipe"],[data-sub_type="custom-set"])),#dynamic-inset-renderer,[class*="MichelangeloChart"],a[class*="NextInnerLink"],#video-player,div[class*="video-player"],div[class*="ImgWrapper"],.css-zfrk0v-ImgWithLinkWrapper,.pz-paning-zoom-images{color-scheme:only light !important;}
 wsj.com#$#[data-inset_type="dynamic"] p,[data-inset_type="dynamic"] .legend,[data-inset_type="dynamic"] .label,[data-inset_type="dynamic"] h2,[data-inset_type="dynamic"] form,[data-inset_type="dynamic"] h3{color:gray !important}
-wsj.com#$#button[class*="BackToTopButton"],button[aria-label="Search"]{background-color: darkslategray !important;}
 wsj.com#$#.audio-play-pause g:not(:hover) use:nth-of-type(2),#audio-center-player .audio-scrub-wrapper{filter:invert(1) !important;}
 wsj.com#$#button[class*="BackToTopButton"],button[aria-label="Search"]{background-color: darkslategray !important;}
 wsj.com#$#iframe[id*="instagram-embed"]{color-scheme:auto !important}
