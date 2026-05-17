@@ -205,7 +205,7 @@ redgifs.com#$#.App.nav.desktop{--app-height:100%;}
 
 ! Rolling Stone
 
-rollingstone.com#$#.video-wrap,[class*="the-latest-sidebar"],.secondary-stories__the-list{color-scheme:only light !important}
+rollingstone.com#$#.video-wrap,.story-grid>header,.secondary-stories__the-list{color-scheme:only light !important}
 rollingstone.com#$#[class*="MegaMenu-Trigger"]{filter:invert(1) !important}
 
 ! Tailscale
