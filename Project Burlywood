@@ -16,4 +16,4 @@ theverge.com#$#article,.duet--layout--entry-body-container>div{background-color:
 pitchfork.com#$#[data-testid="ContentHeaderContainer"],[class*="BasePageWrapper"]{background-color:burlywood !important}
 rollingstone.com#$##main-wrapper,footer *{background-color:burlywood !important}
 nytimes.com#$##styln-guide,#bottom-sheet-sensor>section{background-color:burlywood !important}
-cnn.com#$#.layout-homepage__content-wrapper{background-color:burlywood !important}
+cnn.com#$#[class*="layout-homepage"]{background-color:burlywood !important}
