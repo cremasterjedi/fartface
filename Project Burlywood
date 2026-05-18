@@ -17,3 +17,4 @@ pitchfork.com#$#[data-testid="ContentHeaderContainer"],[class*="BasePageWrapper"
 rollingstone.com#$##main-wrapper,footer *{background-color:burlywood !important}
 nytimes.com#$##styln-guide,#bottom-sheet-sensor>section{background-color:burlywood !important}
 cnn.com#$#[class*="layout-homepage"]{background-color:burlywood !important}
+pinterest.com#$#.mainContainer,[data-test-id="header-background"],[data-root-margin="more-ideas-tabs"] *,[data-test-id="closeup-lego-container"],[data-test-id="closeup-body-style"],[data-test-id="closeup-body-sticky-content"],.KvKvqR>div,.ecEhnF{background-color:burlywood !important}
