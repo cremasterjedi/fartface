@@ -1,4 +1,4 @@
-~theverge.com,~google.com,~hyperbeam.com,~plaza.one,~app.plex.tv,~notion.so,~reddit.com,~di.fm,~apps.chrome,~pluto.tv,~inoreader.com,~youtube.com,~kotaku.com,~androidpolice.com,~androidauthority.com,~washingtonpost.com,~fandom.com,~gizmodo.com,~discord.com,~erome.com,~metal-archives.com,~github.com,~githubusercontent.com,~redgifs.com,~xda-developers.com,~letterboxd.com,~pocketcasts.com,~brooklynvegan.com#$#body,main,#main{background-color:burlywood !important}
+~theverge.com,~google.com,~hyperbeam.com,~plaza.one,~app.plex.tv,~notion.so,~reddit.com,~di.fm,~apps.chrome,~pluto.tv,~inoreader.com,~youtube.com,~kotaku.com,~androidpolice.com,~androidauthority.com,~washingtonpost.com,~fandom.com,~gizmodo.com,~discord.com,~erome.com,~metal-archives.com,~github.com,~githubusercontent.com,~redgifs.com,~xda-developers.com,~letterboxd.com,~pocketcasts.com,~brooklynvegan.com,~stereogum.com#$#body,main,#main{background-color:burlywood !important}
 
 mail.google.com#$#.nH.a98.iY,.nH.btDi4d.t54tWc,.nH.btDi4d.t54tWc *{background-color:burlywood !important}
 wsj.com#$#.parallax-gallery-wrapper,aside,.origami-wrapper,[data-type="image"],[data-type="video"],[data-inset_type="ai_summary_bullets"],[data-testid="accordion-control"],.djai2html-foot,[data-sub_type="feedback-form"] [class*="insetComponents"],.series-nav__inset-container,[data-testid="utility-nav"]{background-color:burlywood !important}
@@ -18,3 +18,7 @@ rollingstone.com#$##main-wrapper,footer *{background-color:burlywood !important}
 nytimes.com#$##styln-guide,#bottom-sheet-sensor>section{background-color:burlywood !important}
 cnn.com#$#[class*="layout-homepage"]{background-color:burlywood !important}
 pinterest.com#$#.mainContainer,[data-test-id="header-background"],[data-root-margin="more-ideas-tabs"] *,[data-test-id="closeup-lego-container"],[data-test-id="closeup-body-style"],[data-test-id="closeup-body-sticky-content"],.KvKvqR>div,.ecEhnF{background-color:burlywood !important}
+giantfreakinrobot.com#$#article{background-color:burlywood !important}
+thequietus.com#$#.menu-primary,.mobile-header{background-color:burlywood !important}
+thecut.com,nymag.com,vulture.com#$#.lede-wrapper,.attribution,.article-header{background-color:burlywood !important}
+bleepingcomputer.com#$#.bc_wrapper,.cz-line- heading-inner{background-color:burlywood !important}
