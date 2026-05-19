@@ -4,7 +4,7 @@ mail.google.com#$#.nH.a98.iY,.nH.btDi4d.t54tWc,.nH.btDi4d.t54tWc *{background-co
 wsj.com#$#.parallax-gallery-wrapper,aside,.origami-wrapper,[data-type="image"],[data-type="video"],[data-inset_type="ai_summary_bullets"],[data-testid="accordion-control"],.djai2html-foot,[data-sub_type="feedback-form"] [class*="insetComponents"],.series-nav__inset-container,[data-testid="utility-nav"]{background-color:burlywood !important}
 imdb.com#$##ipc-wrap-background-id{background-color:burlywood !important}
 discogs.com#$#.facetFilter__ASQd,body header,body thead{background-color:burlywood !important}
-bandcamp.com#$#.recommendations-container,.yui-skin-sam:has(.download-bottom-area){background-color:burlywood !important}
+bandcamp.com#$#.recommendations-container,.yui-skin-sam:has(.download-bottom-area),#s-daily,article{background-color:burlywood !important}
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
 bandcamp.com#$##propOpenWrapper{background-color:111 !important}
 letterboxd.com#$#.page-body.journal-body.js-journal-body{background-color:burlywood !important}
