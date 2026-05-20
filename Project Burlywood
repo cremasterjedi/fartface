@@ -34,4 +34,4 @@ politico.com#$#section:not(header section){background-color:burlywood !important
 indiewire.com#$#[class*="templateWrapper"]{background-color:burlywood !important}
 wired.com#$#main{background-color:burlywood !important}
 stackoverflow.com#$##content{background-color:burlywood !important}
-avclub.com#$##site_navigation,article{background-color:burlywood !important}
+avclub.com,paste.com,jezebel.com#$##site_navigation,article,.grid-container,.grid-x.articles-standard,.auto.cell.copy-container{background-color:burlywood !important}
