@@ -40,3 +40,4 @@ avclub.com,pastemagazine.com,jezebel.com#$##site_navigation,article,.grid-contai
 dominionenergy.com#$#.content{background-color:burlywood !important}
 texashighways.com#$##main-content{background-color:burlywood !important}
 vox.com#$##content,[class*="entry-body-container"],.duet--page-layout--post,[class^="duet--layout--river-container"],.hd0te9q{background-color:burlywood !important}
+latimes.com#$#.page-main,[class^="page-content"]{background-color:burlywood !important}
