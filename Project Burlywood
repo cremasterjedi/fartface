@@ -7,7 +7,7 @@ mail.google.com#$#.nH.a98.iY,.nH.btDi4d.t54tWc,.nH.btDi4d.t54tWc *{background-co
 wsj.com#$#[data-type="inset"] [class*="Wrapper"],[data-type="inset"] [class*="wrapper"]:not(.pg-text-wrapper),[data-type="image"],[data-type="video"],[data-inset_type="ai_summary_bullets"],[data-testid="accordion-control"],[aria-label="Utility Bar"] [id^="audio-tag-inner-audio"],.series-nav__inset-container,[aria-label="Utility Nav"]:not([class*="MainStack"]),[data-testid="floating-element-panel"],[class^="insetComponents__Container"]{background-color:burlywood !important}
 imdb.com#$#.ipc-page-background--base:not(footer),.ipc-page-section--base{background-color:burlywood !important}
 discogs.com#$#.facetFilter__ASQd,body header,body thead{background-color:burlywood !important}
-bandcamp.com#$##propOpenWrapper:has(page-footer[color-scheme="dark"]) .recommendations-container,.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article{background-color:burlywood !important}
+bandcamp.com#$##propOpenWrapper:not(#propOpenWrapper page-footer[color-scheme="dark"]) .recommendations-container,.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article{background-color:burlywood !important}
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
 letterboxd.com#$#.page-body.journal-body.js-journal-body{background-color:burlywood !important}
