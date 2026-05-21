@@ -39,4 +39,4 @@ stackoverflow.com#$##content{background-color:burlywood !important}
 avclub.com,pastemagazine.com,jezebel.com#$##site_navigation,article,.grid-container,.grid-x.articles-standard,.auto.cell.copy-container,.large-12.cell.articles>ul,.grid-x,.large-12.cell.articles-header,.large-3.medium-3.cell.image,#master-header{background-color:burlywood !important}
 dominionenergy.com#$#.content{background-color:burlywood !important}
 texashighways.com#$##main-content{background-color:burlywood !important}
-vox.com#$##content,[class*="entry-body-container"],.duet--page-layout--post{background-color:burlywood !important}
+vox.com#$##content,[class*="entry-body-container"],.duet--page-layout--post,[class^="duet--layout--river-container"],.hd0te9q{background-color:burlywood !important}
