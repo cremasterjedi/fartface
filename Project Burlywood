@@ -1,10 +1,10 @@
 metal-archives.com#$#a:not(a:visited){color: #f4b8b8 !important;}
 blu-ray.com#$#font,h3:not([href="/deals/#4"]>h3),b{color: #fff !important;}
 
-~theverge.com,~google.com,~hyperbeam.com,~plaza.one,~app.plex.tv,~notion.so,~reddit.com,~di.fm,~apps.chrome,~pluto.tv,~inoreader.com,~facebook.com,~youtube.com,~kotaku.com,~androidpolice.com,~androidauthority.com,~washingtonpost.com,~fandom.com,~gizmodo.com,~discord.com,~erome.com,~metal-archives.com,~github.com,~githubusercontent.com,~redgifs.com,~xda-developers.com,~letterboxd.com,~pocketcasts.com,~brooklynvegan.com,~stereogum.com,~polygon.com,~9to5google.com,~deltekenterprise.com,~bing.com,~bandcamp.com,~cbr.com,~ign.com#$#body{background-color:burlywood !important}
+~theverge.com,~google.com,~hyperbeam.com,~plaza.one,~app.plex.tv,~notion.so,~reddit.com,~di.fm,~apps.chrome,~pluto.tv,~gitflic.ru,~inoreader.com,~facebook.com,~youtube.com,~kotaku.com,~androidpolice.com,~androidauthority.com,~washingtonpost.com,~fandom.com,~gizmodo.com,~discord.com,~erome.com,~metal-archives.com,~github.com,~githubusercontent.com,~redgifs.com,~xda-developers.com,~letterboxd.com,~pocketcasts.com,~brooklynvegan.com,~stereogum.com,~polygon.com,~9to5google.com,~deltekenterprise.com,~bing.com,~bandcamp.com,~cbr.com,~ign.com,~collider.com,~x.com#$#body{background-color:burlywood !important}
 
 mail.google.com#$#.nH.a98.iY,.nH.btDi4d.t54tWc,.nH.btDi4d.t54tWc *{background-color:burlywood !important}
-wsj.com#$#.parallax-gallery-wrapper,aside,.origami-wrapper,[data-type="image"],[data-type="video"],[data-inset_type="ai_summary_bullets"],[data-testid="accordion-control"],.djai2html-foot,[data-sub_type="feedback-form"] [class*="insetComponents"],.series-nav__inset-container,[data-testid="utility-nav"],.vignette,.css-13hol1o-SectionBlock>[data-id="nestedBigTopInfoHeader"],.css-1ao64i8>[class*="SectionBlock-BackgroundSection"],.tl-footer{background-color:burlywood !important}
+!wsj.com#$#.parallax-gallery-wrapper,aside,.origami-wrapper,[data-type="image"],[data-type="video"],[data-inset_type="ai_summary_bullets"],[data-testid="accordion-control"],.djai2html-foot,[data-sub_type="feedback-form"] [class*="insetComponents"],.series-nav__inset-container,[data-testid="utility-nav"],.vignette,.css-13hol1o-SectionBlock>[data-id="nestedBigTopInfoHeader"],.css-1ao64i8>[class*="SectionBlock-BackgroundSection"],.tl-footer{background-color:burlywood !important}
 imdb.com#$#.ipc-page-background--base:not(footer),.ipc-page-section--base{background-color:burlywood !important}
 discogs.com#$#.facetFilter__ASQd,body header,body thead{background-color:burlywood !important}
 bandcamp.com#$#.recommendations-container,.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article{background-color:burlywood !important}
@@ -13,7 +13,7 @@ bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){backgr
 letterboxd.com#$#.page-body.journal-body.js-journal-body{background-color:burlywood !important}
 wsj.com/video#$#body,main{background-color:#111111 !important}
 newyorker.com#$#main,[data-testid="ContentHeaderContainer"],[class*="ContentHeaderLeadContentCaptionCredit"],[class*="SplitScreenContentHeaderMain"]:not([class*="theme-inverted"]),[class^="SpotlightSummaryContainer"]{background-color:burlywood !important}
-wired.com#$#[class*="BodyWrapper"]{background-color:burlywood !important}
+wired.com#$#main,[class*="BodyWrapper"]{background-color:burlywood !important}
 ytmnd.com#$##main{background-color:burlywood !important}
 ytmnd.com#$#.FRONT_PAGE{background-image:none !important}
 brooklynvegan.com#$#.article-header,.ap-main{background-color:burlywood !important}
@@ -35,7 +35,8 @@ theguardian.com,theguardian.co.uk#$#article,main section{background-color:burlyw
 reason.com#$#.logo-header{background-color:burlywood !important}
 politico.com#$#section:not(header section){background-color:burlywood !important}
 indiewire.com#$#[class*="templateWrapper"]{background-color:burlywood !important}
-wired.com#$#main{background-color:burlywood !important}
 stackoverflow.com#$##content{background-color:burlywood !important}
 avclub.com,pastemagazine.com,jezebel.com#$##site_navigation,article,.grid-container,.grid-x.articles-standard,.auto.cell.copy-container,.large-12.cell.articles>ul,.grid-x,.large-12.cell.articles-header,.large-3.medium-3.cell.image,#master-header{background-color:burlywood !important}
 dominionenergy.com#$#.content{background-color:burlywood !important}
+texashighways.com#$##main-content{background-color:burlywood !important}
+vox.com#$##content,[class*="entry-body-container"],.duet--page-layout--post{background-color:burlywood !important}
