@@ -10,6 +10,7 @@ bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .rec
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
 bleepingcomputer.com#$#.bc_wrapper,.cz-line- heading-inner{background-color:burlywood !important}
+bloomberg.com#$#[class^="media-ui-LeaderboardAd_parallaxWrapper"],[class*="LineupContentOpinion"]{background-color:burlywood !important}
 brooklynvegan.com#$#.article-header,.ap-main{background-color:burlywood !important}
 cbsnews.com#$#html{background-color:burlywood !important}
 cnn.com#$#[class*="layout-homepage"],.layout__content-wrapper{background-color:burlywood !important}
