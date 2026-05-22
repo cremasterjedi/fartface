@@ -15,7 +15,7 @@ cnn.com#$#[class*="layout-homepage"],.layout__content-wrapper{background-color:b
 deathmetal.org#$##frame,#content{background-color:burlywood !important}
 discogs.com#$#.facetFilter__ASQd,body header,body thead{background-color:burlywood !important}
 dominionenergy.com#$#.content{background-color:burlywood !important}
-eater.com#$#.duet--page-layout--homepage,.duet--page-layout--post,.duet--layout--entry-body-container{background-color:burlywood !important}
+eater.com#$#[class^="duet--page-layout"],.duet--layout--entry-body-container{background-color:burlywood !important}
 faroutmagazine.co.uk#$#.content{background-color:burlywood !important}
 giantfreakinrobot.com#$#article{background-color:burlywood !important}
 mail.google.com#$#.nH.a98.iY,.nH.btDi4d.t54tWc,.nH.btDi4d.t54tWc *{background-color:burlywood !important}
