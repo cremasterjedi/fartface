@@ -3,41 +3,42 @@ blu-ray.com#$#font,h3:not([href="/deals/#4"]>h3),b{color: #fff !important;}
 
 ~theverge.com,~google.com,~hyperbeam.com,~plaza.one,~app.plex.tv,~notion.so,~reddit.com,~di.fm,~apps.chrome,~pluto.tv,~gitflic.ru,~inoreader.com,~facebook.com,~youtube.com,~kotaku.com,~androidpolice.com,~androidauthority.com,~washingtonpost.com,~fandom.com,~gizmodo.com,~discord.com,~erome.com,~metal-archives.com,~github.com,~githubusercontent.com,~redgifs.com,~xda-developers.com,~letterboxd.com,~pocketcasts.com,~brooklynvegan.com,~stereogum.com,~polygon.com,~9to5google.com,~deltekenterprise.com,~bing.com,~bandcamp.com,~cbr.com,~ign.com,~collider.com,~x.com#$#body{background-color:burlywood !important}
 
-mail.google.com#$#.nH.a98.iY,.nH.btDi4d.t54tWc,.nH.btDi4d.t54tWc *{background-color:burlywood !important}
-wsj.com#$#[data-type="inset"] [class*="Wrapper"],[data-type="inset"] [class*="wrapper"]:not(.pg-text-wrapper),[data-type="image"],[data-type="video"],[data-inset_type="ai_summary_bullets"],[data-testid="accordion-control"],[aria-label="Utility Bar"] [id^="audio-tag-inner-audio"],.series-nav__inset-container,[aria-label="Utility Nav"]:not([class*="MainStack"]),[data-testid="floating-element-panel"],[class^="insetComponents__Container"]{background-color:burlywood !important}
-imdb.com#$#.ipc-page-background--base:not(footer),.ipc-page-section--base{background-color:burlywood !important}
-discogs.com#$#.facetFilter__ASQd,body header,body thead{background-color:burlywood !important}
+avclub.com,pastemagazine.com,jezebel.com#$##site_navigation,article,.grid-container,.grid-x.articles-standard,.auto.cell.copy-container,.large-12.cell.articles>ul,.grid-x,.large-12.cell.articles-header,.large-3.medium-3.cell.image,#master-header{background-color:burlywood !important}
+thecut.com,nymag.com,vulture.com#$#.lede-wrapper,.attribution,.article-header,.primary-area:before,.curated-feed.is-on-article-page,.article-read-more{background-color:burlywood !important}
+
 bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .recommendations-container,#pgBd:has([data-design*='"body_color":"FFFFFF"']),#pgBd:has(.stub-page-content),.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article{background-color:burlywood !important}
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
-letterboxd.com#$#.page-body.journal-body.js-journal-body{background-color:burlywood !important}
-wsj.com/video#$#body,main{background-color:#111111 !important}
-newyorker.com#$#main,[data-testid="ContentHeaderContainer"],[class*="ContentHeaderLeadContentCaptionCredit"],[class*="SplitScreenContentHeaderMain"]:not([class*="theme-inverted"]),[class^="SpotlightSummaryContainer"]{background-color:burlywood !important}
-wired.com#$#main,[class*="BodyWrapper"],main:has(>div:first-child:not([class*="theme"])) header>div,[class*="BasePageWrapper"],[class*="bg-fullbleed"],[class*="DefaultCardWrapper"]:not([class*="theme-inverted"]),div[class*="ListWrapper"],[class*="InlineVideoItemWrapper"],[class*="TagPageHeaderGrid"]{background-color:burlywood !important}
-ytmnd.com#$##main{background-color:burlywood !important}
-ytmnd.com#$#.FRONT_PAGE{background-image:none !important}
+bleepingcomputer.com#$#.bc_wrapper,.cz-line- heading-inner{background-color:burlywood !important}
 brooklynvegan.com#$#.article-header,.ap-main{background-color:burlywood !important}
-theverge.com#$#article,.duet--layout--entry-body-container>div,.duet--page-layout--post{background-color:burlywood !important}
-pitchfork.com#$#[data-testid="ContentHeaderContainer"],[class*="BasePageWrapper"]{background-color:burlywood !important}
-rollingstone.com#$##main-wrapper,footer *,.reels-hook-wrapper,.reels-hook{background-color:burlywood !important}
-nytimes.com#$##styln-guide,#bottom-sheet-sensor>section{background-color:burlywood !important}
 cnn.com#$#[class*="layout-homepage"],.layout__content-wrapper{background-color:burlywood !important}
-pinterest.com#$#.mainContainer,.KvKvqR>div,.ecEhnF{background-color:burlywood !important}
+deathmetal.org#$##frame,#content{background-color:burlywood !important}
+discogs.com#$#.facetFilter__ASQd,body header,body thead{background-color:burlywood !important}
+dominionenergy.com#$#.content{background-color:burlywood !important}
+faroutmagazine.co.uk#$#.content{background-color:burlywood !important}
 giantfreakinrobot.com#$#article{background-color:burlywood !important}
+mail.google.com#$#.nH.a98.iY,.nH.btDi4d.t54tWc,.nH.btDi4d.t54tWc *{background-color:burlywood !important}
+theguardian.com,theguardian.co.uk#$#article,main section{background-color:burlywood !important}
+imdb.com#$#.ipc-page-background--base:not(footer),.ipc-page-section--base{background-color:burlywood !important}
+indiewire.com#$#[class*="templateWrapper"]{background-color:burlywood !important}
+latimes.com#$#.page-main,[class^="page-content"]{background-color:burlywood !important}
+letterboxd.com#$#.page-body.journal-body.js-journal-body{background-color:burlywood !important}
+newyorker.com#$#main,[data-testid="ContentHeaderContainer"],[class*="ContentHeaderLeadContentCaptionCredit"],[class*="SplitScreenContentHeaderMain"]:not([class*="theme-inverted"]),[class^="SpotlightSummaryContainer"]{background-color:burlywood !important}
+nytimes.com#$##styln-guide,#bottom-sheet-sensor>section{background-color:burlywood !important}
+pinterest.com#$#.mainContainer,.KvKvqR>div,.ecEhnF{background-color:burlywood !important}
+pitchfork.com#$#[data-testid="ContentHeaderContainer"],[class*="BasePageWrapper"]{background-color:burlywood !important}
+politico.com#$#section:not(header section){background-color:burlywood !important}
 thequietus.com#$#.menu-primary,.mobile-header,#header,.sub-menu:after{background-color:burlywood !important}
 thequietus.com#$#main{background-color:initial !important}
-thecut.com,nymag.com,vulture.com#$#.lede-wrapper,.attribution,.article-header,.primary-area:before,.curated-feed.is-on-article-page,.article-read-more{background-color:burlywood !important}
-bleepingcomputer.com#$#.bc_wrapper,.cz-line- heading-inner{background-color:burlywood !important}
-threesaintsbay.com#$#.upb_row_bg{background-color:burlywood !important}
-deathmetal.org#$##frame,#content{background-color:burlywood !important}
-faroutmagazine.co.uk#$#.content{background-color:burlywood !important}
-theguardian.com,theguardian.co.uk#$#article,main section{background-color:burlywood !important}
 reason.com#$#.logo-header{background-color:burlywood !important}
-politico.com#$#section:not(header section){background-color:burlywood !important}
-indiewire.com#$#[class*="templateWrapper"]{background-color:burlywood !important}
+rollingstone.com#$##main-wrapper,footer *,.reels-hook-wrapper,.reels-hook{background-color:burlywood !important}
 stackoverflow.com#$##content{background-color:burlywood !important}
-avclub.com,pastemagazine.com,jezebel.com#$##site_navigation,article,.grid-container,.grid-x.articles-standard,.auto.cell.copy-container,.large-12.cell.articles>ul,.grid-x,.large-12.cell.articles-header,.large-3.medium-3.cell.image,#master-header{background-color:burlywood !important}
-dominionenergy.com#$#.content{background-color:burlywood !important}
 texashighways.com#$##main-content{background-color:burlywood !important}
+threesaintsbay.com#$#.upb_row_bg{background-color:burlywood !important}
+theverge.com#$#article,.duet--layout--entry-body-container>div,.duet--page-layout--post{background-color:burlywood !important}
 vox.com#$##content,[class*="entry-body-container"],.duet--page-layout--post,[class^="duet--layout--river-container"],.hd0te9q{background-color:burlywood !important}
-latimes.com#$#.page-main,[class^="page-content"]{background-color:burlywood !important}
+wired.com#$#main,[class*="BodyWrapper"],main:has(>div:first-child:not([class*="theme"])) header>div,[class*="BasePageWrapper"],[class*="bg-fullbleed"],[class*="DefaultCardWrapper"]:not([class*="theme-inverted"]),div[class*="ListWrapper"],[class*="InlineVideoItemWrapper"],[class*="TagPageHeaderGrid"]{background-color:burlywood !important}
+wsj.com#$#[data-type="inset"] [class*="Wrapper"],[data-type="inset"] [class*="wrapper"]:not(.pg-text-wrapper),[data-type="image"],[data-type="video"],[data-inset_type="ai_summary_bullets"],[data-testid="accordion-control"],[aria-label="Utility Bar"] [id^="audio-tag-inner-audio"],.series-nav__inset-container,[aria-label="Utility Nav"]:not([class*="MainStack"]),[data-testid="floating-element-panel"],[class^="insetComponents__Container"]{background-color:burlywood !important}
+wsj.com/video#$#body,main{background-color:#111111 !important}
+ytmnd.com#$##main{background-color:burlywood !important}
+ytmnd.com#$#.FRONT_PAGE{background-image:none !important}
