@@ -6,7 +6,7 @@ blu-ray.com#$#font,h3:not([href="/deals/#4"]>h3),b{color: #fff !important;}
 avclub.com,pastemagazine.com,jezebel.com#$##site_navigation,article,.grid-container,.grid-x.articles-standard,.auto.cell.copy-container,.large-12.cell.articles>ul,.grid-x,.large-12.cell.articles-header,.large-3.medium-3.cell.image,#master-header{background-color:burlywood !important}
 thecut.com,nymag.com,vulture.com#$#.lede-wrapper,.attribution,.article-header,.primary-area:before,.curated-feed.is-on-article-page,.article-read-more{background-color:burlywood !important}
 
-amazon.com#$##pageContent,#dp,.a-cardui,.maple-banner--background,.a-keyvalue.prodDetTable,table.a-bordered td,.a-expander-partial-collapse-header,#prodDetails .prodDet-expander-header-styling,.s-desktop-content,.puis-status-badge-container,.a-box,.s-desktop-toolbar{background-color:burlywood !important}
+amazon.com#$##pageContent,#dp,.alm-carousel-desktop,#ee-aisles-on-ba-widget-container,.maple-banner--background,.a-keyvalue.prodDetTable,table.a-bordered td,.a-expander-partial-collapse-header,#prodDetails .prodDet-expander-header-styling,.s-desktop-content,.puis-status-badge-container,.a-box,.s-desktop-toolbar{background-color:burlywood !important}
 bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .recommendations-container,#pgBd:has([data-design*='"body_color":"FFFFFF"']),#pgBd:has(.stub-page-content),.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article{background-color:burlywood !important}
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
