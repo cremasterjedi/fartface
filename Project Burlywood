@@ -23,6 +23,7 @@ faroutmagazine.co.uk#$#.content{background-color:burlywood !important}
 giantfreakinrobot.com#$#article{background-color:burlywood !important}
 mail.google.com#$#.nH.a98.iY,.nH.btDi4d.t54tWc,.nH.btDi4d.t54tWc *{background-color:burlywood !important}
 theguardian.com,theguardian.co.uk#$#article,main section{background-color:burlywood !important}
+guitarworld.com#$#body,#main{background-color:burlywood !important}
 imdb.com#$#.ipc-page-background--base:not(footer),.ipc-page-section--base{background-color:burlywood !important}
 the-independent.com#$#article,figcaption,div:has(>.main-wrapper),.vf3-comments,.vf3-comments__bottom-action,#frameInner>div:last-child{background-color:burlywood !important}
 indiewire.com#$#[class*="templateWrapper"]{background-color:burlywood !important}
@@ -30,7 +31,10 @@ latimes.com#$#.page-main,[class^="page-content"]{background-color:burlywood !imp
 letterboxd.com#$#.page-body.journal-body.js-journal-body{background-color:burlywood !important}
 newsweek.com#$#section[class*="ArticleDefaultLayout-module"]{background-color:burlywood !important}
 newyorker.com#$#main,[data-testid="ContentHeaderContainer"],[class*="ContentHeaderLeadContentCaptionCredit"],[class*="SplitScreenContentHeaderMain"]:not([class*="theme-inverted"]),[class^="SpotlightSummaryContainer"]{background-color:burlywood !important}
+nme.com#$#article,.td-main-content-wrap{background-color:burlywood !important}
+npr.org#$#body,main,#main-section,#main-sidebar,.bucketwrap.list.list--complex,.bucketwrap.promocard{background-color:burlywood !important}
 nytimes.com#$##styln-guide,#bottom-sheet-sensor>section{background-color:burlywood !important}
+parade.com#$#.has-site-pattern{background-color:burlywood !important}
 pcgamer.com#$##main{background-color:burlywood !important}
 pinterest.com#$#.mainContainer,.KvKvqR>div,.ecEhnF{background-color:burlywood !important}
 pitchfork.com#$#[data-testid="ContentHeaderContainer"],[class*="BasePageWrapper"]{background-color:burlywood !important}
@@ -38,8 +42,10 @@ politico.com#$#section:not(header section){background-color:burlywood !important
 thequietus.com#$#.menu-primary,.mobile-header,#header,.sub-menu:after{background-color:burlywood !important}
 thequietus.com#$#main{background-color:initial !important}
 reason.com#$#.logo-header{background-color:burlywood !important}
+theregister.com#$#body,#mainArticleSection,article:not(footer article):not(.main.front article),footer{background-color:burlywood !important}
 rollingstone.com#$##main-wrapper,footer *,.reels-hook-wrapper,.reels-hook{background-color:burlywood !important}
 stackoverflow.com#$##content{background-color:burlywood !important}
+thestreet.com#$##main-content,.section-page,.article-post{background-color:burlywood !important}
 the-sun.com,thescottishsun.co.uk,thesun.co.uk#$##content,#main{background-color:burlywood !important}
 texashighways.com#$##main-content{background-color:burlywood !important}
 threesaintsbay.com#$#.upb_row_bg{background-color:burlywood !important}
