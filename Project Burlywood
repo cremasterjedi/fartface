@@ -8,6 +8,7 @@ thecut.com,nymag.com,vulture.com#$#.lede-wrapper,.attribution,.article-header,.p
 
 amazon.com#$##pageContent,#dp,.alm-carousel-desktop,#ee-aisles-on-ba-widget-container,.maple-banner--background,.a-keyvalue.prodDetTable,table.a-bordered td,.a-expander-partial-collapse-header,#prodDetails .prodDet-expander-header-styling,.s-desktop-content,.puis-status-badge-container,.a-box,.s-desktop-toolbar,[data-hook="reviewText"] .a-cardui,.cardRoot.bucket .a-cardui,#va-related-videos-widget_feature_div .a-cardui,.dcl-container-inner,.ssd-outside-desktop,.ssd-inside-desktop{background-color:burlywood !important}
 read.amazon.com#$#._21ykqjol8NRHrgKPwlCGFu,#sidebar{background-color:burlywood !important}
+theatlantic.com#$#[class^="AuthorHeader"]{background-color:burlywood !important}
 bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .recommendations-container,#pgBd:has([data-design*='"body_color":"FFFFFF"']),#pgBd:has(.stub-page-content),.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article{background-color:burlywood !important}
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
