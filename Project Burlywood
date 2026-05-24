@@ -27,6 +27,7 @@ eater.com#$#[class^="duet--page-layout"],.duet--layout--entry-body-container{bac
 faroutmagazine.co.uk#$#.content{background-color:burlywood !important}
 giantfreakinrobot.com#$#article{background-color:burlywood !important}
 mail.google.com#$#.nH.a98.iY,.nH.btDi4d.t54tWc,.nH.btDi4d.t54tWc *{background-color:burlywood !important}
+gsmarena.com#$##outer,.main{background-color:burlywood !important}
 theguardian.com,theguardian.co.uk#$#article,main section{background-color:burlywood !important}
 guitarworld.com#$#body,#main{background-color:burlywood !important}
 imdb.com#$#.ipc-page-background--base:not(footer),.ipc-page-section--base{background-color:burlywood !important}
@@ -63,3 +64,8 @@ wsj.com#$#body:has(header[data-testid="video-header"]),body:has(.css-14ja142-Sec
 yahoo.com,~sports.yahoo.com#$#[class*="bg-primary"],.bg-white,.bg-secondary,#module-uh,#uh-miniSidebar{background-color:burlywood !important}
 ytmnd.com#$##main{background-color:burlywood !important}
 ytmnd.com#$#.FRONT_PAGE{background-image:none !important}
+
+! Maps
+google.com#$#div[aria-label*="corresponding number key"],.obhoOb{filter: invert(100%) hue-rotate(0.4turn) !important;}
+google.com#$#.kDiHkf{filter:invert(1) hue-rotate(-0.4turn) !important}
+google.com#$#.ODXihb,.dBl9De,.miFGmb:not(.miFGmb.lJ3Kh.lsLI2d),.e07Vkf:has([role="main"]),.hh2c6,.OqCZI,.s35xed .nUH3Jc,.DAdBuc,.xoLGzf,.SuV3fd,.E9Z7uf .m6QErb.iS1Ot,.dp9cUc,.yx21af.Srrom{background-color:burlywood !important}
