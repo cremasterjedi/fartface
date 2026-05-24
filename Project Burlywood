@@ -37,7 +37,7 @@ indiewire.com#$#[class*="templateWrapper"]{background-color:burlywood !important
 latimes.com#$#.page-main,[class^="page-content"]{background-color:burlywood !important}
 letterboxd.com#$#.page-body.journal-body.js-journal-body{background-color:burlywood !important}
 newsweek.com#$#section[class*="ArticleDefaultLayout-module"]{background-color:burlywood !important}
-newyorker.com#$#main,[data-testid="ContentHeaderContainer"],[class*="ContentHeaderLeadContentCaptionCredit"],[class*="SplitScreenContentHeaderMain"]:not([class*="theme-inverted"]),[class^="SpotlightSummaryContainer"],.eNwtvw.eNwtvw.eNwtvw{background-color:burlywood !important}
+newyorker.com#$#main,[data-testid="ContentHeaderContainer"],[class*="ContentHeaderLeadContentCaptionCredit"],[class*="SplitScreenContentHeaderMain"]:not([class*="theme-inverted"]),[class^="SpotlightSummaryContainer"],.eNwtvw.eNwtvw.eNwtvw,[class^="ContributerHeaderWrapper"]{background-color:burlywood !important}
 nme.com#$#article,.td-main-content-wrap{background-color:burlywood !important}
 npr.org#$#body,main,#main-section,#main-sidebar,.bucketwrap.list.list--complex,.bucketwrap.promocard{background-color:burlywood !important}
 nytimes.com#$##styln-guide,#bottom-sheet-sensor>section{background-color:burlywood !important}
