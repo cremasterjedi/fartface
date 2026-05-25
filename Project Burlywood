@@ -27,7 +27,16 @@ dominionenergy.com#$#.content{background-color:burlywood !important}
 eater.com#$#[class^="duet--page-layout"],.duet--layout--entry-body-container{background-color:burlywood !important}
 faroutmagazine.co.uk#$#.content{background-color:burlywood !important}
 giantfreakinrobot.com#$#article{background-color:burlywood !important}
-mail.google.com#$#.nH.a98.iY,.nH.btDi4d.t54tWc,.nH.btDi4d.t54tWc *{background-color:burlywood !important}
+chat.google.com#$##dynamite-main-content:has(>.ngwyff) .AF0zs,#dynamite-main-content:has(>.ngwyff) .YLLISb{background-color:burlywood !important}
+contacts.google.com#$#body,.qTFz2,.qsYKIe,.VfVJ0,.dFPtBe,.ANsHhf,.u2A0yb,.GCNTjc{background-color:burlywood !important}
+mail.google.com#$#.nH.a98.iY,.nH.btDi4d.t54tWc,.nH.btDi4d.t54tWc *,.nH.r4,.v .fY,.v .f1,.v .fZ,.alO{background-color:burlywood !important}
+meet.google.com#$#body,.UMrnmb-vyw7Sc-Psmogf,.VlXfTe{background-color:burlywood !important}
+play.google.com#$#body{background-color:burlywood !important}
+translate.google.com#$#body,.ccvoYb,.dOQF4b,.k5v5Nb,.CLKk4c,.kXN2zb.Q5Onnd,.kXN2zb.dtohSe{background-color:burlywood !important}
+translate.google.com#$#.U0xwnf:after,.X4DQ0:after{background-image:none !important}
+translate.google.com#$#.rm1UF.UnxENd{background-color:white !important}
+wallet.google.com#$#body,.pIjNtf .UMrnmb-vyw7Sc-Psmogf,.NRqPJf{background-color:burlywood !important}
+workspace.google.com#$#body,.v70vSe,.TemplateBackgroundContainer_white,.TemplateBackgroundContainer_grey{background-color:burlywood !important}
 gsmarena.com#$##outer,.main{background-color:burlywood !important}
 theguardian.com,theguardian.co.uk#$#article,main section{background-color:burlywood !important}
 guitarworld.com#$#body,#main{background-color:burlywood !important}
@@ -43,6 +52,8 @@ nme.com#$#article,.td-main-content-wrap{background-color:burlywood !important}
 npr.org#$#body,main,#main-section,#main-sidebar,.bucketwrap.list.list--complex,.bucketwrap.promocard{background-color:burlywood !important}
 nytimes.com#$##styln-guide,#bottom-sheet-sensor>section{background-color:burlywood !important}
 parade.com#$#.has-site-pattern{background-color:burlywood !important}
+paypal.com#$#html,section[class*="white"],.NIIMzrMZazBmMBgMErLA .vgXitBjua5Q65lRe91zw,.NIIMzrMZazBmMBgMErLA .OOsHlzOd9YLSp4s7bpeX,.rSQFoRGEyR_IYaOUs8kL,.omnichannel-template,#shopping-web--v2,#js_foreground.primary-container,.vx_foreground-container,.fiLists-container,.fiDetailArea-container,.spf-8zdrft-pill_tray,.vx_mainContent,.hero-module_heroModule_ppa__d2k7i,.more-ways-of-help_moreWaysOfHelp__container_ppa__3GwpU,#random-glamor-id-8060996710230375 .css-1m4rlv3,.primary-background,.kit8kp0,._1v87gvq0,.settings>#app-root,[dir] .settingsContainer,.vx_mainContent>#root{background-color:burlywood !important}
+paypal.com#$#.cw-foreground-container--repaint{background-image:none !important}
 pcgamer.com#$##main{background-color:burlywood !important}
 pinterest.com#$#.mainContainer,.KvKvqR>div,.ecEhnF{background-color:burlywood !important}
 pitchfork.com#$#[data-testid="ContentHeaderContainer"],[class*="BasePageWrapper"]{background-color:burlywood !important}
