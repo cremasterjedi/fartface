@@ -47,7 +47,7 @@ indiewire.com#$#[class*="templateWrapper"]{background-color:burlywood !important
 last.fm#$##content,.container:not(.trending-tracks-section .container):not(footer .container),#mantle_skin,.row:not(footer .row),.content-top-has-nav .content-top,.section-with-separator:after{background-color:burlywood !important}
 latimes.com#$#.page-main,[class^="page-content"]{background-color:burlywood !important}
 letterboxd.com#$#.page-body.journal-body.js-journal-body{background-color:burlywood !important}
-mensjournal.com#$#article,#main-content,[class^="style_pageHeader"]{background-color:burlywood !important}
+mensjournal.com#$#article,#main-content,[class^="style_pageHeader"],#results>div,.section-page.has-site-pattern{background-color:burlywood !important}
 newsweek.com#$#section[class*="ArticleDefaultLayout-module"]{background-color:burlywood !important}
 newyorker.com#$#main,[data-testid="ContentHeaderContainer"],[class*="ContentHeaderLeadContentCaptionCredit"],[class*="SplitScreenContentHeaderMain"]:not([class*="theme-inverted"]),[class^="SpotlightSummaryContainer"],.eNwtvw.eNwtvw.eNwtvw,[class^="ContributorHeaderWrapper"]{background-color:burlywood !important}
 nme.com#$#article,.td-main-content-wrap{background-color:burlywood !important}
