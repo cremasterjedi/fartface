@@ -78,6 +78,7 @@ threesaintsbay.com#$#.upb_row_bg{background-color:burlywood !important}
 theverge.com#$#article,.duet--layout--entry-body-container>div,.duet--page-layout--post{background-color:burlywood !important}
 theverge.com#$#._1c8yj4y1{background-color:#131313 !important}
 thetimes.com#$#article,#react-app,.secondary-nav-container,.css-1yq803h,.article-previous-next--sticky{background-color:burlywood !important}
+treblezine.com#$#div[role="main"]{background-color:burlywood !important}
 usatoday.com#$#.gnt_cw{background-color:burlywood !important}
 vox.com#$##content,[class*="entry-body-container"],.duet--page-layout--post,[class^="duet--layout--river-container"],.hd0te9q{background-color:burlywood !important}
 wired.com#$#main,[class*="BodyWrapper"],main:has(>div:first-child:not([class*="theme"])) header>div,[class*="BasePageWrapper"],[class*="bg-fullbleed"],[class*="DefaultCardWrapper"]:not([class*="theme-inverted"]),div[class*="ListWrapper"],[class*="InlineVideoItemWrapper"],[class*="TagPageHeaderGrid"]{background-color:burlywood !important}
