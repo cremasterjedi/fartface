@@ -52,7 +52,7 @@ mensjournal.com#$#article,#main-content,[class^="style_pageHeader"],#results>div
 nbcnews.com#$##content,[data-testid="vertVideoPackage"],article{background-color:burlywood !important}
 nbcnews.com#$#.styles_listOuter__WQKoD:after,.wide-tease-item__wrapper:last-of-type:after{background-image:none !important}
 newsweek.com#$#section[class*="ArticleDefaultLayout-module"]{background-color:burlywood !important}
-newyorker.com#$#main,[data-testid="ContentHeaderContainer"],[class*="ContentHeaderLeadContentCaptionCredit"],[class*="SplitScreenContentHeaderMain"]:not([class*="theme-inverted"]),[class^="SpotlightSummaryContainer"],.eNwtvw.eNwtvw.eNwtvw,[class^="ContributorHeaderWrapper"]{background-color:burlywood !important}
+newyorker.com#$#main,header:not([class*="theme-inverted"]),[data-testid="ContentHeaderContainer"],[class*="ContentHeaderLeadContentCaptionCredit"],[class*="SplitScreenContentHeaderMain"]:not([class*="theme-inverted"]),[class^="SpotlightSummaryContainer"],.eNwtvw.eNwtvw.eNwtvw,[class^="ContributorHeaderWrapper"]{background-color:burlywood !important}
 nme.com#$#article,.td-main-content-wrap{background-color:burlywood !important}
 npr.org#$#body,main,#main-section,#main-sidebar,.bucketwrap.list.list--complex,.bucketwrap.promocard{background-color:burlywood !important}
 nypost.com#$##main,.membership-comments-module,.more-stories,.recirc__stories,.recirc__wrapper,.recirc,.src-components-Layout-Layout__container--vQzah,.google-preferred-sources{background-color:burlywood !important}
@@ -82,9 +82,9 @@ treblezine.com#$#div[role="main"]{background-color:burlywood !important}
 usatoday.com#$#.gnt_cw{background-color:burlywood !important}
 vox.com#$##content,[class*="entry-body-container"],.duet--page-layout--post,[class^="duet--layout--river-container"],.hd0te9q{background-color:burlywood !important}
 wired.com#$#main,[class*="BodyWrapper"],main:has(>div:first-child:not([class*="theme"])) header>div,[class*="BasePageWrapper"],[class*="bg-fullbleed"],[class*="DefaultCardWrapper"]:not([class*="theme-inverted"]),div[class*="ListWrapper"],[class*="InlineVideoItemWrapper"],[class*="TagPageHeaderGrid"]{background-color:burlywood !important}
-wsj.com#$#body,[data-type="inset"] [class*="Wrapper"],[data-type="inset"] [class*="wrapper"]:not(.pg-text-wrapper),[data-type="image"],[data-type="video"],[data-inset_type="ai_summary_bullets"],[data-testid="accordion-control"],[aria-label="Utility Bar"] [id^="audio-tag-inner-audio"],.series-nav__inset-container,[aria-label="Utility Nav"]:not([class*="MainStack"]),[data-testid="floating-element-panel"],[class^="insetComponents__Container"],[data-test-id="rich-text-container"]{background-color:burlywood !important}
+wsj.com#$#body,[data-type="inset"] [class*="Wrapper"],[data-type="inset"] [class*="wrapper"]:not(.pg-text-wrapper),[data-type="image"],[data-type="video"],[data-inset_type="ai_summary_bullets"],[data-testid="accordion-control"],[aria-label="Utility Bar"] [id^="audio-tag-inner-audio"],.series-nav__inset-container,[aria-label="Utility Nav"]:not([class*="MainStack"]),[data-testid="floating-element-panel"],[class^="insetComponents__Container"],[data-test-id="rich-text-container"],header:not([data-header-dark="true"]):not([data-testid="video-header"]),#masthead-container,.css-ea1ni1-Scrim,.css-1k77239,.css-9yhm25,.css-17c0sws-StyledBox,.css-1e5d0q-LogoBase-BrandLogo,.css-1sck56f-SectionLogo,.css-1v09bjp-StyledBox,.css-1pwirss-StyledBox{background-color:burlywood !important}
 wsj.com#$#body:has(header[data-testid="video-header"]),body:has(.css-14ja142-SectionLogo-SectionLogo-SectionLogo.ei808ww0){background-color:#111111 !important}
-wsj.com#$#.ng-scope #template-container{background-color:white !important}
+wsj.com#$#.css-2kptpw-Description:before{background-image:none !important}
 yahoo.com,~sports.yahoo.com#$#[class*="bg-primary"],.bg-white,.bg-secondary,#module-uh,#uh-miniSidebar{background-color:burlywood !important}
 yahoo.com#$#.from-secondary,.from-primary{--tw-gradient-from: none !important}
 ytmnd.com#$##main{background-color:burlywood !important}
