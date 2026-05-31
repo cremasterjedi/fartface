@@ -49,6 +49,8 @@ last.fm#$##content,.container:not(.trending-tracks-section .container):not(foote
 latimes.com#$#.page-main,[class^="page-content"]{background-color:burlywood !important}
 letterboxd.com#$#.page-body.journal-body.js-journal-body{background-color:burlywood !important}
 mensjournal.com#$#article,#main-content,[class^="style_pageHeader"],#results>div,.section-page.has-site-pattern{background-color:burlywood !important}
+mixcloud.com#$#.fJesGP,.x15i8bk3,.x1e3a1ji.x9njdoa.x1n2onr6.xh8yej3.xl8spv7.xr3buco,.x7wzq59.x1wqao5.xjbys53.xl8spv7.xish69e.x1rohswg.x13uy676.x146cmtt.x1odjw0f.x1l3sx8g.x1uhho1l.xxl48ox.xtkp3aw{background-color:burlywood !important}
+moonwiringclub.com#$#header,footer,.Main,.Intro{background-color:burlywood !important}
 nbcnews.com#$##content,[data-testid="vertVideoPackage"],article{background-color:burlywood !important}
 nbcnews.com#$#.styles_listOuter__WQKoD:after,.wide-tease-item__wrapper:last-of-type:after{background-image:none !important}
 newsweek.com#$#section[class*="ArticleDefaultLayout-module"]{background-color:burlywood !important}
