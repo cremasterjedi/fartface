@@ -23,7 +23,7 @@ c-span.org#$##wrapper,#MainContain,.container,footer,.transcript table td,.trans
 c-span.org#$#.transcript table tr{border-bottom-color:burlywood !important}
 deadline.com#$#main,.pmc-u-background-white,.latest-by-category,.trending-now{background-color:burlywood !important}
 deathmetal.org#$##frame,#content{background-color:burlywood !important}
-discogs.com#$#.facetFilter__ASQd,body header,body thead,[class^="moreInfo"]{background-color:burlywood !important}
+discogs.com#$#.facetFilter__ASQd,body header,body thead,[class*="moreInfo"]{background-color:burlywood !important}
 dominionenergy.com#$#.content{background-color:burlywood !important}
 eater.com#$#[class^="duet--page-layout"],.duet--layout--entry-body-container{background-color:burlywood !important}
 faroutmagazine.co.uk#$#.content{background-color:burlywood !important}
