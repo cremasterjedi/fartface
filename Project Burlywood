@@ -77,8 +77,8 @@ thestreet.com#$##main-content,.section-page,.article-post{background-color:burly
 the-sun.com,thescottishsun.co.uk,thesun.co.uk#$##content,#main{background-color:burlywood !important}
 texashighways.com#$##main-content{background-color:burlywood !important}
 threesaintsbay.com#$#.upb_row_bg{background-color:burlywood !important}
-theverge.com#$#article,.duet--layout--entry-body-container>div,.duet--page-layout--post{background-color:burlywood !important}
-theverge.com#$#._1c8yj4y1{background-color:#131313 !important}
+!theverge.com#$#article,.duet--layout--entry-body-container>div,.duet--page-layout--post{background-color:burlywood !important}
+!theverge.com#$#._1c8yj4y1{background-color:#131313 !important}
 thetimes.com#$#article,#react-app,.secondary-nav-container,.css-1yq803h,.article-previous-next--sticky{background-color:burlywood !important}
 treblezine.com#$#div[role="main"]{background-color:burlywood !important}
 usatoday.com#$#.gnt_cw{background-color:burlywood !important}
