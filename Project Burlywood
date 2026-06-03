@@ -67,7 +67,7 @@ pcgamer.com#$##main{background-color:burlywood !important}
 pinterest.com#$#.mainContainer,.KvKvqR>div,.ecEhnF{background-color:burlywood !important}
 pitchfork.com#$#[data-testid="ContentHeaderContainer"],[class*="BasePageWrapper"],.cuCWvx,.bOqJnZ{background-color:burlywood !important}
 politico.com#$#section:not(header section){background-color:burlywood !important}
-thequietus.com#$#.menu-primary,.mobile-header,#header,.sub-menu:after{background-color:burlywood !important}
+thequietus.com#$#.menu-primary,.mobile-header,#header,.sub-menu:after,.featured-article-wrap,.article-header section{background-color:burlywood !important}
 thequietus.com#$#main{background-color:initial !important}
 reason.com#$#.logo-header{background-color:burlywood !important}
 theregister.com#$#body,#mainArticleSection,article:not(footer article):not(.main.front article),footer{background-color:burlywood !important}
