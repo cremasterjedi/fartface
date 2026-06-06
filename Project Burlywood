@@ -47,6 +47,7 @@ gsmarena.com#$##outer,.main{background-color:burlywood !important}
 theguardian.com,theguardian.co.uk#$#article,main section{background-color:burlywood !important}
 guitarplayer.com#$#article,#widgetArea1,#slice-container-trendingbar,.listingResult .content,.listingResult.small{background-color:burlywood !important}
 guitarworld.com#$#body,#main{background-color:burlywood !important}
+hollywoodreporter.com#$#.lrv-u-background-color-body,.lrv-u-background-color-white{background-color:burlywood !important}
 imdb.com#$#.ipc-page-background--base:not(footer),.ipc-page-section--base,.ipc-page-wrapper--base{background-color:burlywood !important}
 the-independent.com#$#article,figcaption,div:has(>.main-wrapper),.vf3-comments,.vf3-comments__bottom-action,#frameInner>div:last-child{background-color:burlywood !important}
 indiewire.com#$#[class*="templateWrapper"]{background-color:burlywood !important}
