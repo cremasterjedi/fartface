@@ -51,7 +51,7 @@ guitarplayer.com#$#article,#widgetArea1,#slice-container-trendingbar,.listingRes
 guitarworld.com#$#body,#main{background-color:burlywood !important}
 hollywoodreporter.com#$#.lrv-u-background-color-body,.lrv-u-background-color-white{background-color:burlywood !important}
 imdb.com#$#.ipc-page-background--base:not(footer),.ipc-page-section--base,.ipc-page-wrapper--base{background-color:burlywood !important}
-the-independent.com,independent.co.uk#$#article,div:has(>.main-wrapper),.vf3-comments,.vf3-comments__bottom-action,#frameInner>div:last-child{background-color:burlywood !important}
+the-independent.com,independent.co.uk#$#.vf3-comments,.vf3-comments__bottom-action,.jNLXfg,.eszkEX,.sHwUJ,.jqhDkt,.kbYJEC,#frameInner{background-color:burlywood !important}
 indiewire.com#$#[class*="templateWrapper"]{background-color:burlywood !important}
 last.fm#$##content,.container:not(.trending-tracks-section .container):not(footer .container),#mantle_skin,.row:not(footer .row),.content-top-has-nav .content-top,.section-with-separator:after,.two-column-layout .content-top{background-color:burlywood !important}
 last.fm#$#.two-column-layout .container{background-image:none !important}
