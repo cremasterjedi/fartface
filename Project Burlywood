@@ -15,6 +15,7 @@ amazon.com#$##pageContent,#dp,.s-desktop-content,.s-desktop-toolbar,.maple-banne
 amazon.com#$#:root{--__dChNmAmGoMXsPxT:burlywood !important;--__dChNmAwPaMXsPxT:burlywood !important;--__dChFn1OGN7XAMXsPxT:burlywood !important}
 amazon.com#$#.a-cardui[data-a-card-type=peekExpand] .a-reactive-container-gradient{background-image:none !important}
 read.amazon.com#$#._21ykqjol8NRHrgKPwlCGFu,#sidebar{background-color:burlywood !important}
+apnews.com#$#.Page-content,.viafoura .vf3-comments[data-v-0602d180],.vf-tabbed-nav,.viafoura{background-color:burlywood !important}
 theatlantic.com#$#[class^="AuthorHeader"],[class^="Nav_mainNav"]{background-color:burlywood !important}
 bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .recommendations-container,#pgBd:has([data-design*='"body_color":"FFFFFF"']),#pgBd:has(.stub-page-content),.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article,.menu-bar:not([class*="full-page-app-wrapper"]:has(>a[class^="g-button sm dark-mode"]) .menu-bar),.g-section.inverted[data-v-4d98f7b8]{background-color:burlywood !important}
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
@@ -51,7 +52,7 @@ guitarplayer.com#$#article,#widgetArea1,#slice-container-trendingbar,.listingRes
 guitarworld.com#$#body,#main{background-color:burlywood !important}
 hollywoodreporter.com#$#.lrv-u-background-color-body,.lrv-u-background-color-white{background-color:burlywood !important}
 imdb.com#$#.ipc-page-background--base:not(footer),.ipc-page-section--base,.ipc-page-wrapper--base{background-color:burlywood !important}
-the-independent.com,independent.co.uk#$#.vf3-comments,.vf3-comments__bottom-action,.jNLXfg,.eszkEX,.sHwUJ,.jqhDkt,.kbYJEC,#frameInner{background-color:burlywood !important}
+the-independent.com,independent.co.uk#$#.vf3-comments,.vf3-comments__bottom-action,.jNLXfg,.eszkEX,.sHwUJ,.jqhDkt,.kbYJEC,#frameInner,.vf-content-layout,.vf-tabbed-nav,.all-comments,.hgzWpY,.article-liveblog .dzfINj,.jOWvpU,.hYTnrH{background-color:burlywood !important}
 indiewire.com#$#[class*="templateWrapper"]{background-color:burlywood !important}
 last.fm#$##content,.container:not(.trending-tracks-section .container):not(footer .container),#mantle_skin,.row:not(footer .row),.content-top-has-nav .content-top,.section-with-separator:after,.two-column-layout .content-top{background-color:burlywood !important}
 last.fm#$#.two-column-layout .container{background-image:none !important}
