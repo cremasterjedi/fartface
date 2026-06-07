@@ -11,7 +11,9 @@ curbed.com,nymag.com,grubstreet.com,vulture.com#$#.nav-dropdown-button-trigger:n
 thecut.com,nymag.com,vulture.com,curbed.com,grubstreet.com#$#@media screen and (min-width: 1180px) {.page-sticky-header {background-color:burlywood !important;}}
 thecut.com#$#.svg-whitebox{fill:burlywood !important}
 
-!amazon.com#$##pageContent,#dp,.alm-carousel-desktop,#ee-aisles-on-ba-widget-container,.maple-banner--background,.a-keyvalue.prodDetTable,table.a-bordered td,.a-expander-partial-collapse-header,#prodDetails .prodDet-expander-header-styling,.s-desktop-content,.puis-status-badge-container,.a-box,.s-desktop-toolbar,[data-hook="reviewText"] .a-cardui,.cardRoot.bucket .a-cardui,#va-related-videos-widget_feature_div .a-cardui,.dcl-container-inner,.ssd-outside-desktop,.ssd-inside-desktop,.a-popover-inner,.a-tabs,.wl-list.selected,.a-popover-footer{background-color:burlywood !important}
+amazon.com#$##pageContent,#dp,.s-desktop-content,.s-desktop-toolbar,.maple-banner--background,._dnNlL_vsePlc_MSGp5,._dnNlL_vseRP_nLfJL,.vse-related-videos-container.vse-vertical-scroll[id*=vftphero-related-videos] .vse-flex-carousel-header,.btf-sub-nav-desktop-product-info-wrapper,._YnV5L_almCarouselDesktop_3p6hO,._everyday-essentials-aisles_style_eeAislesContainer__1H_pb,.puis-status-badge-container,.MMGridLayout,#mediaMatrixGridAODPopover,._shopping-cx-feedback-widget_style_form-horizontal-radiobutton-label-row__2mRxc ._shopping-cx-feedback-widget_style_form-table-column__3c_E1 ._shopping-cx-feedback-widget_style_feedback-radio-label__JZ92s{background-color:burlywood !important}
+amazon.com#$#:root{--__dChNmAmGoMXsPxT:burlywood !important;--__dChNmAwPaMXsPxT:burlywood !important}
+amazon.com#$#.a-cardui[data-a-card-type=peekExpand] .a-reactive-container-gradient{background-image:none !important}
 read.amazon.com#$#._21ykqjol8NRHrgKPwlCGFu,#sidebar{background-color:burlywood !important}
 theatlantic.com#$#[class^="AuthorHeader"],[class^="Nav_mainNav"]{background-color:burlywood !important}
 bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .recommendations-container,#pgBd:has([data-design*='"body_color":"FFFFFF"']),#pgBd:has(.stub-page-content),.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article{background-color:burlywood !important}
@@ -28,7 +30,7 @@ c-span.org#$##wrapper,#MainContain,.container,footer,.transcript table td,.trans
 c-span.org#$#.transcript table tr{border-bottom-color:burlywood !important}
 deadline.com#$#main,.pmc-u-background-white,.latest-by-category,.trending-now{background-color:burlywood !important}
 deathmetal.org#$##frame,#content{background-color:burlywood !important}
-discogs.com#$#.facetFilter__ASQd,body header,body thead,[class*="moreInfo"]{background-color:burlywood !important}
+discogs.com#$#.facetFilter__ASQd,body header,body thead,[class*="moreInfo"],#versionsTr_N9BkH{background-color:burlywood !important}
 dominionenergy.com#$#.content{background-color:burlywood !important}
 eater.com#$#[class^="duet--page-layout"],.duet--layout--entry-body-container{background-color:burlywood !important}
 faroutmagazine.co.uk#$#.content{background-color:burlywood !important}
