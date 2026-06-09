@@ -64,7 +64,7 @@ moonwiringclub.com#$#header,footer,.Main,.Intro{background-color:burlywood !impo
 nbcnews.com#$##content,[data-testid="vertVideoPackage"],article{background-color:burlywood !important}
 nbcnews.com#$#.styles_listOuter__WQKoD:after,.wide-tease-item__wrapper:last-of-type:after{background-image:none !important}
 newsweek.com#$#section[class*="ArticleDefaultLayout-module"]{background-color:burlywood !important}
-newyorker.com#$#main,header:not([class*="theme-inverted"]),[data-testid="ContentHeaderContainer"],[class*="ContentHeaderLeadContentCaptionCredit"],[class*="SplitScreenContentHeaderMain"]:not([class*="theme-inverted"]),[class^="SpotlightSummaryContainer"],.eNwtvw.eNwtvw.eNwtvw,[class^="ContributorHeaderWrapper"]{background-color:burlywood !important}
+newyorker.com#$#main,header:not([class*="theme-inverted"]),[data-testid="ContentHeaderContainer"],[class*="ContentHeaderLeadContentCaptionCredit"],[class*="SplitScreenContentHeaderMain"]:not([class*="theme-inverted"]),[class^="SpotlightSummaryContainer"],.eNwtvw.eNwtvw.eNwtvw,[class^="ContributorHeaderWrapper"],.TopStoryPrimaryLinks-kIDDqo{background-color:burlywood !important}
 nme.com#$#article,.td-main-content-wrap{background-color:burlywood !important}
 npr.org#$#body,main,#main-section,#main-sidebar,.bucketwrap.list.list--complex,.bucketwrap.promocard{background-color:burlywood !important}
 nypost.com#$##main,.membership-comments-module,.more-stories,.recirc__stories,.recirc__wrapper,.recirc,.src-components-Layout-Layout__container--vQzah,.google-preferred-sources{background-color:burlywood !important}
