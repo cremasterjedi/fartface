@@ -16,7 +16,7 @@ amazon.com#$#:root{--__dChNmAmGoMXsPxT:burlywood !important;--__dChNmAwPaMXsPxT:
 amazon.com#$#.a-cardui[data-a-card-type=peekExpand] .a-reactive-container-gradient{background-image:none !important}
 read.amazon.com#$#._21ykqjol8NRHrgKPwlCGFu,#sidebar{background-color:burlywood !important}
 apnews.com#$#.Page-content,.viafoura .vf3-comments[data-v-0602d180],.vf-tabbed-nav,.viafoura{background-color:burlywood !important}
-theatlantic.com#$#[class^="AuthorHeader"],[class^="Nav_mainNav"],.HomepageNav_root__L4mvf,.HomepageLayout_root__Nxkvc,.HomepageNav_middleBigAContainer__SZ3R_,.HomepageNav_middleBigAContainer__SZ3R_:before,.HomepageNav_logo__qljuJ{background-color:burlywood !important}
+theatlantic.com#$#[class^="AuthorHeader"],[class^="Nav_mainNav"],.HomepageNav_root__L4mvf,.HomepageLayout_root__Nxkvc,.HomepageNav_middleBigAContainer__SZ3R_,.HomepageNav_middleBigAContainer__SZ3R_:before,.HomepageNav_logo__qljuJ,.SecondaryNav_collapsed__nQ25V,.SecondaryNav_expanded__lmnKp{background-color:burlywood !important}
 bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .recommendations-container,#pgBd:has([data-design*='"body_color":"FFFFFF"']),#pgBd:has(.stub-page-content),.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article,.menu-bar:not([class*="full-page-app-wrapper"]:has(>a[class^="g-button sm dark-mode"]) .menu-bar),.g-section.inverted[data-v-4d98f7b8]{background-color:burlywood !important}
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
@@ -77,6 +77,8 @@ pcgamer.com#$##main{background-color:burlywood !important}
 pinterest.com#$#.mainContainer,.KvKvqR>div,.ecEhnF{background-color:burlywood !important}
 pitchfork.com#$#[data-testid="ContentHeaderContainer"],[class*="BasePageWrapper"],.cuCWvx,.bOqJnZ{background-color:burlywood !important}
 politico.com#$#section:not(header section){background-color:burlywood !important}
+progarchives.com#$##main,#main>div,.reviewbox,.tableBorder,td[valign="top"],.evenTableRow,.oddTableRow,.tableStatusBar,.postSeparatorTableRow,.BBquote,.msgLineDevider{background-color:burlywood !important}
+progarchives.com/forum#$#body{background-color:burlywood !important}
 thequietus.com#$#.menu-primary,.mobile-header,#header,.sub-menu:after,.featured-article-wrap,.article-header section{background-color:burlywood !important}
 thequietus.com#$#main{background-color:initial !important}
 reason.com#$#.logo-header{background-color:burlywood !important}
