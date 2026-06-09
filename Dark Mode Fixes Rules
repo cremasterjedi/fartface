@@ -6,7 +6,7 @@
 
 ! Only Light
 app.plex.tv,calendar.google.com,discord.com,erome.com,pluto.tv,chat.google.com,deltekenterprise.com,plaza.one,drive.google.com,hyperbeam.com,letterboxd.com,youtube.com,notion.so,pocketcasts.com,tiktok.com,xhamster.com,youtube.googleapis.com,brooklynvegan.com#$#:root{color-scheme: only light !important;}
-metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,screenrant.com,cbr.com,slate.com#$#body{color-scheme: only light !important;}
+metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,screenrant.com,cbr.com,slate.com,theverge.com#$#body{color-scheme: only light !important;}
 www.cbsnews.com,contacts.google.com,smithsonianmag.com,observer.co.uk,climbing.com,outsideonline.com#$#:root{color-scheme: auto !important;}
 bandcamp.23video.com#$##player{color-scheme:only light !important;}
 www.redgifs.com#$#.Wrapper{color-scheme: only light !important;}
@@ -146,9 +146,6 @@ www.thecut.com#$#path.svg-whitebox{fill:#0000 !important}
 
 ! The Quietus
 thequietus.com#$##CookiebotWidget,audio{color-scheme:only light !important;}
-
-! The Verge
-theverge.com#$#.bx-align,div[class^="duet--layout--article-recirc-color-container"]{color-scheme:only light}
 
 ! Vulture
 www.vulture.com#$#div.show-more-wrap,div.collection-simple-svg-title,div.read-more-svg,div.arrows-container,div.social-section,div.social-search,button.nav-dropdown-button-trigger span.hamburger,button.nav-dropdown-button-trigger span.close-x {color-scheme:only light !important;}
