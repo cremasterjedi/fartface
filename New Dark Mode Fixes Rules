@@ -45,6 +45,10 @@ bestbuy.com#$#div[style*="background-image"],a[style*="background-image"],div[da
 bestbuy.com#$#img[alt="My Best Buy Memberships logo"]{filter:invert(1) !important;}
 bestbuy.com#$#.sku-block-header{background-color:#cdcdcd !important}
 
+! Bleeping Computer
+
+bleepingcomputer.com#$##toggle-nav{filter:invert(1)}
+
 ! Blu Ray
 
 blu-ray.com#$#font,h3:not([href="/deals/#4"]>h3),b{color: #fff !important;}
@@ -52,6 +56,10 @@ blu-ray.com#$#font,h3:not([href="/deals/#4"]>h3),b{color: #fff !important;}
 ! Brooklyn Vegan
 
 brooklynvegan.com#$#.w-mc.content-wrap.post-content,.flex-wrap.flex.card-inner{color-scheme:auto !important}
+
+! Business Insider
+
+businessinsider.com#$#.bottom-section img,footer img[alt="Business Insider"]{filter:invert(1)}
 
 ! CNN
 
