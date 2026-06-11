@@ -3,7 +3,7 @@
 ! Version: 1.0015
 
 youtube.com,hyperbeam.com,bandcamp.23video.com,erome.com,plaza.one,app.plex.tv,pocketcasts.com,notion.so,discord.com,youtube.googleapis.com,pluto.tv,drive.google.com,mail.google.com,deltekenterprise.com,tiktok.com,copilot.microsoft.com,brooklynvegan.com#$#:root{color-scheme:only light !important;}
-metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,xhamster.com,slate.com,theverge.com#$#body{color-scheme:only light !important;}
+metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,xhamster.com,slate.com,theverge.com,gamefaqs.gamespot.com#$#body{color-scheme:only light !important;}
 www.youtube-nocookie.com#$#html{color-scheme:only light !important;}
 cbsnews.com,observer.co.uk,climbing.com,outsideonline.com#$#:root{color-scheme:auto !important;}
 *#$#img,#openweb-comments,div[id*="vjs_video"]{color-scheme:only light !important;}
@@ -98,6 +98,11 @@ economictimes.com#$#img[alt="The Economic Times"]{filter: invert(1) hue-rotate(1
 
 futurism.com#$#.footer-logo-wrapper,img[class*="header-logo"]{filter:invert(1) !important;}
 
+! Gamespot
+
+gamespot.com#$#:where(.has-mesh-bg){background-image:none !important}
+gamespot.com#$#footer,#masthead{color-scheme:only light !important}
+
 ! Gizmodo Video Player
 
 gizmodo.com#$#.not-prose.video-container{color-scheme:auto !important;}
@@ -156,6 +161,11 @@ mashable.com#$##euSMf1FbiNs11{display:none !important;}
 ! Google Meet
 
 meet.google.com#$#.gb_5c{filter:invert(1) hue-rotate(180deg) brightness(3) !important}
+
+! Metacritic
+
+metacritic.com#$#.c-site-logo_image-normal,.c-footer-brands-column__icon.tvguide,button[data-slot="base"],.relative.w-full.aspect-video.rounded-md.overflow-hidden{color-scheme:only light !important}
+metacritic.com#$#.c-site-logo_image-medium.g-fill-black{color-scheme:only light !important;fill:white !important}
 
 ! Metal Archives
 
