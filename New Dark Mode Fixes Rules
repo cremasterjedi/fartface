@@ -254,9 +254,10 @@ wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only 
 
 ! WSJ
 
-wsj.com#$#[data-inset_type="datawrapper"],[data-inset_type="datawrapper"] .datawrapper-script-embed,[data-inset_type="dynamic"]:not(:is([data-sub_type="quiz"],[data-sub_type="feedback-form"],[data-sub_type="series-navigation"],[data-sub_type="origami"],[data-sub_type="timeline"],[data-sub_type="recipe"],[data-sub_type="custom-set"])),#dynamic-inset-renderer,[class*="MichelangeloChart"],a[class*="NextInnerLink"],#video-player,div[class*="video-player"],div[class*="ImgWrapper"],.css-zfrk0v-ImgWithLinkWrapper,.pz-paning-zoom-images{color-scheme:only light !important;color:black !important}
-wsj.com#$#.parallax-gallery-wrapper,.pg-media.wrapper{background-color:#111 !important}
-wsj.com#$#.parallax-gallery-wrapper{color:white !important}
+wsj.com#$#[data-block="big-top-wrapper"] [data-block="dynamic-inset"],[data-inset_type="datawrapper"],[data-inset_type="datawrapper"] .datawrapper-script-embed,[data-inset_type="dynamic"]:not(:is([data-sub_type="quiz"],[data-sub_type="feedback-form"],[data-sub_type="series-navigation"],[data-sub_type="origami"],[data-sub_type="timeline"],[data-sub_type="recipe"],[data-sub_type="custom-set"])),#dynamic-inset-renderer,[class*="MichelangeloChart"],a[class*="NextInnerLink"],#video-player,div[class*="video-player"],div[class*="ImgWrapper"],.css-zfrk0v-ImgWithLinkWrapper,.pz-paning-zoom-images{color-scheme:only light !important;color:black !important}
+wsj.com#$#.parallax-gallery-wrapper,.pg-media.wrapper,.djai2html-foot{background-color:#111 !important}
+wsj.com#$#.parallax-gallery-wrapper>h3{color:white !important}
+wsj.com#$#.djai2html-foot p{color:lightgray !important}
 wsj.com#$#img[alt="WSJ Logo"],.audio-play-pause g:not(:hover) use:nth-of-type(2),#audio-center-player .audio-scrub-wrapper{filter:invert(1) !important;}
 wsj.com#$#button[class*="BackToTopButton"],button[aria-label="Search"]{background-color: darkslategray !important;}
 wsj.com#$#iframe[id*="instagram-embed"]{color-scheme:auto !important}
