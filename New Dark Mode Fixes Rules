@@ -29,6 +29,10 @@ androidauthority.com#$#youtube-video{color-scheme:auto !important;}
 
 androidpolice.com#$#.menu-icon.topnav-icon{color: #e2e2e2 !important;}
 
+! AOL
+
+aol.com#$#.m-AolHeader__top-wrap{color-scheme: only light !important}
+
 ! Bandcamp
 
 bandcamp.com#$##prevnext,.invertIconography .nextbutton,.invertIconography .prevbutton{filter:invert(1) !important;}
