@@ -139,6 +139,11 @@ embed.reddit.com#$#shreddit-aspect-ratio,faceplate-carousel{color-scheme:only li
 
 imdb.com#$#a[aria-label="Home"],.euaRkO,.drawer__panelHeaderClose,.SUNXh,.jhgcVM,.footer__sign-in-button,div[data-testid="video-aspect-ratio"]{color-scheme:only light !important;}
 
+! Jersey Mike's
+
+jerseymikes.com#$#.bg-pattern{background-image:none !important}
+jerseymikes.com#$#footer{color-scheme:only light !important}
+
 ! Letterboxd
 
 letterboxd.com#$#.site-logo,.message,.tags,.ir.logo,.toggle.menuburger.-closed,.tag-link.-long{color-scheme:only light !important;}
