@@ -148,6 +148,10 @@ letterboxd.com/email/call-sheet#$?#body{color-scheme:auto !important;}
 
 mashable.com#$##euSMf1FbiNs11{display:none !important;}
 
+! Google Meet
+
+meet.google.com#$#.gb_5c{filter:invert(1) hue-rotate(180deg) brightness(3) !important}
+
 ! Metal Archives
 
 metal-archives.com#$#a:not(a:visited){color: #f4b8b8 !important;}
