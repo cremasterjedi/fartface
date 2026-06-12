@@ -285,7 +285,7 @@ wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only 
 
 ! WSJ
 
-wsj.com#$#[data-block="big-top-media"]:has(img),[data-inset_type="datawrapper"],[data-inset_type="datawrapper"] .datawrapper-script-embed,[data-inset_type="dynamic"]:not(:is([data-sub_type="quiz"],[data-sub_type="feedback-form"],[data-sub_type="series-navigation"],[data-sub_type="origami"],[data-sub_type="timeline"],[data-sub_type="recipe"])),#dynamic-inset-renderer,[class*="MichelangeloChart"],a[class*="NextInnerLink"],#video-player,div[class*="video-player"],div[class*="ImgWrapper"],.css-zfrk0v-ImgWithLinkWrapper,.pz-paning-zoom-images{color-scheme:only light !important;color:black !important}
+wsj.com#$#[data-block="big-top-media"]:has(img),[data-inset_type="datawrapper"],[data-inset_type="datawrapper"] .datawrapper-script-embed,[data-inset_type="dynamic"]:not(:is([data-sub_type="quiz"],[data-sub_type="feedback-form"],[data-sub_type="series-navigation"],[data-sub_type="origami"],[data-sub_type="timeline"],[data-sub_type="recipe"],[data-sub_type="vignette"])),#dynamic-inset-renderer,[class*="MichelangeloChart"],a[class*="NextInnerLink"],#video-player,div[class*="video-player"],div[class*="ImgWrapper"],.css-zfrk0v-ImgWithLinkWrapper,.pz-paning-zoom-images{color-scheme:only light !important;color:black !important}
 wsj.com#$#.pg-media-wrapper{color-scheme:auto !important}
 wsj.com#$#.parallax-gallery-wrapper,.pg-media.wrapper,[data-block="big-top-media"] [data-block="dynamic-inset"]:has(img){background-color:#111 !important}
 wsj.com#$#.parallax-gallery-wrapper>h3{color:white !important}
