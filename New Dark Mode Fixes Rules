@@ -83,11 +83,18 @@ dailymail.co.uk#$##logo{filter:invert(1) !important;}
 
 deathmetal.org#$##death_metal_header{filter: invert(1) hue-rotate(180deg) saturate(20)!important}
 
+! Decibel
+
+decibelmagazine.com#$#body{background-image:none !important}
+
 ! Discogs
 
-www.discogs.com#$#.expanded_2iYYq{background: #858585 !important;}
-www.discogs.com#$#.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal,div[aria-label="Carousel navigation"]{filter:invert(1) !important;}
-www.discogs.com#$#.navigation,.app-store-badge,.link_1ctor>img,.apps_nFqip img,.superFacets_DVovS.expanded_t204c{color-scheme:only light !important;}
+discogs.com#$#.expanded_2iYYq{background: #858585 !important;}
+discogs.com#$#.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal,div[aria-label="Carousel navigation"]{filter:invert(1) !important;}
+discogs.com#$#.navigation,.app-store-badge,.link_1ctor>img,.apps_nFqip img,.superFacets_DVovS.expanded_t204c{color-scheme:only light !important;}
+discogs.com#$#._formWrapper_1potr_3._open_1potr_21{border:none !important}
+discogs.com#$#._listbox_1potr_197{width:calc(100%) !important;left:-1px !important}
+discogs.com#$#[aria-label="Search Discogs"]{outline-width: 1px !important;outline-color: gray !important}
 
 ! Discord
 
