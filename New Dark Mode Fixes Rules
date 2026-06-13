@@ -269,6 +269,10 @@ thecut.com,curbed.com#$#.follow_circle-bordered.rss>.inactive,.follow_circle-bor
 thequietus.com#$##CookiebotWidget,audio{color-scheme:only light !important;}
 thequietus.com#$#img[alt="The Quietus"],.position-sticky>a>img{filter:invert(1) !important;}
 
+! Three Saints Bay
+
+threesaintsbay.com#$#.same-logo img{background-color:white !important}
+
 ! Vulture
 
 vulture.com#$#div.show-more-wrap:not(.collection-articles_4-upcircles .show-more-wrap),div.collection-simple-svg-title,div.read-more-svg,div.arrows-container,div.social-section,div.social-search,button.nav-dropdown-button-trigger span.hamburger,button.nav-dropdown-button-trigger span.close-x{color-scheme:only light !important;}
