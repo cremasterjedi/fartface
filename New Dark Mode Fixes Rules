@@ -236,6 +236,11 @@ paypal.com#$##main-title-img,#widgetContainer__heroEngagement,._pypl-logo-wrappe
 
 pcgamer.com#$#.newsletter-form__header>svg,div[data-testid="buttons-social"]{color-scheme:only light !important}
 
+! Politico
+
+politico.com#$#button[aria-label="Master menu"]{filter:invert(1) !important}
+politico.com#$#img[alt="POLITICO Pro"]{filter: invert(1) hue-rotate(180deg) saturate(6) !important}
+
 ! Reason
 
 reason.com#$#.logo-header .logo{filter: invert(1) hue-rotate(180deg);}
