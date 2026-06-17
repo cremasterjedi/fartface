@@ -157,7 +157,7 @@ imdb.com#$#a[aria-label="Home"],.euaRkO,.drawer__panelHeaderClose,.SUNXh,.jhgcVM
 
 ! Interview
 
-interviewmagazine.com#$##logo-header img,#hamburger-button,#search-button,.instagram,.twitter,.facebook,.send-email,.instagram-follow img{filter:invert(1) !important}
+interviewmagazine.com#$##logo-header img,#hamburger-button,#search-button,.instagram,.twitter,.facebook,.send-email,.instagram-follow img,.popular-posts-heading{filter:invert(1) !important}
 
 ! Jersey Mike's
 
