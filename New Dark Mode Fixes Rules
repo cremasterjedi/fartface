@@ -155,6 +155,10 @@ embed.reddit.com#$#shreddit-aspect-ratio,faceplate-carousel{color-scheme:only li
 
 imdb.com#$#a[aria-label="Home"],.euaRkO,.drawer__panelHeaderClose,.SUNXh,.jhgcVM,.footer__sign-in-button,div[data-testid="video-aspect-ratio"]{color-scheme:only light !important;}
 
+! Interview
+
+interviewmagazine.com#$##logo-header img,#hamburger-button,#search-button,.instagram,.twitter,.facebook,.send-email,.instagram-follow img{filter:invert(1) !important}
+
 ! Jersey Mike's
 
 jerseymikes.com#$#.bg-pattern{background-image:none !important}
