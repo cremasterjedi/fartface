@@ -316,6 +316,7 @@ wsj.com#$#.parallax-gallery-wrapper>h3{color:white !important}
 wsj.com#$#img[alt="WSJ Logo"],#audio-center-player .audio-scrub-wrapper,.audio-play-pause g:not(:hover) use:nth-of-type(2):not(div[data-parsely-slot^="mobile-homepage-card"] .audio-play-pause g:not(:hover) use:nth-of-type(2)){filter:invert(1) !important;}
 wsj.com#$#button[class*="BackToTopButton"],form[action="#"] button[aria-label="Search"]{background-color: darkslategray !important;}
 wsj.com#$#iframe[id*="instagram-embed"]{color-scheme:auto !important}
+wsj.com#$#[data-testid="scroll-tracker"]{background-color:#00a3ff !important}
 
 ! YTMND
 
