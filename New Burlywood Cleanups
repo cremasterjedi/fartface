@@ -23,6 +23,7 @@ mail.google.com#$#.z0>.L3{color:black !important}
 mail.google.com#$#.aqn.aIH.nH.oy8Mbf.apV.aJu .T-I.T-I-KE.L3:before{filter:invert(1) !important}
 translate.google.com#$#.U0xwnf:after,.X4DQ0:after{background-image:none !important}
 translate.google.com#$#.rm1UF.UnxENd{background-color:white !important}
+newyorker.com#$#header:not([class*="theme-inverted"]){background-color:burlywood !important}
 nymag.com,grubstreet.com,vulture.com,curbed.com,thecut.com#$#.primary-area:before{background-color:burlywood !important}
 pinterest.com#$#.mainContainer >.ADXRXN{background-color:burlywood !important}
 thequietus.com#$#.menu-primary .sub-menu:after{background-color:burlywood !important}
