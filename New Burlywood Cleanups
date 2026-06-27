@@ -11,6 +11,7 @@ bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .rec
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
 discogs.com#$##versionsTr_N9BkH{background-color:burlywood !important}
+giantfreakingrobot.com#$#.homepage_takeover_container{background-color:burlywood !important}
 nymag.com,grubstreet.com,vulture.com,curbed.com,thecut.com#$#.primary-area:before{background-color:burlywood !important}
 pinterest.com#$#.mainContainer >.ADXRXN{background-color:burlywood !important}
 thequietus.com#$#.menu-primary .sub-menu:after{background-color:burlywood !important}
