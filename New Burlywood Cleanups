@@ -28,4 +28,4 @@ nymag.com,grubstreet.com,vulture.com,curbed.com,thecut.com#$#.primary-area:befor
 pinterest.com#$#.mainContainer >.ADXRXN{background-color:burlywood !important}
 thequietus.com#$#.menu-primary .sub-menu:after{background-color:burlywood !important}
 vulture.com#$#header{background-color:burlywood !important}
-wsj.com#$#.parallax-gallery-wrapper,.tl-main-wrapper,.tl-footer{background-color:burlywood !important}
+wsj.com#$#.parallax-gallery-wrapper,.tl-main-wrapper,.tl-footer,.css-w98zcb-SubSectionMoreLinks{background-color:burlywood !important}
