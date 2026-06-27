@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         White Background Swapper
 // @namespace    http://tampermonkey.net/
-// @version      1.001
+// @version      1.002
 // @description  Changes white backgrounds to a custom color automatically.
 // @author       You
 // @match        *://*/*
 // @exclude      https://pocketcasts.com/*
+// @exclude      https://*.youtube.com/*
 // @grant        none
 // ==/UserScript==
 
