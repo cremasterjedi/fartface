@@ -5,7 +5,7 @@
 // @description  Changes white backgrounds to a custom color automatically.
 // @author       You
 // @match        *://*/*
-// @exclude      https://*.pocketcasts.com/*
+// @exclude      https://pocketcasts.com/*
 // @grant        none
 // ==/UserScript==
 
