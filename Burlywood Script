@@ -1,0 +1,50 @@
+// ==UserScript==
+// @name         White Background Swapper
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Changes white backgrounds to a custom color automatically.
+// @author       You
+// @match        *://*/*
+// @exclude      https://*.pocketcasts.com/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // CONFIGURATION: Change these to your liking
+    const TARGET_RGB = 'rgb(255, 255, 255)'; // Pure white
+    const NEW_BG_COLOR = '#deb887'; // A warm "Solarized" cream color
+
+    function changeColors(nodeList) {
+        nodeList.forEach(el => {
+            // Only check elements that actually have tags (skip text nodes)
+            if (el.nodeType === 1) {
+                const style = window.getComputedStyle(el);
+                if (style.backgroundColor === TARGET_RGB) {
+                    el.style.backgroundColor = NEW_BG_COLOR;
+                }
+            }
+        });
+    }
+
+    // 1. Run on initial page load
+    changeColors(document.querySelectorAll('*'));
+
+    // 2. Set up an observer to catch new elements (AJAX/Infinite Scroll)
+    const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+            mutation.addedNodes.forEach((node) => {
+                if (node.nodeType === 1) {
+                    // Check the new node and its children
+                    changeColors([node, ...node.querySelectorAll('*')]);
+                }
+            });
+        });
+    });
+
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+})();
