@@ -15,6 +15,12 @@ bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){backgr
 bestbuy.com#$#.bg-default-subdued{background-color:burlywood !important}
 discogs.com#$##versionsTr_N9BkH{background-color:burlywood !important}
 giantfreakinrobot.com#$#.homepage_takeover_container{background-color:burlywood !important}
+chat.google.com#$#[jscontroller="IUkCmb"]{background-color:white !important}
+chat.google.com#$#.T57Ued-nBWOSb,.T57Ued-Q0XOV>svg{color:black !important}
+mail.google.com#$#.T-I.T-I-KE.L3{background-color:white !important}
+mail.google.com#$#.gb_Md.gb_Ze.bas.aJf:not(.gb_Md.gb_Ze.bas.aJf.gb_Nd.bCc){background-color:transparent !important}
+mail.google.com#$#.z0>.L3{color:black !important}
+mail.google.com#$#.aqn.aIH.nH.oy8Mbf.apV.aJu .T-I.T-I-KE.L3:before{filter:invert(1) !important}
 nymag.com,grubstreet.com,vulture.com,curbed.com,thecut.com#$#.primary-area:before{background-color:burlywood !important}
 pinterest.com#$#.mainContainer >.ADXRXN{background-color:burlywood !important}
 thequietus.com#$#.menu-primary .sub-menu:after{background-color:burlywood !important}
