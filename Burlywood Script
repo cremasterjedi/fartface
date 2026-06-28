@@ -19,7 +19,7 @@
 
     // CONFIGURATION: Change these to your liking
     const TARGET_RGB = 'rgb(255, 255, 255)';
-    const NEW_BG_COLOR = '##c9ae95';
+    const NEW_BG_COLOR = '#c9ae95';
 
     function changeColors(nodeList) {
         nodeList.forEach(el => {
