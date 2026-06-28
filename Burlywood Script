@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         White Background Swapper
 // @namespace    http://tampermonkey.net/
-// @version      1.009
+// @version      1.010
 // @description  Changes white backgrounds to a custom color automatically.
 // @author       You
 // @match        *://*/*
@@ -18,8 +18,8 @@
     'use strict';
 
     // CONFIGURATION: Change these to your liking
-    const TARGET_RGB = 'rgb(255, 255, 255)'; // Pure white
-    const NEW_BG_COLOR = '#deb887'; // A warm "Solarized" cream color
+    const TARGET_RGB = 'rgb(255, 255, 255)';
+    const NEW_BG_COLOR = '##c9ae95';
 
     function changeColors(nodeList) {
         nodeList.forEach(el => {
