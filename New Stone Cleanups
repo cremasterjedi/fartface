@@ -13,6 +13,7 @@ bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .rec
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
 bestbuy.com#$#.bg-default-subdued{background-color:#c9ae95 !important}
+cnbc.com#$#.LatestNews-isHomePage:after{background-image:none !important}
 discogs.com#$##versionsTr_N9BkH{background-color:#c9ae95 !important}
 giantfreakinrobot.com#$#.homepage_takeover_container{background-color:#c9ae95 !important}
 chat.google.com#$#[jscontroller="IUkCmb"]{background-color:white !important}
@@ -22,12 +23,19 @@ mail.google.com#$#.T-I.T-I-KE.L3{background-color:white !important}
 mail.google.com#$#.gb_Md.gb_Ze.bas.aJf:not(.gb_Md.gb_Ze.bas.aJf.gb_Nd.bCc){background-color:transparent !important}
 mail.google.com#$#.z0>.L3{color:black !important}
 mail.google.com#$#.aqn.aIH.nH.oy8Mbf.apV.aJu .T-I.T-I-KE.L3:before{filter:invert(1) !important}
+nbcnews.com#$#.styles_listOuter__WQKoD:after,.wide-tease-item__wrapper:last-of-type:after{background-image:none !important}
 translate.google.com#$#.U0xwnf:after,.X4DQ0:after{background-image:none !important}
 translate.google.com#$#.rm1UF.UnxENd{background-color:white !important}
+last.fm#$#.two-column-layout .container,.two-column-layout .main-content{background-image:none !important}
 newyorker.com#$#header:not([class*="theme-inverted"]){background-color:#c9ae95 !important}
 nymag.com,grubstreet.com,vulture.com,curbed.com,thecut.com#$#.primary-area:before{background-color:#c9ae95 !important}
+nypost.com#$#.recirc__wrapper{background-image:none !important}
+nypost.com#$#.inline-module__inner,.membership-comments-module,.google-preferred-sources{background-color:#c9ae95 !important}
+paypal.com#$#.cw-foreground-container--repaint{background-image:none !important}
 pinterest.com#$#.mainContainer >.ADXRXN{background-color:#c9ae95 !important}
+politico.com#$#.articleNav:before,.homepageNav:before,.articleNav:after,.homepageNav:after{background-image:none !important}
 tacobell.com#$#.styles_container__eCJ6F{background-color:#c9ae95 !important}
 thequietus.com#$#.menu-primary .sub-menu:after{background-color:#c9ae95 !important}
 vulture.com#$#header{background-color:#c9ae95 !important}
+wendys.com#$#.field--name-field-bricks{background-color:#c9ae95 !important}
 wsj.com#$#.parallax-gallery-wrapper,.tl-main-wrapper,.tl-footer,.css-w98zcb-SubSectionMoreLinks{background-color:#c9ae95 !important}
