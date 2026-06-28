@@ -7,8 +7,9 @@ google.com#$#.ODXihb,.dBl9De,.miFGmb:not(.miFGmb.lJ3Kh.lsLI2d),.e07Vkf:has([role
 
 ~theverge.com,~ytmnd.com,~wsj.com,~yahoo.com,~google.com,~hyperbeam.com,~arstechnica.com,~plaza.one,~read.amazon.com,~giphy.com,~blu-ray.com,~app.plex.tv,~notion.so,~reddit.com,~di.fm,~apps.chrome,~cbsnews.com,~pluto.tv,~gitflic.ru,~inoreader.com,~facebook.com,~youtube.com,~kotaku.com,~androidpolice.com,~androidauthority.com,~washingtonpost.com,~fandom.com,~gizmodo.com,~discord.com,~erome.com,~metal-archives.com,~github.com,~githubusercontent.com,~redgifs.com,~xda-developers.com,~comicbookmovie.com,~letterboxd.com,~pocketcasts.com,~brooklynvegan.com,~movieweb.com,~stereogum.com,~polygon.com,~9to5google.com,~deltekenterprise.com,~bing.com,~bandcamp.com,~cbr.com,~ign.com,~collider.com,~x.com,~twitter.com,~screenrant.com,~propublica.org,~gamefaqs.gamespot.com,~progarchives.com#$#body{background-color:#c9ae95 !important}
 
-amazon.com#$##pageContent,.cards_carousel_widget-suggestion{background-color:#c9ae95 !important}
+amazon.com#$##pageContent,.cards_carousel_widget-suggestion,.puis-v2lstc5p0oad1j2pqjic4rhsbvr .puis-status-badge-container{background-color:#c9ae95 !important}
 amazon.com#$#.a-cardui[data-a-card-type=peekExpand] .a-reactive-container-gradient{background-image:none !important}
+amazon.com#$##squished-desktop-row .desktop-row{border-right:none !important}
 bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .recommendations-container,#pgBd:has([data-design*='"body_color":"FFFFFF"']),#pgBd:has(.stub-page-content),.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article,.menu-bar:not([class*="full-page-app-wrapper"]:has(>a[class^="g-button sm dark-mode"]) .menu-bar),.g-section.inverted[data-v-4d98f7b8]{background-color:#c9ae95 !important}
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
@@ -35,6 +36,8 @@ paypal.com#$#.cw-foreground-container--repaint{background-image:none !important}
 pinterest.com#$#.mainContainer >.ADXRXN{background-color:#c9ae95 !important}
 politico.com#$#.articleNav:before,.homepageNav:before,.articleNav:after,.homepageNav:after{background-image:none !important}
 tacobell.com#$#.styles_container__eCJ6F{background-color:#c9ae95 !important}
+theguardian.com#$#.dcr-p7nd18,.dcr-1a9r2bu{background-image:none !important}
+theguardian.com#$#.dcr-athwlk,.dcr-bhbp1o,.dcr-1vw87ry{background-color:#c9ae95 !important}
 thequietus.com#$#.menu-primary .sub-menu:after{background-color:#c9ae95 !important}
 vulture.com#$#header{background-color:#c9ae95 !important}
 wendys.com#$#.field--name-field-bricks{background-color:#c9ae95 !important}
