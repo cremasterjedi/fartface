@@ -3,31 +3,31 @@ blu-ray.com#$#font,h3:not([href="/deals/#4"]>h3),b{color: #fff !important;}
 ! Maps
 google.com#$#div[aria-label*="corresponding number key"],.obhoOb{filter: invert(100%) hue-rotate(0.4turn) !important;}
 google.com#$#.kDiHkf{filter:invert(1) hue-rotate(-0.4turn) !important}
-google.com#$#.ODXihb,.dBl9De,.miFGmb:not(.miFGmb.lJ3Kh.lsLI2d),.e07Vkf:has([role="main"]),.hh2c6,.OqCZI,.s35xed .nUH3Jc,.DAdBuc,.xoLGzf,.SuV3fd,.E9Z7uf .m6QErb.iS1Ot,.dp9cUc,.yx21af.Srrom,.tXNTee.T7HQDc{background-color:burlywood !important}
+google.com#$#.ODXihb,.dBl9De,.miFGmb:not(.miFGmb.lJ3Kh.lsLI2d),.e07Vkf:has([role="main"]),.hh2c6,.OqCZI,.s35xed .nUH3Jc,.DAdBuc,.xoLGzf,.SuV3fd,.E9Z7uf .m6QErb.iS1Ot,.dp9cUc,.yx21af.Srrom,.tXNTee.T7HQDc{background-color:#c9ae95 !important}
 
-~theverge.com,~ytmnd.com,~wsj.com,~yahoo.com,~google.com,~hyperbeam.com,~arstechnica.com,~plaza.one,~read.amazon.com,~giphy.com,~blu-ray.com,~app.plex.tv,~notion.so,~reddit.com,~di.fm,~apps.chrome,~cbsnews.com,~pluto.tv,~gitflic.ru,~inoreader.com,~facebook.com,~youtube.com,~kotaku.com,~androidpolice.com,~androidauthority.com,~washingtonpost.com,~fandom.com,~gizmodo.com,~discord.com,~erome.com,~metal-archives.com,~github.com,~githubusercontent.com,~redgifs.com,~xda-developers.com,~comicbookmovie.com,~letterboxd.com,~pocketcasts.com,~brooklynvegan.com,~movieweb.com,~stereogum.com,~polygon.com,~9to5google.com,~deltekenterprise.com,~bing.com,~bandcamp.com,~cbr.com,~ign.com,~collider.com,~x.com,~twitter.com,~screenrant.com,~propublica.org,~gamefaqs.gamespot.com,~progarchives.com#$#body{background-color:burlywood !important}
+~theverge.com,~ytmnd.com,~wsj.com,~yahoo.com,~google.com,~hyperbeam.com,~arstechnica.com,~plaza.one,~read.amazon.com,~giphy.com,~blu-ray.com,~app.plex.tv,~notion.so,~reddit.com,~di.fm,~apps.chrome,~cbsnews.com,~pluto.tv,~gitflic.ru,~inoreader.com,~facebook.com,~youtube.com,~kotaku.com,~androidpolice.com,~androidauthority.com,~washingtonpost.com,~fandom.com,~gizmodo.com,~discord.com,~erome.com,~metal-archives.com,~github.com,~githubusercontent.com,~redgifs.com,~xda-developers.com,~comicbookmovie.com,~letterboxd.com,~pocketcasts.com,~brooklynvegan.com,~movieweb.com,~stereogum.com,~polygon.com,~9to5google.com,~deltekenterprise.com,~bing.com,~bandcamp.com,~cbr.com,~ign.com,~collider.com,~x.com,~twitter.com,~screenrant.com,~propublica.org,~gamefaqs.gamespot.com,~progarchives.com#$#body{background-color:#c9ae95 !important}
 
-amazon.com#$##pageContent,.cards_carousel_widget-suggestion{background-color:burlywood !important}
+amazon.com#$##pageContent,.cards_carousel_widget-suggestion{background-color:#c9ae95 !important}
 amazon.com#$#.a-cardui[data-a-card-type=peekExpand] .a-reactive-container-gradient{background-image:none !important}
-bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .recommendations-container,#pgBd:has([data-design*='"body_color":"FFFFFF"']),#pgBd:has(.stub-page-content),.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article,.menu-bar:not([class*="full-page-app-wrapper"]:has(>a[class^="g-button sm dark-mode"]) .menu-bar),.g-section.inverted[data-v-4d98f7b8]{background-color:burlywood !important}
+bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .recommendations-container,#pgBd:has([data-design*='"body_color":"FFFFFF"']),#pgBd:has(.stub-page-content),.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article,.menu-bar:not([class*="full-page-app-wrapper"]:has(>a[class^="g-button sm dark-mode"]) .menu-bar),.g-section.inverted[data-v-4d98f7b8]{background-color:#c9ae95 !important}
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
-bestbuy.com#$#.bg-default-subdued{background-color:burlywood !important}
-discogs.com#$##versionsTr_N9BkH{background-color:burlywood !important}
-giantfreakinrobot.com#$#.homepage_takeover_container{background-color:burlywood !important}
+bestbuy.com#$#.bg-default-subdued{background-color:#c9ae95 !important}
+discogs.com#$##versionsTr_N9BkH{background-color:#c9ae95 !important}
+giantfreakinrobot.com#$#.homepage_takeover_container{background-color:#c9ae95 !important}
 chat.google.com#$#[jscontroller="IUkCmb"]{background-color:white !important}
 chat.google.com#$#.T57Ued-nBWOSb,.T57Ued-Q0XOV>svg{color:black !important}
-contacts.google.com#$#body,.ANsHhf{background-color:burlywood !important}
+contacts.google.com#$#body,.ANsHhf{background-color:#c9ae95 !important}
 mail.google.com#$#.T-I.T-I-KE.L3{background-color:white !important}
 mail.google.com#$#.gb_Md.gb_Ze.bas.aJf:not(.gb_Md.gb_Ze.bas.aJf.gb_Nd.bCc){background-color:transparent !important}
 mail.google.com#$#.z0>.L3{color:black !important}
 mail.google.com#$#.aqn.aIH.nH.oy8Mbf.apV.aJu .T-I.T-I-KE.L3:before{filter:invert(1) !important}
 translate.google.com#$#.U0xwnf:after,.X4DQ0:after{background-image:none !important}
 translate.google.com#$#.rm1UF.UnxENd{background-color:white !important}
-newyorker.com#$#header:not([class*="theme-inverted"]){background-color:burlywood !important}
-nymag.com,grubstreet.com,vulture.com,curbed.com,thecut.com#$#.primary-area:before{background-color:burlywood !important}
-pinterest.com#$#.mainContainer >.ADXRXN{background-color:burlywood !important}
-tacobell.com#$#.styles_container__eCJ6F{background-color:burlywood !important}
-thequietus.com#$#.menu-primary .sub-menu:after{background-color:burlywood !important}
-vulture.com#$#header{background-color:burlywood !important}
-wsj.com#$#.parallax-gallery-wrapper,.tl-main-wrapper,.tl-footer,.css-w98zcb-SubSectionMoreLinks{background-color:burlywood !important}
+newyorker.com#$#header:not([class*="theme-inverted"]){background-color:#c9ae95 !important}
+nymag.com,grubstreet.com,vulture.com,curbed.com,thecut.com#$#.primary-area:before{background-color:#c9ae95 !important}
+pinterest.com#$#.mainContainer >.ADXRXN{background-color:#c9ae95 !important}
+tacobell.com#$#.styles_container__eCJ6F{background-color:#c9ae95 !important}
+thequietus.com#$#.menu-primary .sub-menu:after{background-color:#c9ae95 !important}
+vulture.com#$#header{background-color:#c9ae95 !important}
+wsj.com#$#.parallax-gallery-wrapper,.tl-main-wrapper,.tl-footer,.css-w98zcb-SubSectionMoreLinks{background-color:#c9ae95 !important}
