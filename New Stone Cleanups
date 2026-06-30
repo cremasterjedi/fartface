@@ -10,6 +10,7 @@ google.com#$#.ODXihb,.dBl9De,.miFGmb:not(.miFGmb.lJ3Kh.lsLI2d),.e07Vkf:has([role
 amazon.com#$##pageContent,.cards_carousel_widget-suggestion,.puis-v2lstc5p0oad1j2pqjic4rhsbvr .puis-status-badge-container{background-color:#c9ae95 !important}
 amazon.com#$#.a-cardui[data-a-card-type=peekExpand] .a-reactive-container-gradient{background-image:none !important}
 amazon.com#$##squished-desktop-row .desktop-row{border-right:none !important}
+androidpolice.com#$#.menu-icon.topnav-icon{color:white !important}
 bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .recommendations-container,#pgBd:has([data-design*='"body_color":"FFFFFF"']),#pgBd:has(.stub-page-content),.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article,.menu-bar:not([class*="full-page-app-wrapper"]:has(>a[class^="g-button sm dark-mode"]) .menu-bar),.g-section.inverted[data-v-4d98f7b8]{background-color:#c9ae95 !important}
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
@@ -33,13 +34,14 @@ nymag.com,grubstreet.com,vulture.com,curbed.com,thecut.com#$#.primary-area:befor
 nypost.com#$#.recirc__wrapper{background-image:none !important}
 nypost.com#$#.inline-module__inner,.membership-comments-module,.google-preferred-sources{background-color:#c9ae95 !important}
 paypal.com#$#.cw-foreground-container--repaint{background-image:none !important}
+paypal.com#$#.lg\:bg-primary,.bg-primary{background-color:#c9ae95 !important}
 pinterest.com#$#.mainContainer >.ADXRXN{background-color:#c9ae95 !important}
 politico.com#$#.articleNav:before,.homepageNav:before,.articleNav:after,.homepageNav:after{background-image:none !important}
 tacobell.com#$#.styles_container__eCJ6F{background-color:#c9ae95 !important}
 theguardian.com#$#.dcr-p7nd18,.dcr-1a9r2bu{background-image:none !important}
 theguardian.com#$#.dcr-athwlk,.dcr-bhbp1o,.dcr-1vw87ry{background-color:#c9ae95 !important}
 thequietus.com#$#.menu-primary .sub-menu:after{background-color:#c9ae95 !important}
-!vulture.com#$#header{background-color:#c9ae95 !important}
+vulture.com#$#@media screen and (min-width: 1180px) {.page-sticky-header {background-color:#c9ae95 !important;}}
 wendys.com#$#.field--name-field-bricks{background-color:#c9ae95 !important}
 wsj.com#$#.parallax-gallery-wrapper,.tl-main-wrapper,.tl-footer,.css-w98zcb-SubSectionMoreLinks{background-color:#c9ae95 !important}
 ytmnd.com#$#html{background-color:#c9ae95 !important}
