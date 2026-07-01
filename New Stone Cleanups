@@ -41,6 +41,9 @@ paypal.com#$#.lg\:bg-primary,.bg-primary{background-color:#c9ae95 !important}
 pinterest.com#$#.mainContainer >.ADXRXN{background-color:#c9ae95 !important}
 politico.com#$#.articleNav:before,.homepageNav:before,.articleNav:after,.homepageNav:after{background-image:none !important}
 tacobell.com#$#.styles_container__eCJ6F{background-color:#c9ae95 !important}
+thecut.com#$#.svg-whitebox{fill:#c9ae95 !important}
+thecut.com,curbed.com,vulture.com#$#.fader,.most-popular-item:after,.item:after,.most-popular-item-link:after,.article-link:after,.feed-item:after,.collection-articles_listed-feed:before,.collection-articles_listed-feed:after{background-image:none !important}
+thecut.com#$#.cut-header .right.is-active .nav{background-color:#c9ae95 !important}
 theguardian.com#$#.dcr-p7nd18,.dcr-1a9r2bu{background-image:none !important}
 theguardian.com#$#.dcr-athwlk,.dcr-bhbp1o,.dcr-1vw87ry{background-color:#c9ae95 !important}
 thequietus.com#$#.menu-primary .sub-menu:after{background-color:#c9ae95 !important}
@@ -48,3 +51,4 @@ vulture.com#$#@media screen and (min-width: 1180px) {.page-sticky-header {backgr
 wendys.com#$#.field--name-field-bricks{background-color:#c9ae95 !important}
 wsj.com#$#.parallax-gallery-wrapper,.tl-main-wrapper,.tl-footer,.css-w98zcb-SubSectionMoreLinks,.vtu-container{background-color:#c9ae95 !important}
 ytmnd.com#$#html{background-color:#c9ae95 !important}
+ytmnd.com#$#body,#container{background-image:none !important}
