@@ -7,7 +7,6 @@
 // @match        *://*/*
 // @exclude      *://pocketcasts.com/*
 // @exclude      *://*.youtube.com/*
-// @exclude      *://*.bandcamp.com/*
 // @exclude      *://drive.google.com/*
 // @exclude      *://tasks.google.com/*
 // @exclude      *://*.androidauthority.com/*
