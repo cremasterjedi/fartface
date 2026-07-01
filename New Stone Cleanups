@@ -31,6 +31,7 @@ translate.google.com#$#.rm1UF.UnxENd{background-color:white !important}
 last.fm#$#.two-column-layout .container,.two-column-layout .main-content{background-image:none !important}
 newyorker.com#$#header:not([class*="theme-inverted"]){background-color:#c9ae95 !important}
 nymag.com,grubstreet.com,vulture.com,curbed.com,thecut.com#$#.primary-area:before,.feed-container{background-color:#c9ae95 !important}
+nymag.com#$#.deepscroll-center:after{background-image:none !important}
 nypost.com#$#.recirc__wrapper{background-image:none !important}
 nypost.com#$#.inline-module__inner,.membership-comments-module,.google-preferred-sources{background-color:#c9ae95 !important}
 paypal.com#$#.cw-foreground-container--repaint{background-image:none !important}
