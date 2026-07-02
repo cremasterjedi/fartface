@@ -11,7 +11,7 @@ amazon.com#$##pageContent,.cards_carousel_widget-suggestion,.puis-v2lstc5p0oad1j
 amazon.com#$#.a-cardui[data-a-card-type=peekExpand] .a-reactive-container-gradient{background-image:none !important}
 amazon.com#$##squished-desktop-row .desktop-row{border-right:none !important}
 androidpolice.com#$#.menu-icon.topnav-icon{color:white !important}
-bandcamp.com#$#.thumb.ui-draggable,.playbutton,.play_status:not(.play_status.disabled),.play-pause-button,#big_play_button,#nonartarea{background-color:#fefefe !important}
+bandcamp.com#$#.thumb.ui-draggable,.playbutton,.play_status:not(.play_status.disabled),.play-pause-button,#big_play_button,#nonartarea,article-playbutton icon,.mpbutton{background-color:#fefefe !important}
 bandcamp.com#$#.download-bottom-area{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
 bandcamp.com#$#.menu-bar:not([class*="full-page-app-wrapper"]:has(>a[class^="g-button sm dark-mode"]) .menu-bar){background-color:#c9ae95 !important}
