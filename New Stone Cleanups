@@ -38,8 +38,11 @@ nypost.com#$#.recirc__wrapper{background-image:none !important}
 nypost.com#$#.inline-module__inner,.membership-comments-module,.google-preferred-sources{background-color:#c9ae95 !important}
 paypal.com#$#.cw-foreground-container--repaint{background-image:none !important}
 paypal.com#$#.lg\:bg-primary,.bg-primary{background-color:#c9ae95 !important}
-pinterest.com#$#.mainContainer >.ADXRXN{background-color:#c9ae95 !important}
+pinterest.com#$#.mainContainer >.ADXRXN,.KvKvqR{background-color:#c9ae95 !important}
+pinterest.com#$#.Ip8hrQ{margin-bottom:initial !important}
+pinterest.com#$#[data-test-id="one-bar-navigation-arrows"]{background-image:none !important}
 politico.com#$#.articleNav:before,.homepageNav:before,.articleNav:after,.homepageNav:after{background-image:none !important}
+rollingstone.com#$#.read-next::after{background-image:none !important}
 tacobell.com#$#.styles_container__eCJ6F{background-color:#c9ae95 !important}
 theatlantic.com#$#.AuthorHeader_root__6KXhk{background-color:#c9ae95 !important}
 thecut.com#$#.svg-whitebox{fill:#c9ae95 !important}
