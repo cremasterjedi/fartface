@@ -40,7 +40,7 @@ nymag.com#$#.deepscroll-center:after{background-image:none !important}
 nypost.com#$#.recirc__wrapper{background-image:none !important}
 nypost.com#$#.inline-module__inner,.membership-comments-module,.google-preferred-sources{background-color:#c9ae95 !important}
 paypal.com#$#.cw-foreground-container--repaint{background-image:none !important}
-paypal.com#$#.lg\:bg-primary,.bg-primary,.sm\:bg-background-surface,.bg-background,.sm\:bg-background{background-color:#c9ae95 !important}
+paypal.com#$#.lg\:bg-primary,.bg-primary,.sm\:bg-background-surface,.bg-background,.sm\:bg-background,.NIIMzrMZazBmMBgMErLA .vgXitBjua5Q65lRe91zw,.primary-background,.vx_foreground-container,.amZGB,.settings,.settingsContainer,.panel-cards,#contents.mainContent,#root{background-color:#c9ae95 !important}
 pinterest.com#$#.mainContainer >.ADXRXN,.KvKvqR{background-color:#c9ae95 !important}
 pinterest.com#$#.Ip8hrQ{margin-bottom:initial !important}
 pinterest.com#$#[data-test-id="one-bar-navigation-arrows"]{background-image:none !important}
