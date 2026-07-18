@@ -25,6 +25,7 @@ cnbc.com#$#.ArticleHeader-wrapperHero::before{background-color:#c9ae95 !importan
 dangerousminds.net#$#.page-container::before{background-color:#c9ae95 !important}
 discogs.com#$##versionsTr_N9BkH{background-color:#c9ae95 !important}
 giantfreakinrobot.com#$#.homepage_takeover_container{background-color:#c9ae95 !important}
+dominionenergy.com#$#.content{background-color:#c9ae95 !important}
 chat.google.com#$#[jscontroller="IUkCmb"]{background-color:white !important}
 chat.google.com#$#.T57Ued-nBWOSb,.T57Ued-Q0XOV>svg{color:black !important}
 contacts.google.com#$#body,.ANsHhf{background-color:#c9ae95 !important}
