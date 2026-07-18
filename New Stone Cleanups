@@ -21,6 +21,7 @@ bandsintown.com#$#.lCb9soEm3KWdZLMuPtRR .IF0AT54_ksSPWnLe9aov{background-color:#
 bestbuy.com#$#.bg-default-subdued{background-color:#c9ae95 !important}
 cherryred.co.uk#$#[data-pb-style=IWT67P7],[data-pb-style=L759LN6],[data-pb-style=NECV7UK],[data-pb-style=C3F4QAS],[data-pb-style=HEYH01I]{background-color:#c9ae95 !important}
 cnbc.com#$#.LatestNews-isHomePage:after{background-image:none !important}
+cnbc.com#$#.ArticleHeader-wrapperHero:before{background-color:#c9ae95 !important}
 dangerousminds.net#$#.page-container:before{background-color:#c9ae95 !important}
 discogs.com#$##versionsTr_N9BkH{background-color:#c9ae95 !important}
 giantfreakinrobot.com#$#.homepage_takeover_container{background-color:#c9ae95 !important}
@@ -57,7 +58,7 @@ theguardian.com#$#.dcr-athwlk,.dcr-bhbp1o,.dcr-1vw87ry{background-color:#c9ae95 
 thequietus.com#$#.menu-primary .sub-menu:after{background-color:#c9ae95 !important}
 vulture.com#$#@media screen and (min-width: 1180px) {.page-sticky-header {background-color:#c9ae95 !important;}}
 wendys.com#$#.field--name-field-bricks{background-color:#c9ae95 !important}
-wsj.com#$#.parallax-gallery-wrapper,.tl-main-wrapper,.tl-footer,.css-w98zcb-SubSectionMoreLinks,.vtu-container,.ba-container{background-color:#c9ae95 !important}
+wsj.com#$#.parallax-gallery-wrapper,.tl-main-wrapper,.tl-footer,.css-w98zcb-SubSectionMoreLinks,.vtu-container,.ba-container,.fEy1Z2XT ._9r0K-Oum,.fEy1Z2XT{background-color:#c9ae95 !important}
 wsj.com#$#.css-2kptpw-Description:before{background-image:none !important}
 ytmnd.com#$#html{background-color:#c9ae95 !important}
 ytmnd.com#$#body,#container{background-image:none !important}
