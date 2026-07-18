@@ -12,11 +12,11 @@ amazon.com#$##pageContent,.cards_carousel_widget-suggestion,.puis-v2lstc5p0oad1j
 amazon.com#$#.a-cardui[data-a-card-type=peekExpand] .a-reactive-container-gradient,#gwm-Deck{background-image:none !important}
 amazon.com#$##squished-desktop-row .desktop-row{border-right:none !important}
 androidpolice.com#$#.menu-icon.topnav-icon{color:white !important}
-bandcamp.com#$#.thumb.ui-draggable,.playbutton,.play_status:not(.play_status.disabled),.play-pause-button,#big_play_button,#nonartarea,article-playbutton icon,.mpbutton{background-color:#fefefe !important}
+bandcamp.com#$#.thumb.ui-draggable,.playbutton,.play_status:not(.play_status.disabled),.play-pause-button:not(.play-pause-button.over-image),#big_play_button,#nonartarea,article-playbutton icon,.mpbutton{background-color:#fefefe !important}
 bandcamp.com#$#.download-bottom-area,.ui-widget-content{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
 bandcamp.com#$#.menu-bar:not([class*="full-page-app-wrapper"]:has(>a[class^="g-button sm dark-mode"]) .menu-bar){background-color:#c9ae95 !important}
-!bandcamp.com#$##propOpenWrapper:not(:has(page-footer[color-scheme="dark"])) .recommendations-container,#pgBd:has([data-design*='"body_color":"FFFFFF"']),#pgBd:has(.stub-page-content),.yui-skin-sam:has(.download-bottom-area),#propOpenWrapper:has(.search),.yui-skin-sam:has(.search),#s-daily,article,.menu-bar:not([class*="full-page-app-wrapper"]:has(>a[class^="g-button sm dark-mode"]) .menu-bar),.g-section.inverted[data-v-4d98f7b8]{background-color:#c9ae95 !important}
+bandcamp.com#$#.sticky-player-container .playbutton svg{fill:black !important}
 bandsintown.com#$#.lCb9soEm3KWdZLMuPtRR .IF0AT54_ksSPWnLe9aov{background-color:#c9ae95 !important}
 bestbuy.com#$#.bg-default-subdued{background-color:#c9ae95 !important}
 cherryred.co.uk#$#[data-pb-style=IWT67P7],[data-pb-style=L759LN6],[data-pb-style=NECV7UK],[data-pb-style=C3F4QAS],[data-pb-style=HEYH01I]{background-color:#c9ae95 !important}
