@@ -15,6 +15,7 @@ amazon.com#$##pageContent,.cards_carousel_widget-suggestion,.puis-v2lstc5p0oad1j
 amazon.com#$#.a-cardui[data-a-card-type=peekExpand] .a-reactive-container-gradient,#gwm-Deck{background-image:none !important}
 amazon.com#$##squished-desktop-row .desktop-row{border-right:none !important}
 androidpolice.com#$#.menu-icon.topnav-icon{color:white !important}
+apnews.com#$#.viafoura{background-color:#c9ae95 !important}
 bandcamp.com#$#.thumb.ui-draggable,.playbutton,.play_status:not(.play_status.disabled),.play-pause-button:not(.play-pause-button.over-image),#big_play_button,#nonartarea,article-playbutton icon,.mpbutton{background-color:#fefefe !important}
 bandcamp.com#$#.download-bottom-area,.ui-widget-content{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
