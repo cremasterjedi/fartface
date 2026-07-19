@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Universal Background Style (With Exclusions)
 // @namespace    http://tampermonkey.net/
-// @version      1.1001
+// @version      1.1002
 // @description  Applies background color to all sites except the excluded list
 // @author       You
 // @include      *://*/*
