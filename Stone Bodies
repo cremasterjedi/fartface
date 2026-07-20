@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Universal Background Style (With Exclusions)
 // @namespace    http://tampermonkey.net/
-// @version      1.1003
+// @version      1.1004
 // @description  Applies background color to all sites except the excluded list
 // @author       You
 // @include      *://*/*
-// @exclude      /^https?:\/\/([^\/]*\.)?(wikipedia|claude|issues\.chromium|404media|accuweather|theringer|meowdb|themosh|privacy-mgmt|adguard|theverge|bsky|ytmnd|wsj|yahoo|google|hyperbeam|arstechnica|plaza|read\.amazon|giphy|blu-ray|app\.plex|notion|reddit|di|apps\.chrome|cbsnews|pluto|gitflic|inoreader|facebook|youtube|kotaku|androidpolice|androidauthority|washingtonpost|fandom|gizmodo|discord|erome|metal-archives|github|githubusercontent|redgifs|xda-developers|comicbookmovie|letterboxd|pocketcasts|brooklynvegan|movieweb|stereogum|polygon|9to5google|deltekenterprise|bing|bandcamp|cbr|ign|collider|x|twitter|screenrant|propublica|gamefaqs\.gamespot|progarchives)\.[a-z]{2,}\//
+// @exclude      /^https?:\/\/([^\/]*\.)?(wikipedia|claude|steamcommunity|twitch|issues\.chromium|404media|accuweather|theringer|meowdb|themosh|privacy-mgmt|adguard|theverge|bsky|ytmnd|wsj|yahoo|google|hyperbeam|arstechnica|plaza|read\.amazon|giphy|blu-ray|app\.plex|notion|reddit|di|apps\.chrome|cbsnews|pluto|gitflic|inoreader|facebook|youtube|kotaku|androidpolice|androidauthority|washingtonpost|fandom|gizmodo|discord|erome|metal-archives|github|githubusercontent|redgifs|xda-developers|comicbookmovie|letterboxd|pocketcasts|brooklynvegan|movieweb|stereogum|polygon|9to5google|deltekenterprise|bing|bandcamp|cbr|ign|collider|x|twitter|screenrant|propublica|gamefaqs\.gamespot|progarchives)\.[a-z]{2,}\//
 // @run-at       document-start
 // @grant        GM_addStyle
 // ==/UserScript==
