@@ -63,7 +63,7 @@ theguardian.com#$#.dcr-athwlk,.dcr-bhbp1o,.dcr-1vw87ry{background-color:#c9ae95 
 thequietus.com#$#.menu-primary .sub-menu::after{background-color:#c9ae95 !important}
 vulture.com#$#.page-sticky-header{background-color:transparent !important}
 wendys.com#$#.field--name-field-bricks{background-color:#c9ae95 !important}
-wsj.com#$#.parallax-gallery-wrapper,.tl-main-wrapper,.tl-footer,.css-w98zcb-SubSectionMoreLinks,.vtu-container,.ba-container,.fEy1Z2XT ._9r0K-Oum,.fEy1Z2XT{background-color:#c9ae95 !important}
+wsj.com#$#.parallax-gallery-wrapper,.tl-main-wrapper,.tl-footer,.css-w98zcb-SubSectionMoreLinks,.vtu-container,.ba-container,.fEy1Z2XT ._9r0K-Oum,.fEy1Z2XT,#root>[class^="WSJPodcastsTheme"],[class^="WSJTheme--margin-top"],.PuzzlesGridLayout_mainPuzzles__Q447D,.PuzzlesSectionStrap_strapWrapper__o2DHD{background-color:#c9ae95 !important}
 wsj.com#$#.css-2kptpw-Description::before{background-image:none !important}
 ytmnd.com#$#html{background-color:#c9ae95 !important}
 ytmnd.com#$#body,#container{background-image:none !important}
