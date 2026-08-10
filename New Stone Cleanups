@@ -41,6 +41,7 @@ nbcnews.com#$#.styles_listOuter__WQKoD::after,.wide-tease-item__wrapper:last-of-
 translate.google.com#$#.U0xwnf::after,.X4DQ0::after{background-image:none !important}
 translate.google.com#$#.rm1UF.UnxENd{background-color:white !important}
 last.fm#$#.two-column-layout .container,.two-column-layout .main-content{background-image:none !important}
+newsweek.com#$#[class^="ArticleDefaultLayout"]{background-color:#c9ae95 !important}
 newyorker.com#$#header:not([class*="theme-inverted"]){background-color:#c9ae95 !important}
 nymag.com,grubstreet.com,vulture.com,curbed.com,thecut.com#$#.primary-area::before,.feed-container{background-color:#c9ae95 !important}
 nymag.com#$#.deepscroll-center::after{background-image:none !important}
