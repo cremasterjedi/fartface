@@ -39,6 +39,7 @@ mail.google.com#$#.z0>.L3{color:black !important}
 mail.google.com#$#.aqn.aIH.nH.oy8Mbf.apV.aJu .T-I.T-I-KE.L3::before{filter:invert(1) !important}
 translate.google.com#$#.U0xwnf::after,.X4DQ0::after{background-image:none !important}
 translate.google.com#$#.rm1UF.UnxENd{background-color:white !important}
+inoreader.com#$#.email_is_html{background-color:#c9ae95 !important}
 last.fm#$#.two-column-layout .container,.two-column-layout .main-content{background-image:none !important}
 nbcnews.com#$#.styles_listOuter__WQKoD::after,.wide-tease-item__wrapper:last-of-type::after{background-image:none !important}
 newsweek.com#$#[class^="ArticleDefaultLayout"]{background-color:#c9ae95 !important}
