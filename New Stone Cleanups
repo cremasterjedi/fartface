@@ -26,6 +26,7 @@ bestbuy.com#$#.bg-default-subdued{background-color:#c9ae95 !important}
 cherryred.co.uk#$#[data-pb-style=IWT67P7],[data-pb-style=L759LN6],[data-pb-style=NECV7UK],[data-pb-style=C3F4QAS],[data-pb-style=HEYH01I]{background-color:#c9ae95 !important}
 cnbc.com#$#.LatestNews-isHomePage::after{background-image:none !important}
 cnbc.com#$#.ArticleHeader-wrapperHero::before{background-color:#c9ae95 !important}
+cnn.com#$#.container_ribbon__carousel-button-next{background-image:none !important}
 dangerousminds.net#$#.page-container::before{background-color:#c9ae95 !important}
 discogs.com#$##versionsTr_N9BkH{background-color:#c9ae95 !important}
 giantfreakinrobot.com#$#.homepage_takeover_container{background-color:#c9ae95 !important}
