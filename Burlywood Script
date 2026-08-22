@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         White Background Swapper
 // @namespace    http://tampermonkey.net/
-// @version      1.014
+// @version      1.015
 // @description  Changes white backgrounds to a custom color automatically.
 // @author       You
 // @match        *://*/*
@@ -13,6 +13,7 @@
 // @exclude      *://*.inoreader.com/*
 // @exclude      *://*.xda-developers.com/*
 // @exclude      *://*.androidpolice.com/*
+// @exclude      *://*.polygon.com/*
 // @grant        none
 // ==/UserScript==
 
