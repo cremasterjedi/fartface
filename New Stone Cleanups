@@ -19,7 +19,7 @@ apnews.com#$#.viafoura{background-color:#c9ae95 !important}
 bandcamp.com#$#.thumb.ui-draggable,.playbutton:not(.p-tralbum-page-container.dark .playbutton),.play_status:not(.play_status.disabled),.play-pause-button:not(.play-pause-button.over-image):not(.meta-wrapper-compact>.play-pause-button),#big_play_button,#nonartarea,article-playbutton icon,.mpbutton{background-color:#fefefe !important}
 bandcamp.com#$#.download-bottom-area,.ui-widget-content{background-image:none !important}
 bandcamp.com#$##propOpenWrapper:has([data-design*='"bg_file_name":null']){background-color:#111 !important}
-bandcamp.com#$#.menu-bar:not([class*="full-page-app-wrapper"]:has(>a[class^="g-button sm dark-mode"]) .menu-bar){background-color:#c9ae95 !important}
+bandcamp.com#$#.menu-bar:not([class*="full-page-app-wrapper"]:has(>a[class*="g-button sm dark-mode"]) .menu-bar){background-color:#c9ae95 !important}
 bandcamp.com#$#.sticky-player-container .playbutton svg{fill:black !important}
 bandsintown.com#$#.lCb9soEm3KWdZLMuPtRR .IF0AT54_ksSPWnLe9aov{background-color:#c9ae95 !important}
 bestbuy.com#$#.bg-default-subdued{background-color:#c9ae95 !important}
