@@ -8,6 +8,7 @@ www.youtube-nocookie.com#$#html{color-scheme:only light !important;}
 cbsnews.com,observer.co.uk,climbing.com,outsideonline.com#$#:root{color-scheme:auto !important;}
 *#$##openweb-comments,div[id*="vjs_video"]{color-scheme:only light !important;}
 *#$#.c-player-info__progressbar{filter: invert(1) !important}
+*#$#.pmc-legal-footer-logo>path:first-child{fill:white !important}
 
 ! ABC News
 
