@@ -206,6 +206,10 @@ motherjones.com#$#a[href]{text-shadow:none !important;}
 
 nydailynews.com#$#h1[class*="custom-logo"],div[class*="custom-logo"]{filter: invert(1) hue-rotate(180deg) saturate(5);}
 
+! New York Magazine
+
+nymag.com#$#.primary-links path,.svg-header path:not(.svg-header:hover path),#latest-feed-title path,.tab-title path:not(.tab-title:hover path){fill:white !important}
+
 ! New York Magazine Media Player
 
 newsoveraudio.com#$#button[class*="default-play-button"],button[class*="default-pause-button"]{color-scheme:only light !important;}
