@@ -304,7 +304,7 @@ wikipedia.org#$#html.skin-theme-clientpref-night .skin-invert-image img, html.sk
 
 ! Wired
 
-!wired.com#$#img[src*="logo.svg"]{filter:invert(1) !important;}
+wired.com#$#[aria-label="WIRED"] g{fill:white !important}
 wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only light !important}
 
 ! WSJ
