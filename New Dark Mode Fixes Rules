@@ -297,7 +297,7 @@ threesaintsbay.com#$#.same-logo img{background-color:white !important}
 
 ! Variety
 
-variety.com#$#[class^="header__logo"] svg{fill: white !important}
+variety.com#$#.c-logo svg{fill: white !important}
 
 ! Vulture
 
