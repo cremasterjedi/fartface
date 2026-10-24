@@ -1,6 +1,6 @@
 ! Title: New Dark Mode Fixes Rules
 ! 1 hour
-! Version: 1.0015
+! Version: 1.0016
 
 youtube.com,hyperbeam.com,bandcamp.23video.com,erome.com,plaza.one,app.plex.tv,pocketcasts.com,notion.so,discord.com,youtube.googleapis.com,pluto.tv,drive.google.com,mail.google.com,deltekenterprise.com,tiktok.com,copilot.microsoft.com,brooklynvegan.com#$#:root{color-scheme:only light !important;}
 metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,xhamster.com,slate.com,theverge.com,gamefaqs.gamespot.com#$#body{color-scheme:only light !important;}
@@ -19,7 +19,7 @@ abcnews.go.com#$#.Image.Logo.Logo__xxxl{color-scheme:auto !important;}
 amazon.com#$#div[class*="_p13n-desktop-sims-fbt_fbt-desktop_image-background"]{background-color: #c3c3c3 !important;}
 !amazon.com#$#div[class*="quadrantImageContainer"],div[class*="new-detail-faceout-box"] div[class*="image-background"],div[class*="missionImageContainer"],div[class*="shop-by-carousel-desktop_image"]{background: #cdcdcd !important;}
 amazon.com#$#.a-cardui-body:not([data-hook="reviewTextContainer"] .a-cardui-body){color-scheme:only light !important}
-amazon.com#$#span[class*="flag"],.nav-action-inner,span:has(i[class*="a-icon-buynow"]),div[aria-label="Video Player"],#gw-sign-in-button,#nav-search-submit-text,.hmenu-close-icon,.hm-icon.nav-sprite,#nav-logo-sprites,#nav-packard-glow-loc-icon,.nav-cart-icon.nav-sprite,i[class*="icp-flyout-flag"],.nav-logo-base.nav-sprite,span[class*="a-button-preorder"],.a-button-inner>[data-csa-c-action*="digital-one-click"],.a-button-inner>[data-csa-c-action*="add-to-cart"],a-icon.a-icon-alert,.side-menu-content,.side-menu-close-button,.puis-play-button-contents>.aok-relative.aok-inline-block,#nav-tagline{color-scheme:only light !important;}
+amazon.com#$#span[class*="flag"],.nav-action-inner,span:has(i[class*="a-icon-buynow"]),div[aria-label="Video Player"],#gw-sign-in-button,#nav-search-submit-text,.hmenu-close-icon,.hm-icon.nav-sprite,#nav-logo-sprites,#nav-packard-glow-loc-icon,.nav-cart-icon.nav-sprite,i[class*="icp-flyout-flag"],.nav-logo-base.nav-sprite,.a-button-inner>[data-csa-c-action*="digital-one-click"],.a-button-inner>[data-csa-c-action*="add-to-cart"],a-icon.a-icon-alert,.side-menu-content,.side-menu-close-button,.puis-play-button-contents>.aok-relative.aok-inline-block,#nav-tagline{color-scheme:only light !important;}
 amazon.com#$#img[alt="Digital Music"],img[alt="Amazon Music"],#nav-checkout-cart-icon{filter:invert(1) !important;}
 
 ! Android Authority
