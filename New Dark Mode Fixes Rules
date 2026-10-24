@@ -317,7 +317,8 @@ wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only 
 
 
 wsj.com#$#a[class*="NextInnerLink"],#video-player,div[class*="video-player"],div[class*="ImgWrapper"],.css-zfrk0v-ImgWithLinkWrapper,[id^="g-"],[class*="HedCutLink"],[aria-label="Opinion Explainer"] img{color-scheme:only light !important;}
-wsj.com#$#text,svg[class*="WSJLogo"] path,[data-block="big-top"] path{fill:white !important}
+wsj.com#$#text,text *,svg[class*="WSJLogo"] path,[data-block="big-top"] path{fill:white !important}
+wsj.com#$#text,text *{stroke:none !important}
 wsj.com#$#*{mix-blend-mode: normal !important}
 wsj.com#$#.highcharts-tooltip-box{fill-opacity:0 !important}
 wsj.com#$##audio-center-player .audio-scrub-wrapper,.audio-play-pause g:not(:hover) use:nth-of-type(2):not(div[data-parsely-slot^="mobile-homepage-card"] .audio-play-pause g:not(:hover) use:nth-of-type(2)){filter:invert(1) !important;}
