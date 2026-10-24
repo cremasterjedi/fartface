@@ -105,6 +105,12 @@ discord.com#$#.embedMedia__623de,article[class*="embedFull"]{color-scheme:auto !
 economictimes.indiatimes.com#$#img[alt="The Economic Times"]{filter: invert(1) hue-rotate(187deg) saturate(6) !important}
 economictimes.com#$#img[alt="The Economic Times"]{filter: invert(1) hue-rotate(187deg) saturate(6) !important}
 
+! Entertainment Weekly
+
+ew.com#$#.icon-logo{filter:invert(1) !important}
+ew.com#$#.icon-latest-news{filter:invert(1) hue-rotate(180deg) brightness(1.5)}
+ew.com#$#.vertical-video-element{color-scheme:only light !important}
+
 ! Futurism
 
 futurism.com#$#.footer-logo-wrapper,img[class*="header-logo"]{filter:invert(1) !important;}
