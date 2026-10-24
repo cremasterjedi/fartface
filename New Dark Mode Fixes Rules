@@ -9,6 +9,7 @@ cbsnews.com,observer.co.uk,climbing.com,outsideonline.com#$#:root{color-scheme:a
 *#$##openweb-comments,div[id*="vjs_video"]{color-scheme:only light !important;}
 *#$#.c-player-info__progressbar{filter: invert(1) !important}
 *#$##pmc-legal-footer-logo>path:first-child{fill:white !important}
+*#$#[aria-label="New York"]>path{fill:white !important}
 
 ! ABC News
 
@@ -279,6 +280,7 @@ techcrunch.com#$#.rightrail-promo__logo{background-color:white !important;}
 
 theatlantic.com#$#button[class*="NavHamburgerButton_root"]{filter:hue-rotate(180deg) invert(1)!important;}
 theatlantic.com#$#hr[class*="c-section-divider"]{filter:invert(1) !important}
+theatlantic.com#$#[class^="Nav_logo"]{fill:white !important}
 
 ! The Cut
 
