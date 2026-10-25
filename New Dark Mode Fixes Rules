@@ -317,6 +317,7 @@ variety.com#$#.c-logo svg{fill: white !important}
 ! Vulture
 
 vulture.com#$#div.show-more-wrap:not(.collection-articles_4-upcircles .show-more-wrap),div.collection-simple-svg-title,div.read-more-svg,div.arrows-container,div.social-section,div.social-search,button.nav-dropdown-button-trigger span.hamburger,button.nav-dropdown-button-trigger span.close-x{color-scheme:only light !important;}
+vulture.com#$#.most-popular-title{filter:invert(1) hue-rotate(180deg) !important}
 
 ! Washington Post
 
