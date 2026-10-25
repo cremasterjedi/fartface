@@ -297,6 +297,10 @@ thecut.com,curbed.com#$#.social-section,.social,.social-search{color-scheme:only
 thecut.com,curbed.com#$#.follow_circle-bordered.rss>.inactive,.follow_circle-bordered.instagram>.inactive{background-color:white !important;}
 thecut.com,curbed.com#$#.follow_circle-bordered.rss>.inactive,.follow_circle-bordered.instagram>.inactive{border-radius:20px !important;}
 
+! The New York Times
+
+nytimes.com#$#svg[fill="#000"]{fill:white !important}
+
 ! The Quietus
 
 thequietus.com#$##CookiebotWidget,audio{color-scheme:only light !important;}
