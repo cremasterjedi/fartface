@@ -333,7 +333,7 @@ wsj.com#$#text,text *{stroke:none !important}
 wsj.com#$#*{mix-blend-mode: normal !important;text-shadow:none !important}
 wsj.com#$#.highcharts-tooltip-box{fill-opacity:0 !important}
 wsj.com#$##audio-center-player .audio-scrub-wrapper,.audio-play-pause g:not(:hover) use:nth-of-type(2):not(div[data-parsely-slot^="mobile-homepage-card"] .audio-play-pause g:not(:hover) use:nth-of-type(2)){filter:invert(1) !important;}
-!wsj.com#$#a[href="https://www.wsj.com/"]:not(h1:not([class])>a[href="https://www.wsj.com/"]){filter:invert(1) !important;background-color:transparent !important}
+wsj.com#$#.css-jzm21u-MastHeadContainer [class*="LogoBase-BrandLogo"]{filter:invert(1) !important;background-color:unset !important}
 wsj.com#$#button[class*="BackToTopButton"],form[action="#"] button[aria-label="Search"]{background-color: darkslategray !important;}
 wsj.com#$#iframe[id*="instagram-embed"],.djai2html-title{color-scheme:auto !important}
 
