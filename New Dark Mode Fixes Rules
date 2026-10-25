@@ -6,7 +6,7 @@ youtube.com,hyperbeam.com,bandcamp.23video.com,erome.com,plaza.one,app.plex.tv,p
 metal-archives.com,di.fm,blu-ray.com,spotify.com,news.google.com,twitter.com,x.com,gizmodo.com,fandom.com,vimeo.com,kotaku.com,stereogum.com,androidpolice.com,xda-developers.com,9to5google.com,androidauthority.com,wikipedia.org,polygon.com,xhamster.com,slate.com,theverge.com,gamefaqs.gamespot.com#$#body{color-scheme:only light !important;}
 www.youtube-nocookie.com#$#html{color-scheme:only light !important;}
 cbsnews.com,observer.co.uk,climbing.com,outsideonline.com#$#:root{color-scheme:auto !important;}
-*#$##openweb-comments,div[id*="vjs_video"]{color-scheme:only light !important;}
+*#$#img,#openweb-comments,div[id*="vjs_video"]{color-scheme:only light !important;}
 *#$#.c-player-info__progressbar{filter: invert(1) !important}
 *#$##pmc-legal-footer-logo>path:first-child{fill:white !important}
 *#$#[aria-label="New York"]>path{fill:white !important}
@@ -76,6 +76,10 @@ cnn.io#$#div[class*="g-aiAbs"]{color-scheme:only light !important;}
 ! C-Span
 
 c-span.org#$#.banner.sm-rec.show-banner{color-scheme:only light !important}
+
+! Curbed
+
+curbed.com#$#.title-image svg,.logo svg{fill:white !important}
 
 ! Daily Mail
 
