@@ -208,7 +208,7 @@ nydailynews.com#$#h1[class*="custom-logo"],div[class*="custom-logo"]{filter: inv
 
 ! New York Magazine
 
-nymag.com#$#.primary-links path,.svg-header path:not(.svg-header:hover path),#latest-feed-title path,.tab-title path:not(.tab-title:hover path){fill:white !important}
+nymag.com#$#.primary-links path,.svg-header path:not(.svg-header:hover path),#latest-feed-title path,.tab-title path:not(.tab-title:hover path),[aria-label="Intelligencer"] path:not([aria-label="Intelligencer"] path:first-child){fill:white !important}
 
 ! New York Magazine Media Player
 
