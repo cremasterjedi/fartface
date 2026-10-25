@@ -208,7 +208,7 @@ nydailynews.com#$#h1[class*="custom-logo"],div[class*="custom-logo"]{filter: inv
 
 ! New York Magazine
 
-nymag.com#$#.primary-links path,.svg-header path:not(.svg-header:hover path),#latest-feed-title path,.tab-title path:not(.tab-title:hover path),.title-logo .small path:not(.title-logo .small path[fill-rule="nonzero"]),.title-logo .large path:not(.title-logo .large path[d^="M0"]){fill:white !important}
+nymag.com#$#.primary-links path,.svg-header path:not(.svg-header:hover path),#latest-feed-title path,.tab-title path:not(.tab-title:hover path),.title-logo .small path:not(.title-logo .small path[fill="#db2800"]),.title-logo .large path:not(.title-logo .large path[fill="#e83727"]),.logo path:not(.logo path[fill="#e83727"]){fill:white !important}
 
 ! New York Magazine Media Player
 
