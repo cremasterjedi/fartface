@@ -274,6 +274,7 @@ redgifs.com#$#.App.nav.desktop{--app-height:100%;}
 
 rollingstone.com#$#.video-wrap,.story-grid>header,.secondary-stories__the-list,.last-slide{color-scheme:only light !important}
 rollingstone.com#$#[class*="MegaMenu-Trigger"]{filter:invert(1) !important}
+rollingstone.com#$#svg{fill:white !important}
 
 ! Tailscale
 
