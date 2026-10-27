@@ -16,13 +16,16 @@
   // 1. Define domain-specific rules (host substring or regex -> CSS string)
   const SITE_RULES = [
     {
-      // Matches New Yorker, Pitchfork, Wired
       pattern: /(newyorker|pitchfork|wired)\.com$/,
       css: '[id^="vjs_video"] { color-scheme: only light !important; }'
     },
     {
       pattern: /rollingstone\.com$/,
       css: '.video-wrap{color-scheme: only light !important;}'
+    }
+    {
+      pattern: /newyorker\.com$/,
+      css: '.c-player-info__progressbar{filter: invert(1) !important}'
     }
   ];
 
