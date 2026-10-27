@@ -270,6 +270,10 @@ reason.com#$#.logo-header .logo{filter: invert(1) hue-rotate(180deg);}
 redgifs.com#$#body{color-scheme:only light !important;}
 redgifs.com#$#.App.nav.desktop{--app-height:100%;}
 
+! Reuters
+
+reuters.com#$#[aria-label="Reuters home"] path[fill="#212223"]{fill:white !important}
+
 ! Rolling Stone
 
 rollingstone.com#$#.video-wrap,.story-grid>header,.secondary-stories__the-list,.last-slide{color-scheme:only light !important}
