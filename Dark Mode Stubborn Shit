@@ -1,0 +1,100 @@
+// ==UserScript==
+// @name         Multi-Site Custom Styling (Including Blob Iframes)
+// @namespace    https://local.custom/
+// @version      1.2
+// @description  Injects targeted CSS rules into main documents and same-origin/blob iframes per domain.
+// @match        https://www.newyorker.com/*
+// @match        https://www.pitchfork.com/*
+// @match        https://www.wired.com/*
+// @match        https://*.nytimes.com/*
+// @match        https://*.theverge.com/*
+// @run-at       document-start
+// @grant        none
+// ==/UserScript==
+
+(function () {
+  'use strict';
+
+  // 1. Define domain-specific rules (host substring or regex -> CSS string)
+  const SITE_RULES = [
+    {
+      // Matches New Yorker, Pitchfork, Wired
+      pattern: /(newyorker|pitchfork|wired)\.com$/,
+      css: '[id^="vjs_video"] { color-scheme: only light !important; }'
+    },
+    {
+      // Example: Target custom video or banner elements on NYTimes
+      pattern: /nytimes\.com$/,
+      css: '.video-player-container, [data-testid="player"] { filter: contrast(1.05) !important; }'
+    },
+    {
+      // Example: Target specific elements on The Verge
+      pattern: /theverge\.com$/,
+      css: 'video, .c-video-embed { color-scheme: only light !important; }'
+    }
+  ];
+
+  // Resolve matching rules for the current top-level domain
+  const currentHost = window.location.hostname;
+  const activeRules = SITE_RULES
+    .filter(entry => entry.pattern.test(currentHost))
+    .map(entry => entry.css)
+    .join('\n');
+
+  if (!activeRules) return;
+
+  const STYLE_ID = 'userscript-custom-injected-styles';
+
+  function injectStyle(doc) {
+    if (!doc || doc.getElementById(STYLE_ID)) return;
+
+    try {
+      const style = doc.createElement('style');
+      style.id = STYLE_ID;
+      style.textContent = activeRules;
+      (doc.head || doc.documentElement).appendChild(style);
+    } catch {
+      // Cross-origin frames fail silently
+    }
+  }
+
+  function handleIframe(iframe) {
+    try {
+      const iframeDoc = iframe.contentDocument || iframe.contentWindow?.document;
+      if (iframeDoc) injectStyle(iframeDoc);
+    } catch {}
+
+    iframe.addEventListener('load', () => {
+      try {
+        const iframeDoc = iframe.contentDocument || iframe.contentWindow?.document;
+        if (iframeDoc) injectStyle(iframeDoc);
+      } catch {}
+    }, { passive: true });
+  }
+
+  // Inject into top-level document
+  injectStyle(document);
+
+  // Observe dynamically mounted iframes
+  const observer = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+      for (const node of mutation.addedNodes) {
+        if (node.nodeType !== Node.ELEMENT_NODE) continue;
+
+        if (node.tagName === 'IFRAME') {
+          handleIframe(node);
+        } else if (node.querySelectorAll) {
+          const iframes = node.querySelectorAll('iframe');
+          for (const iframe of iframes) {
+            handleIframe(iframe);
+          }
+        }
+      }
+    }
+  });
+
+  observer.observe(document.documentElement, {
+    childList: true,
+    subtree: true,
+  });
+})();
