@@ -331,7 +331,8 @@ wikipedia.org#$#html.skin-theme-clientpref-night .skin-invert-image img, html.sk
 
 ! Wired
 
-wired.com#$#[aria-label="WIRED"] g:not(.theme-made-in-china-solid [aria-label="WIRED"] g):not(.theme-lab-green [aria-label="WIRED"] g):not(.theme-covert-blue [aria-label="WIRED"] g):not(.theme-model-blue [aria-label="WIRED"] g){fill:white !important}
+!wired.com#$#[aria-label="WIRED"] g:not(.theme-made-in-china-solid [aria-label="WIRED"] g):not(.theme-lab-green [aria-label="WIRED"] g):not(.theme-covert-blue [aria-label="WIRED"] g):not(.theme-model-blue [aria-label="WIRED"] g){fill:white !important}
+wired.com#$#[aria-label="WIRED"] g:not([data-testid="one-nav-container-header_menu"][class*="theme"] [aria-label="WIRED"] g){fill:white !important}
 wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only light !important}
 
 ! WSJ
