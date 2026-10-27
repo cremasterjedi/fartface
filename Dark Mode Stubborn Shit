@@ -1,13 +1,11 @@
 // ==UserScript==
-// @name         Multi-Site Custom Styling (Including Blob Iframes)
-// @namespace    https://local.custom/
+// @name         Dark Mode Stubborn Shit
 // @version      1.2
 // @description  Injects targeted CSS rules into main documents and same-origin/blob iframes per domain.
 // @match        https://www.newyorker.com/*
 // @match        https://www.pitchfork.com/*
 // @match        https://www.wired.com/*
-// @match        https://*.nytimes.com/*
-// @match        https://*.theverge.com/*
+// @match        https://*.rollingstone.com/*
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==
@@ -23,14 +21,8 @@
       css: '[id^="vjs_video"] { color-scheme: only light !important; }'
     },
     {
-      // Example: Target custom video or banner elements on NYTimes
-      pattern: /nytimes\.com$/,
-      css: '.video-player-container, [data-testid="player"] { filter: contrast(1.05) !important; }'
-    },
-    {
-      // Example: Target specific elements on The Verge
-      pattern: /theverge\.com$/,
-      css: 'video, .c-video-embed { color-scheme: only light !important; }'
+      pattern: /rollingstone\.com$/,
+      css: '.video-wrap{color-scheme: only light !important;}'
     }
   ];
 
