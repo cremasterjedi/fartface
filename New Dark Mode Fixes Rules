@@ -351,6 +351,7 @@ wsj.com#$#[data-testid="nav-brand-logo"],#audio-center-player .audio-scrub-wrapp
 wsj.com#$#[aria-label="WSJ Logo"]:not([class*="MastHeadContainer"]:has(div[data-nav-closed]) [aria-label="WSJ Logo"]):not([class*="MastHeadContainer"]:has(div[data-nav-dark="true"]) [aria-label="WSJ Logo"]),[class*="MastHeadContainer"]>[class*="LogoWrapper"]:has(a[href*="opinion"]) a[href="https://www.wsj.com/"]{filter:invert(1) !important;background-color:unset !important}
 wsj.com#$#button[class*="BackToTopButton"],form[action="#"] button[aria-label="Search"]{background-color: darkslategray !important;}
 wsj.com#$#[class*="WSJTheme--subscribe-btns"] a{background-color:white !important}
+wsj.com#$#img[alt^="Election"]{filter: invert(1) hue-rotate(200deg) saturate(4) !important}
 wsj.com#$#iframe[id*="instagram-embed"]{color-scheme:auto !important}
 
 ! YTMND
