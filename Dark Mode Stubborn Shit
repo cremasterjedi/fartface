@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Dark Mode Stubborn Shit
-// @version      1.3
+// @version      1.4
 // @description  Injects targeted CSS rules into main documents and same-origin/blob iframes per domain.
 // @match        https://www.newyorker.com/*
 // @match        https://www.pitchfork.com/*
@@ -24,7 +24,7 @@
       css: '.video-wrap{color-scheme: only light !important;}'
     },
     {
-      pattern: /newyorker\.com$/,
+      pattern: /(newyorker|wired)\.com$/,
       css: '.c-player-info__progressbar{filter: invert(1) !important}'
     }
   ];
