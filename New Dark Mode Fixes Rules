@@ -283,6 +283,7 @@ rollingstone.com#$#svg{fill:white !important}
 ! Tailscale
 
 tailscale.com#$#div:has(>a[data-track-properties*="Footer"]:not(a[title="Homepage"])){color-scheme:only light !important;}
+tailscale.com#$#header>div>a path{fill:white !important}
 
 ! Techcrunch
 
