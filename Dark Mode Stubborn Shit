@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Dark Mode Stubborn Shit
-// @version      1.4
+// @version      1.5
 // @description  Injects targeted CSS rules into main documents and same-origin/blob iframes per domain.
 // @match        https://www.newyorker.com/*
 // @match        https://www.pitchfork.com/*
+// @match        https://pitchfork.com/*
 // @match        https://www.wired.com/*
 // @match        https://*.rollingstone.com/*
 // @run-at       document-start
