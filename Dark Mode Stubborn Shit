@@ -19,7 +19,7 @@
     {
       pattern: /(newyorker|pitchfork|wired)\.com$/,
       css: '[id^="vjs_video"] { color-scheme: only light !important; }
-            .c-player-info__progressbar{filter: invert(1) !important}'
+            .c-player-info__progressbar{filter: invert(1) !important;}'
     },
     {
       pattern: /rollingstone\.com$/,
