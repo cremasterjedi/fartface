@@ -245,7 +245,7 @@ nypost.com#$#.site-header__logo,.site-footer__logo,.widget__logo,g,li[class*="sp
 ! Paisano's Pizza
 
 paisanospizza.com#$#body{background-image: none !important;}
-paisanospizza.com#$#img#store-logo{filter:invert(1) hue-rotate(180deg) contrast(2) saturate(8);}
+paisanospizza.com#$#img#store-logo{filter:invert(1) hue-rotate(182deg) saturate(5);}
 
 ! Paypal
 
