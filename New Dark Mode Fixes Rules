@@ -336,20 +336,20 @@ wikipedia.org#$#html.skin-theme-clientpref-night .skin-invert-image img, html.sk
 
 ! Wired
 
-!wired.com#$#[aria-label="WIRED"] g:not(.theme-made-in-china-solid [aria-label="WIRED"] g):not(.theme-lab-green [aria-label="WIRED"] g):not(.theme-covert-blue [aria-label="WIRED"] g):not(.theme-model-blue [aria-label="WIRED"] g){fill:white !important}
 wired.com#$#[aria-label="WIRED"] g:not([data-testid="one-nav-container-header_menu"][class*="theme"] [aria-label="WIRED"] g){fill:white !important}
 wired.com#$#div[class*="CommentMessageBannerIconWrapper"]>svg{color-scheme:only light !important}
 
 ! WSJ
 
-
 wsj.com#$#a[class*="NextInnerLink"],#video-player,div[class*="video-player"],div[class*="ImgWrapper"],.css-zfrk0v-ImgWithLinkWrapper,[class*="g-ai"],[class*="WSJTheme--subscribe-btns"],datawrapper-visualization{color-scheme:only light !important;}
-wsj.com,wsj.net#$#text:not(.highcharts-tooltip text),text *:not(.highcharts-tooltip text *),svg[class*="WSJLogo"] path,[data-block="big-top"] path,[title="WSJ Podcasts"] path{fill:white !important;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px  1px 0 #000,1px  1px 0 #000 !important}
+wsj.com,wsj.net#$#text:not(.highcharts-tooltip text),text *:not(.highcharts-tooltip text *),svg[class*="WSJLogo"] path,[data-block="big-top"] path,[title="WSJ Podcasts"] path,[data-testid="audio-subnav-logo"] path{fill:white !important;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px  1px 0 #000,1px  1px 0 #000 !important}
 wsj.com,wsj.net#$#*:not(text,text *){text-shadow:none !important}
 wsj.com,wsj.net#$#text,text *{stroke:none !important}
 wsj.com,wsj.net#$#*{mix-blend-mode: normal !important}
-wsj.com#$##audio-center-player .audio-scrub-wrapper,.audio-play-pause g:not(:hover) use:nth-of-type(2):not(div[data-parsely-slot^="mobile-homepage-card"] .audio-play-pause g:not(:hover) use:nth-of-type(2)){filter:invert(1) !important;}
+wsj.com#$##audio-center-player .audio-scrub-wrapper,.audio-play-pause g:not(:hover) use:nth-of-type(2):not(div[data-parsely-slot^="mobile-homepage-card"] .audio-play-pause g:not(:hover) use:nth-of-type(2)),[class^="index-module_logoSplit"]:has(img[alt="Puzzles"]){filter:invert(1) !important;}
 wsj.com#$#[href="https://www.wsj.com/"]:not(header[data-header-dark="true"] [href="https://www.wsj.com/"]){color-scheme:only light !important;filter:invert(1) !important;background-color:unset !important}
+wsj.com/video#$@#[href="https://www.wsj.com/"]:not(header[data-header-dark="true"] [href="https://www.wsj.com/"])
+wsj.com#$#[class*="section-logo-wrapper"][class*="style__markets"] a{color-scheme:only light !important;filter:invert(1) !important;border-right-color:black !important}
 wsj.com#$#button[class*="BackToTopButton"],form[action="#"] button[aria-label="Search"]{background-color: darkslategray !important;}
 wsj.com#$#[class*="WSJTheme--subscribe-btns"] a{background-color:white !important}
 wsj.com#$#img[alt^="Election"]{filter: invert(1) hue-rotate(200deg) saturate(4) !important}
