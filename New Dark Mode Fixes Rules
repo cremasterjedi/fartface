@@ -311,6 +311,7 @@ nytimes.com#$#svg[fill="#000"]{fill:white !important}
 
 thequietus.com#$##CookiebotWidget,audio{color-scheme:only light !important;}
 thequietus.com#$#img[alt="The Quietus"],.position-sticky>a>img{filter:invert(1) !important;}
+thequietus.com#$#.subscribers-playlist-box svg path{fill:white !important}
 
 ! Three Saints Bay
 
