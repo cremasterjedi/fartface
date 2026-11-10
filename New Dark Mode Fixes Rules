@@ -43,7 +43,7 @@ bandcamp.com#$#.art.compact>.more-button{color-scheme:initial !important;}
 bandcamp.com#$#.progbar .progbar_fill{background-color: #bb9f9f66 !important;}
 bandcamp.com#$#.download-bottom-area{background:none !important;}
 bandcamp.com#$#.ui-widget-content{background:#ffff !important;}
-bandcamp.com#$#.bandcamp-logo-link>svg,[href="#bandcamp-logo-color-bcaqua"]{fill:white !important}
+bandcamp.com#$#.bandcamp-logo-link>svg,.bandcamp-logo-link path:not(path.tent),[href="#bandcamp-logo-color-bcaqua"]{fill:white !important}
 
 ! Best Buy
 
